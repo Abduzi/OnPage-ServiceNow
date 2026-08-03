@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_onpr_onpage.setup</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>setup</name>
+        <script><![CDATA[var setup = Class.create();
+setup.prototype = {
+    initialize: function() {
+		this.URLsub = gs.getProperty('x_onpr_onpage.URLsubdomain');
+		//LOGGING/////////
+		this.logType = "outbound";
+		this.logTable = '';
+		this.logID = '';
+		this.log = new x_onpr_onpage.log();
+		this.error = function(message){
+		  this.log.error(message,this.logType,this.logTable,this.logID);
+		};
+		this.info = function(message){
+		  this.log.info(message,this.logType,this.logTable,this.logID);
+		};
+    },
+	register: function(email,pw){
+		//register the instance with OnPage and get token/key
+		this.info("Starting registration process");
+		var instance = gs.getProperty('instance_name'),
+			username = "onpage",
+			password = pw;
+		var rest = new sn_ws.RESTMessageV2("Register with OnPage","Register");
+			rest.setStringParameterNoEscape('URLsub',this.URLsub);
+			rest.setStringParameterNoEscape('dispEmail',email);
+			rest.setStringParameterNoEscape('dispPass',pw);
+			rest.setStringParameterNoEscape('instance',instance);
+			rest.setStringParameterNoEscape('username',username);
+			rest.setStringParameterNoEscape('password',password);
+		var response = rest.execute();
+		var status = response.getStatusCode();
+		var body = response.getBody();
+		this.info("Registration response: "+status+": "+body);
+		if(status!=200){
+			this.error("Automatic registration process failed.");
+			var request = rest.getRequestBody(),
+				table = '',
+				id = '';
+			this._handleErrors(request,status,body);
+		}
+		else{
+			//parse for key values and update sys properties
+			var json = JSON.parse(body);
+			var token = json.credentials.token;
+			var key = json.credentials.secretKey;
+			this.info("New Token: "+token);
+			this.info("New Key: "+key);
+			gs.setProperty('x_onpr_onpage.auth.token',token);
+			gs.setProperty('x_onpr_onpage.auth.key',key);
+		}
+	
+
+		//Sync all targets(users/groups) after setup done
+		var syncTargets = new x_onpr_onpage.sync();
+		syncTargets.targetSync();
+
+		this.info("Registration process completed.");
+	},
+	setupIA: function(){
+		var script = (function executeRule(current, previous /*null when async*/) {
+	var updatedBy = current.getValue('sys_updated_by');
+	if(updatedBy=='onpage'){
+		return;
+	}
+	//check if there is are subscriptions for this table
+	var prop = gs.getProperty('x_onpr_onpage.subscription.tables'),
+		tables = prop.split(","),
+		table = current.getTableName();
+	if(tables.indexOf(table)==-1){
+		return;
+	}
+	var jsonCurrent = new global.JSON().encode(current);
+	var jsonPrevious = new global.JSON().encode(previous);
+	var gr = new GlideRecord('x_onpr_onpage_event');
+		gr.initialize();
+		gr.setValue('table', current.getTableName());
+		gr.setValue('document_id', current.sys_id);
+		gr.setValue('status', 'new');
+		gr.setValue('type', 'outbound');
+		gr.setValue('current', jsonCurrent);
+		gr.setValue('previous', jsonPrevious);
+		gr.insert();
+
+})(current, previous);
+		
+		
+		var gr = new GlideRecord('sys_script');
+		gr.initialize();
+		gr.setValue('collection',"incident_alert");
+		gr.setValue('name',"Generate OnPage events from IA Updates");
+		gr.setValue('action_insert','true');
+		gr.setValue('action_update','true');
+		gr.setValue('advanced','true');
+		gr.setValue('script',script);
+		gr.insert();
+	},
+	_createUser: function(){
+		this.info("Create User function starting");
+
+		//check for existing account
+		var sys_id;
+		var gr = new GlideRecord('sys_user');
+			gr.addQuery('user_name',"onpage");
+			gr.query();
+		if(gr.next()){
+			//if exists, update password
+			this.info("OnPage user already exists.");
+			sys_id = gr.getUniqueValue();
+		}
+		else{
+			//doesn't exist, create user
+			this.info("OnPage user does not exist. Creating.");
+			gr.initialize();
+			gr.setValue('user_name',"onpage");
+			gr.setValue('first_name',"OnPage");
+			gr.setValue('last_name',"Integration");
+			gr.setValue('web_service_access_only',true);
+			gr.insert();
+			sys_id = gr.getUniqueValue();
+		}
+		//check for user roles
+		this.info("Checking for user roles.");
+		var role = new GlideRecord('sys_user_role');
+		if(role.get("name","x_onpr_onpage.integration_user")){
+			var roleGR = new GlideRecord('sys_user_has_role');
+				roleGR.addQuery('user',sys_id);
+				roleGR.addQuery('role',role.getUniqueValue());
+				roleGR.query();
+			if(roleGR.next()){
+				//if existing, do nothing
+				this.info("OnPage user has roles. No changes to make.");
+			}
+			else{
+				//not existing, create record
+				this.info("OnPage user does not have roles. Adding role.");
+				var grantRole = new GlideRecord('sys_user_has_role');
+				grantRole.initialize();
+				grantRole.setValue('user',sys_id);
+				grantRole.setValue('role',role.getUniqueValue());
+				grantRole.insert();
+			}
+			this.info("create user sys id:"+sys_id);
+			return sys_id;
+		}
+	},
+	_handleErrors: function(request,status,body){
+		var handle = new x_onpr_onpage.handleErrors();
+			handle.rest(request,status,body);
+	},
+    type: 'setup'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-07 15:49:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>71d07917db982740c822fcd6f49619bf</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>setup</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_script_include_71d07917db982740c822fcd6f49619bf</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-04-06 21:01:53</sys_updated_on>
+    </sys_script_include>
+</record_update>

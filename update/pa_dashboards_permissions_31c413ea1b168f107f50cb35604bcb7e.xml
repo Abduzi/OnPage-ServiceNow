@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="OnPage Status">d216910bdbd82340ee685e25ca961903</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>x_onpr_onpage.admin</identity>
+        <read>true</read>
+        <role display_value="x_onpr_onpage.admin" name="x_onpr_onpage.admin">77407120dbcca300ee685e25ca9619f1</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-07-28 19:28:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>31c413ea1b168f107f50cb35604bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_onpr_onpage.admin</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_31c413ea1b168f107f50cb35604bcb7e</sys_update_name>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-07-28 19:28:01</sys_updated_on>
+        <type>1</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

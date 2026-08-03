@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_onpr_onpage.workflow</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>workflow</name>
+        <script><![CDATA[var workflow = Class.create();
+workflow.prototype = {
+	initialize: function() {
+		//LOGGING/////////
+		this.logType = "internal";
+		this.log = new x_onpr_onpage.log();
+		this.error = function(message,type,table,id){
+			this.log.error(message,type,table,id);
+		};
+		this.info = function(message,type,table,id){
+			this.log.info(message,type,table,id);
+		};
+	},
+	subscriptionTables: function(subscription){
+		var logTable = 'x_onpr_onpage_onpage_subscription',
+			logType = 'internal';
+		this.info("Subscription tables updating",logType,logTable,subscription);
+
+		//build an array of tables with subscriptions
+		var array = [];
+		var gr = new GlideRecord('x_onpr_onpage_onpage_subscription');
+			gr.addActiveQuery();
+			gr.query();
+		while(gr.next()){
+			var table = gr.getValue('table');
+			if(array.indexOf(table)==-1){
+				// get a list of tables allowed to have subscriptions
+				var allowed = gs.getProperty('x_onpr_onpage.subscription.task_tables');
+				var allowedArr = allowed.split(",");
+				if(gs.getProperty('x_onpr_onpage.incident_alert.enabled')=="true"){
+					allowedArr.push('incident_alert');
+				}
+				var other = gs.getProperty('x_onpr_onpage.subscription.other_tables');
+				if(other!=''&&other!=null){
+					var others = other.split(",");
+					for(var i=0;i<others.length;i++){
+						allowedArr.push(others[i]);
+					}
+				}
+				if(allowedArr.indexOf(table)>=0){
+					array.push(table);
+				}
+			}
+		}
+		var string = array.toString();
+		this.info("New subscription tables",logType,logTable,subscription);
+		var prop = new GlideRecord('sys_properties');
+		if(prop.get('name',"x_onpr_onpage.subscription.tables")){
+				prop.setValue('value',string);
+				prop.update();
+			this.info("Subscription tables sys property updated",logType,logTable,subscription);
+		}
+	},
+	createNotification: function(event){
+		var logTable = 'x_onpr_onpage_event',
+			logType = 'internal';
+		this.info("Create Notification starting",logType,logTable,event);
+		var processed = false;
+
+		//get event values
+		var grEvent = new GlideRecord('x_onpr_onpage_event');
+		if(grEvent.get(event)){
+			var table = grEvent.getValue('table'),
+				docID = grEvent.getValue('document_id');
+			var sub = new GlideRecord('x_onpr_onpage_onpage_subscription');
+				sub.addQuery('table', table);
+				sub.query();
+			while(sub.next()) {
+				this.info("Checking subscription "+sub.getValue('name'),logType,logTable,event);
+				var template = sub.getValue('template'),
+					conditions = sub.getValue('conditions_builder'),
+					subRecip = sub.getValue('recipients'),
+					recips = [];
+				if(subRecip!=''&&subRecip!=null){
+					recips = subRecip.split(",");
+				}
+
+				//check each subscription to see if the criteria match
+				var rec = new GlideRecord(table);
+					rec.addQuery('sys_id', docID);
+					rec.addEncodedQuery(conditions);
+					rec.query();
+
+				if(rec.hasNext()) {
+					this.info("Subscription found. Recipients are: "+recips.toString(),logType,logTable,event);
+					processed = true;
+					//get template
+					var tempGR = new GlideRecord('x_onpr_onpage_onpage_template');
+					if(tempGR.get(template)){
+						var priority = tempGR.getDisplayValue('priority'),
+						options = tempGR.getValue('reply_options'),
+						trValue = tempGR.getValue('recipients'),
+						tempRecip = [];
+						if(trValue!=''&&trValue!=null){
+							tempRecip = trValue.split(",");
+						}
+						//concat recipients list
+						for(var i=0;i<tempRecip.length;i++){
+							if(recips.indexOf(tempRecip[i])==-1){
+								recips.push(tempRecip[i]);
+							}
+						}
+						this.info("Recipient sys IDs: "+recips.toString(),logType,logTable,event);
+						if(recips.length==0){
+							this.error("No recipients specified in template. Message cannot be sent.",logType,logTable,event);
+							var curr = grEvent.getValue('current');
+							grEvent.setValue('previous',curr);
+							grEvent.setValue('current',"No recipients specified in template. Message cannot be sent.");
+							grEvent.setValue('status',"ignored");
+							grEvent.setValue('type',"outbound");
+							grEvent.update();
+							return;
+						}
+
+						//get opid for each recipient
+						var recipients = [];
+						for(var j=0;j<recips.length;j++){
+							var id = recips[j];
+							var grT = new GlideRecord('x_onpr_onpage_target');
+							if(grT.get(id)){
+								recipients.push(grT.getValue("opid"));
+							}
+						}
+						this.info("Recipients OPIDs: "+recipients.toString(),logType,logTable,event);
+
+						//get response options
+						var replies = [];
+						var grRply = new GlideRecord('x_onpr_onpage_onpage_reply');
+						grRply.addQuery('parent',options);
+						grRply.orderBy('order');
+						grRply.query();
+						
+						while(grRply.next()){
+							//for(var k=0;k<countRply;k++){
+								var option = grRply.getValue('option_name');
+								if(replies.indexOf(option)==-1){
+									replies.push(option);
+								}
+						}
+						this.info("Reply options are: "+replies.toString(),logType,logTable,event);
+
+						//get values for new notification
+						var nshortd = tempGR.getValue('subject'),
+							nbody = tempGR.getValue('body'),
+							nrecips = recipients.toString(),
+							nreplies = replies.toString(),
+							ntable = table,
+							ndoc = docID,
+							npri = priority,
+							nstatus = "send-ready";
+						nshortd = this.findMatch(nshortd,ntable,docID,event);
+						nbody = this.findMatch(nbody,ntable,docID,event);
+						//nbody = encodeURI(nbody);
+						//nshortd = encodeURI(nshortd);
+
+						//generate notification record
+						var notification = new GlideRecord('x_onpr_onpage_notification');
+						notification.initialize();
+						notification.setValue('short_description',nshortd);
+						notification.setValue('body',nbody);
+						notification.setValue('recipients',nrecips);
+						notification.setValue('reply_options',nreplies);
+						notification.setValue('table',ntable);
+						notification.setValue('document_id',ndoc);
+						notification.setValue('priority',"LOW");
+						notification.setValue('status',nstatus);
+						notification.setValue('parent',event);
+						notification.setValue('template',template);
+						notification.insert();
+						this.info("Notification inserted: "+notification.getUniqueValue(),logType,logTable,event);
+					}
+
+				}
+				else{
+					//subscription does not match criteria
+					this.info("No subscriptions match criteria.","");
+				}
+			}
+			//set status on event
+			var status,
+				type;
+			if(processed){
+				status = "processed";
+				type = "outbound";
+			}
+			else{
+				status = "ignored";
+				type = "internal";
+			}
+			grEvent.setValue('status',status);
+			grEvent.setValue('type',type);
+			grEvent.update();
+		}
+	},
+	deleteInactiveTargets: function(){
+		var gr = new GlideRecord('x_onpr_onpage_target');
+			gr.addQuery('active',"false");
+			gr.query();
+		gr.deleteMultiple();
+	},
+	findMatch: function(string,table,doc,event){
+		var logTable = 'x_onpr_onpage_event',
+			logType = 'internal';
+		var patt = /\$\{([A-Za-z_\d]*)\}/g;
+		while(patt.test(string)){
+			this.info("Pattern matches "+string,logType,logTable,event);
+			var newString = this.findReplace(string,table,doc,event);
+			this.info("findMatch New string is: "+newString,logType,logTable,event);
+			string = newString;
+		}
+		return string;
+	},
+	findReplace: function(string,table,doc,event){
+		var logTable = 'x_onpr_onpage_event',
+			logType = 'internal';
+		var patt = /\$\{([A-Za-z_\d]*)\}/g;
+		var newString = '';
+		this.info("Find replace starting for string: "+string+" and table: "+table+" and doc "+doc,logType,logTable,event);
+		var match = patt.exec(string);
+		var pattern = match[0];
+		var fieldName = match[1];
+		var getV = new GlideRecord(table);
+		if(getV.get(doc)){
+			var value = getV.getDisplayValue(fieldName);
+			if(value==null){
+				value = '';
+			}
+			//this.info("Replace "+pattern+" with "+value,event);
+			newString = string.replace(pattern,value);
+			this.info("New string is: "+newString,logType,logTable,event);
+			return newString;
+		}
+	},
+	notification: function(template,recip,table,doc){
+		//creates notifications from workflow scripts
+		var logTable = table,
+			logType = 'outbound',
+			event = doc;
+		this.info("Workflow-triggered notification starting",logType,logTable,event);
+
+		var tempGR = new GlideRecord('x_onpr_onpage_onpage_template');
+		if(tempGR.get(template)){
+			var priority = tempGR.getDisplayValue('priority'),
+				options = tempGR.getValue('reply_options'),
+				trValue = tempGR.getValue('recipients'),
+				tempRecip = [];
+			if(trValue!=''&&trValue!=null){
+				tempRecip = trValue.split(",");
+			}
+
+			if(recip==''){
+				this.error("No recipients specified in workflow message template. Message cannot be sent.",logType,logTable,event);
+				return;
+			}
+
+			//get opid for each recipient
+			var recips = recip.split(","),
+				recipients = [];
+			for(var i=0;i<recips.length;i++){
+				var tarGR = new GlideRecord('x_onpr_onpage_target');
+				if(tarGR.get('document_id',recips[i])){
+					recipients.push(tarGR.getValue('opid'));
+				}
+			}
+			this.info("Recipients OPIDs: "+recipients.toString(),logType,logTable,event);
+
+			//get response options
+			var replies = [];
+			var grRply = new GlideRecord('x_onpr_onpage_onpage_reply');
+				grRply.addQuery('parent',options);
+				grRply.orderBy('order');
+				grRply.query();
+
+			while(grRply.next()){
+				var option = grRply.getValue('option_name');
+				if(replies.indexOf(option)==-1){
+					replies.push(option);
+				}
+			}
+			this.info("Reply options are: "+replies.toString(),logType,logTable,event);
+
+			//get values for new notification
+			var nshortd = tempGR.getValue('subject'),
+				nbody = tempGR.getValue('body'),
+				nrecips = recipients.toString(),
+				nreplies = replies.toString(),
+				ntable = table,
+				ndoc = doc,
+				npri = priority,
+				nstatus = "send-ready";
+			nshortd = this.findMatch(nshortd,ntable,doc,event);
+			nbody = this.findMatch(nbody,ntable,doc,event);
+			//nbody = encodeURI(nbody);
+			//nshortd = encodeURI(nshortd);
+
+			//generate notification record
+			var notification = new GlideRecord('x_onpr_onpage_notification');
+				notification.initialize();
+				notification.setValue('short_description',nshortd);
+				notification.setValue('body',nbody);
+				notification.setValue('recipients',nrecips);
+				notification.setValue('reply_options',nreplies);
+				notification.setValue('table',ntable);
+				notification.setValue('document_id',ndoc);
+				notification.setValue('priority',"LOW");
+				notification.setValue('status',nstatus);
+				notification.setValue('parent',event);
+				notification.setValue('template',template);
+				notification.insert();
+			this.info("Workflow notification inserted: "+notification.getUniqueValue(),logType,logTable,event);
+		}
+	},
+
+	runReply: function(reply,origNotif,source,opid){
+		var logTable = "x_onpr_onpage_event",
+			logType = 'internal';
+		this.info("runReply running. Values: "+reply+", "+origNotif+", "+source+", "+opid,logType,logTable,source);
+
+		var user = '';
+		var converted = this._convertOPID(opid);
+		if(converted){
+			this.info("runreply converted "+converted,logType,logTable,source);
+			var obj = JSON.parse(converted);
+				if(obj.table=='sys_user'){
+					user = obj.user;
+				}
+		}
+
+		// lookup outbound notification
+		var gr = new GlideRecord('x_onpr_onpage_notification');
+		if(gr.get(origNotif)){
+			//this.error("Notification found",logType,logTable,source);
+			this.info("runReply notification found",logType,logTable,source);
+
+			//get values from notification
+			var targetTable = gr.getValue('table');
+			var targetRec = gr.getValue('document_id');
+			var template = gr.getValue('template');
+			this.info('runreply template is: '+template,logType,logTable,source);
+
+			//get reply options from template
+			var tempGR = new GlideRecord('x_onpr_onpage_onpage_template');
+			if(tempGR.get(template)){
+				//this.error("Template found",logType,logTable,source);
+				this.info("runReply template found",logType,logTable,source);
+				var replies = tempGR.getValue('reply_options');
+				if(replies==''||replies==null){
+					this.error("runReply No replies found",logType,logTable,source);
+					return;
+				}
+				this.info('runReply template has reply options: '+replies,logType,logTable,source);
+
+				//check if execute script is enabled
+				var repliesGR = new GlideRecord('x_onpr_onpage_onpage_reply_options');
+				if(repliesGR.get(replies)){
+					var enabled = repliesGR.getValue('execute_scripts');
+					this.info('runReply execute scripts value is '+enabled,logType,logTable,source);
+					if(enabled!='1'){
+						this.info('runReply execute scripts are disabled',logType,logTable,source);
+						return;
+					}
+					this.info('runReply execute scripts is enabled',logType,logTable,source);
+
+					//check if there is a matching reply and get the script
+					var replyGR = new GlideRecord('x_onpr_onpage_onpage_reply');
+						replyGR.addQuery('parent',replies);
+						replyGR.addQuery('option_name',reply);
+						replyGR.query();
+					this.info('runreply searching for reply '+reply,logType,logTable,source);
+					if(replyGR.next()){
+						this.info('runreply reply found',logType,logTable,source);
+						var script = replyGR.getValue('script');
+						if(script!=''&&script!=null){
+							// setup variables to be used by the script
+							var vars = {'targetTable' : targetTable , 'targetRec':targetRec , 'responseUser':user};
+
+							//evaluate script
+							var evaluator = new GlideScopedEvaluator();
+							evaluator.evaluateScript(replyGR,"script", vars);
+							this.info('runreply script executed',logType,logTable,source);
+							var updateGR = new GlideRecord('x_onpr_onpage_event');
+							if(updateGR.get(source)){
+								updateGR.setValue('status',"processed");
+								updateGR.update();
+							}
+						}
+					}
+					else
+						this.info('runreply reply NOT found',logType,logTable,source);
+				}
+			}
+			else
+			this.info('runReply template NOT found',logType,logTable,source);
+		}
+		else
+		this.info("runReply notification NOT found",logType,logTable,source);
+
+	},
+
+	sendRestMessage: function(id, subject, body, recipients, priority,reply,notif){
+		var logTable = 'x_onpr_onpage_notification',
+			logType = 'outbound';
+		if(gs.getProperty('x_onpr_onpage.send.enabled')=="false"){
+			this.error("Message sending is disabled. Unable to send REST message.",logType,logTable,id);
+			return "error;"+"Message sending is disabled.";
+		}
+		try {
+			var r = new sn_ws.RESTMessageV2('OnPage Secured', 'sendMessage');
+			r.setStringParameterNoEscape('URLsub', gs.getProperty('x_onpr_onpage.URLsubdomain'));
+			r.setStringParameterNoEscape('token', gs.getProperty('x_onpr_onpage.auth.token'));
+			r.setStringParameterNoEscape('key', gs.getProperty('x_onpr_onpage.auth.key'));
+			r.setStringParameterNoEscape('ansArray', this.reformat(reply));
+			r.setStringParameterNoEscape('priority', priority);
+			r.setStringParameterNoEscape('subject', encodeURI(subject));
+			r.setStringParameterNoEscape('recipArray', this.reformat(recipients));
+			r.setStringParameterNoEscape('id', notif);
+			r.setStringParameterNoEscape('body', encodeURI(body));
+
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			this.info("workflow.sendRestMessage response: "+httpStatus+": "+responseBody,logType,logTable,notif);
+			if(httpStatus!=200){
+				var request = r.getRequestBody();
+				var errorhandler = new handleErrors().rest(request,responseBody,httpStatus);
+				return "error;"+httpStatus;
+			}
+			else{
+				var json = JSON.parse(responseBody);
+				if(json[0].accepted==true){
+					return "sent;"+json[0].id;
+				}
+				else{
+					return "error;"+json[0].errorDescription;
+				}
+			}
+		}
+		catch(ex) {
+			var message = ex.getMessage();
+			return "error;"+message;
+		}
+	},
+	sendRestMessages: function(msgArray,id){
+		var logTable = 'sysauto_script',
+			logType = 'outbound';
+		if(gs.getProperty('x_onpr_onpage.send.enabled')=="false"){
+			this.error("Message sending is disabled. Unable to send REST message.",logType,logTable,id);
+			return "error;"+"Message sending is disabled.";
+		}
+		try {
+			var r = new sn_ws.RESTMessageV2('OnPage Secured', 'sendMessages');
+			r.setStringParameterNoEscape('URLsub', gs.getProperty('x_onpr_onpage.URLsubdomain'));
+			r.setStringParameterNoEscape('token', gs.getProperty('x_onpr_onpage.auth.token'));
+			r.setStringParameterNoEscape('key', gs.getProperty('x_onpr_onpage.auth.key'));
+			r.setStringParameterNoEscape('msgArray', msgArray);
+
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			this.info("Response: "+httpStatus+": "+responseBody,logType,logTable,'');
+			if(httpStatus!=200){
+				var request = r.getRequestBody();
+				var errorhandler = new handleErrors().rest(request,responseBody,httpStatus);
+				return "error;"+responseBody;
+			}
+			else{
+				return "sent;"+responseBody;
+			}
+		}
+		catch(ex) {
+			var message = ex.getMessage();
+			this.error("Send messages error: "+message,logType,logTable,event);
+		}
+	},
+	reformat: function(array){
+		var string,
+			quotes = [];
+		for(var i=0;i<array.length;i++){
+			quotes.push('"'+array[i]+'"');
+		}
+		string = '['+quotes.toString()+']';
+		return string;
+	},
+	_convertOPID: function(opid){
+		var target = new GlideRecord('x_onpr_onpage_target');
+		if(target.get('opid',opid)){
+			var gr = target.getValue('document_id');
+			var obj = {};
+				obj.table = target.getValue('table');
+			if(obj.table=='sys_user'){
+				obj.user=gr;
+				obj.group='';
+			}
+			if(obj.table=='sys_user_group'){
+				obj.group=gr;
+				obj.user='';
+			}
+			var string = JSON.stringify(obj);
+			return string;
+		}
+		return false;
+	},
+	type: 'workflow'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-07 21:57:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>48a8831fdb946740c822fcd6f49619bd</sys_id>
+        <sys_mod_count>111</sys_mod_count>
+        <sys_name>workflow</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_script_include_48a8831fdb946740c822fcd6f49619bd</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-03-21 20:28:40</sys_updated_on>
+    </sys_script_include>
+</record_update>

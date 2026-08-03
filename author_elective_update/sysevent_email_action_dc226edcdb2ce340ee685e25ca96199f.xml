@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_onpr_onpage_event</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_onpr_onpage.error.notification</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hello,&nbsp;</p>
+<p>There has been an error from the OnPage&nbsp;Event queues.</p>
+<p>Best,</p>
+<p>&nbsp;<img style="align: bottom;" title="" src="sys_attachment.do?sys_id=aed22e9cdb2ce340ee685e25ca961940" alt="" align="bottom" border="" hspace="" vspace="" /></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Error Notification</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>OnPage Error </subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>lorena.villanueva</sys_created_by>
+        <sys_created_on>2018-09-10 21:38:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dc226edcdb2ce340ee685e25ca96199f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Error Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sysevent_email_action_dc226edcdb2ce340ee685e25ca96199f</sys_update_name>
+        <sys_updated_by>lorena.villanueva</sys_updated_by>
+        <sys_updated_on>2018-09-10 21:39:32</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sysevent_email_action_dc226edcdb2ce340ee685e25ca96199f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;
+    &lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;
+        &lt;action_insert&gt;false&lt;/action_insert&gt;
+        &lt;action_update&gt;false&lt;/action_update&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;advanced_condition/&gt;
+        &lt;affected_field_on_event/&gt;
+        &lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;
+        &lt;collection&gt;x_onpr_onpage_event&lt;/collection&gt;
+        &lt;condition/&gt;
+        &lt;content_type&gt;text/html&lt;/content_type&gt;
+        &lt;default_interval/&gt;
+        &lt;description/&gt;
+        &lt;digest_from/&gt;
+        &lt;digest_html/&gt;
+        &lt;digest_reply_to/&gt;
+        &lt;digest_separator_html&gt;&lt;![CDATA[&lt;br&gt;&lt;hr&gt;&lt;br&gt;]]&gt;&lt;/digest_separator_html&gt;
+        &lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;
+        &lt;digest_subject/&gt;
+        &lt;digest_template/&gt;
+        &lt;digest_text/&gt;
+        &lt;digestable&gt;false&lt;/digestable&gt;
+        &lt;event_name&gt;x_onpr_onpage.error.notification&lt;/event_name&gt;
+        &lt;event_parm_1&gt;false&lt;/event_parm_1&gt;
+        &lt;event_parm_2&gt;false&lt;/event_parm_2&gt;
+        &lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;
+        &lt;force_delivery&gt;false&lt;/force_delivery&gt;
+        &lt;from/&gt;
+        &lt;generation_type&gt;event&lt;/generation_type&gt;
+        &lt;importance/&gt;
+        &lt;include_attachments&gt;false&lt;/include_attachments&gt;
+        &lt;item&gt;event.parm1&lt;/item&gt;
+        &lt;item_table/&gt;
+        &lt;mandatory&gt;false&lt;/mandatory&gt;
+        &lt;message/&gt;
+        &lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Hello,&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;There has been an error from the OnPage&amp;nbsp;Event queues.&lt;/p&gt;
+&lt;p&gt;Best,&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;img style="align: bottom;" title="" src="sys_attachment.do?sys_id=aed22e9cdb2ce340ee685e25ca961940" alt="" align="bottom" border="" hspace="" vspace="" /&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;
+        &lt;message_list/&gt;
+        &lt;message_text/&gt;
+        &lt;name&gt;Error Notification&lt;/name&gt;
+        &lt;omit_watermark&gt;false&lt;/omit_watermark&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;push_message_only&gt;false&lt;/push_message_only&gt;
+        &lt;recipient_fields/&gt;
+        &lt;recipient_groups/&gt;
+        &lt;recipient_users/&gt;
+        &lt;reply_to/&gt;
+        &lt;send_self&gt;true&lt;/send_self&gt;
+        &lt;sms_alternate/&gt;
+        &lt;style/&gt;
+        &lt;subject&gt;OnPage Error &lt;/subject&gt;
+        &lt;subscribable&gt;false&lt;/subscribable&gt;
+        &lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;lorena.villanueva&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-10 21:38:06&lt;/sys_created_on&gt;
+        &lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;dc226edcdb2ce340ee685e25ca96199f&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Error Notification&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="OnPage Integration" source="x_onpr_onpage"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;
+        &lt;sys_scope display_value="OnPage Integration"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sysevent_email_action_dc226edcdb2ce340ee685e25ca96199f&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;lorena.villanueva&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2018-09-10 21:39:32&lt;/sys_updated_on&gt;
+        &lt;sys_version&gt;2&lt;/sys_version&gt;
+        &lt;template/&gt;
+        &lt;type&gt;email&lt;/type&gt;
+        &lt;weight&gt;0&lt;/weight&gt;
+    &lt;/sysevent_email_action&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1982926354</payload_hash>
+        <record_name>Error Notification</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:50</sys_created_on>
+        <sys_id>5f1ae12847e60b10cfdde3cc236d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc8881ae00000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:50</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>971ae1284ee60b1072412df59325ea8f</update_guid>
+        <update_guid_history>971ae1284ee60b1072412df59325ea8f:0,c71f95ecf3660b10ac99d953809ebe18:-2087844241,e94b87e3fada4310ac535e0807a83fe9:0,2b37c763c7564310fcc3577482a00fd5:-379526478,079c2667fa924310a98789ed6b7fcf44:0,ddcbe6ef8c524310aa07515ab8a4f1ee:-379526478,c4e2b5cdda9e071098bf6e6904f98839:0,d215bc1a537d031067a4b34275f887e2:1045820033,1215bc1aba7d0310946429d7104be4d8:-1129346059</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lorena.villanueva</sys_created_by>
+        <sys_created_on>2026-08-03 23:17:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>69135178488848e080cc4d6fcb8a3100</sys_id>
+        <sys_metadata>dc226edcdb2ce340ee685e25ca96199f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Error Notification</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent display_value="">e6f9ed6447e60b10cfdde3cc236d43a9</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_dc226edcdb2ce340ee685e25ca96199f</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_dc226edcdb2ce340ee685e25ca96199f">5f1ae12847e60b10cfdde3cc236d438f</sys_update_version>
+        <sys_updated_by>lorena.villanueva</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:17:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

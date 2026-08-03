@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="DELETE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref/>
+        <active>true</active>
+        <content><![CDATA[Only Admins and OnPage Admins can access the administration menu shown in this tour. Next is a brief introduction to each of the links and record types. If you want, you can open the link as it is presented. Otherwise just click Next after each brief explanation.]]></content>
+        <guide/>
+        <implicit>false</implicit>
+        <link/>
+        <name>Step 14</name>
+        <options/>
+        <order>12</order>
+        <placement>right</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-11-26 23:19:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>f49c1709dbc66f0056c524794b96198d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Step 14</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_f49c1709dbc66f0056c524794b96198d</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-12-31 19:31:39</sys_updated_on>
+        <target/>
+        <target_ref/>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>nav_to.do</window>
+    </sys_embedded_tour_step>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_embedded_tour_step_f49c1709dbc66f0056c524794b96198d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_embedded_tour_step"&gt;&lt;sys_embedded_tour_step action="INSERT_OR_UPDATE"&gt;&lt;action&gt;false&lt;/action&gt;&lt;action_event&gt;next&lt;/action_event&gt;&lt;action_target/&gt;&lt;action_target_ref/&gt;&lt;active&gt;true&lt;/active&gt;&lt;content&gt;&lt;![CDATA[Only Admins and OnPage Admins can access the administration menu shown in this tour. Next is a brief introduction to each of the links and record types. If you want, you can open the link as it is presented. Otherwise just click Next after each brief explanation.]]&gt;&lt;/content&gt;&lt;guide/&gt;&lt;implicit&gt;false&lt;/implicit&gt;&lt;link/&gt;&lt;name&gt;Step 14&lt;/name&gt;&lt;options/&gt;&lt;order&gt;12&lt;/order&gt;&lt;placement&gt;right&lt;/placement&gt;&lt;skippable&gt;false&lt;/skippable&gt;&lt;step_type&gt;step&lt;/step_type&gt;&lt;sys_class_name&gt;sys_embedded_tour_step&lt;/sys_class_name&gt;&lt;sys_created_by&gt;will.young&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-26 23:19:21&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;f49c1709dbc66f0056c524794b96198d&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Step 14&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="OnPage Integration" source="x_onpr_onpage"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="OnPage Integration"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_embedded_tour_step_f49c1709dbc66f0056c524794b96198d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;will.young&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-12-31 19:31:39&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;target_ref/&gt;&lt;title/&gt;&lt;ui_version&gt;dynamic&lt;/ui_version&gt;&lt;view/&gt;&lt;window&gt;nav_to.do&lt;/window&gt;&lt;/sys_embedded_tour_step&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1727657864</payload_hash>
+        <record_name>Step 14</record_name>
+        <reverted_from/>
+        <source>2c6a46e01b6e87107f50cb35604bcbaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>toan.tran</sys_created_by>
+        <sys_created_on>2026-08-03 23:17:41</sys_created_on>
+        <sys_id>a4e283ac1ba2c7107f50cb35604bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc9eb300c0000001</sys_recorded_at>
+        <sys_updated_by>toan.tran</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:17:41</sys_updated_on>
+        <type>Guided Tour Step</type>
+        <update_guid>ece283ac9ea2c710c8640ee43f35fefe</update_guid>
+        <update_guid_history>ece283ac9ea2c710c8640ee43f35fefe:0,e8e283acd4a2c710b923286fa6b631ee:0,85a28f2c00a2c71061478da04e8027a2:0,cf0a21e452e60b10dca326a8ee3656d3:0,002f59ecaa660b10cf2ba5685b73803b:-1678455418,e71fd5ecc3660b10466770dae518995a:0,ab1fd5ece9660b10948ae00cecb62c56:0,f3ee91ac6e660b10c667910d317f1921:0,cd3b07a377da4310041d0a1994382644:0,a0478b6397564310fb2528349c23ba1d:-1846123644,0c470b63ba564310407f1b7023daa2cb:0,cc470b633256431012a8fbebb0acd8c7:0,ee17c723a45643103c9cdd33e9086c41:0,d08c22273f9243103c3262253ced550b:0,eacbaaeff9524310bf8a702158dd23b9:-1846123644,bdcb2aefef5243107cc9cee9b7e415ff:0,71cb2aefa1524310ef005f4a5f5a46fc:0,109b66af8752431069d4bd300552cee2:0,93b23d4d779e0710464cc1cc8e7040f3:0,3b15b05aae7d0310947c0bcae1cd2c4d:-1846123644,3615fc1a667d0310b6d8a8cd7fccebf6:0,f615fc1a5c7d03109426e1cc74bf6df2:0,bce43cd66c7d03103a98924ef53be98f:2016526293</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:17:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_embedded_tour_step">sys_embedded_tour_step</sys_db_object>
+        <sys_id>02590b27e5de4478bd8de4d0028eeba9</sys_id>
+        <sys_metadata>f49c1709dbc66f0056c524794b96198d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Step 14</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_step_f49c1709dbc66f0056c524794b96198d</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_step_f49c1709dbc66f0056c524794b96198d">a4e283ac1ba2c7107f50cb35604bcbff</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:17:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

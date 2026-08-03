@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>**Support</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>400</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>nav_to.do?uri=x_onpr_onpage_OnPage_Support.do</query>
+        <report/>
+        <require_confirmation>false</require_confirmation>
+        <roles>x_onpr_onpage.user</roles>
+        <route/>
+        <screen/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-10 15:54:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>18549d98db28e340ee685e25ca9619c5</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Get Support</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_app_module_18549d98db28e340ee685e25ca9619c5</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-04-10 13:37:38</sys_updated_on>
+        <timeline_page/>
+        <title>Get Support</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_app_module_18549d98db28e340ee685e25ca9619c5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>**Support</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>400</order><override_menu_roles>false</override_menu_roles><query>nav_to.do?uri=x_onpr_onpage_OnPage_Support.do</query><report/><require_confirmation>false</require_confirmation><roles>x_onpr_onpage.user</roles><route/><screen/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>will.young</sys_created_by><sys_created_on>2018-09-10 15:54:24</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>18549d98db28e340ee685e25ca9619c5</sys_id><sys_mod_count>7</sys_mod_count><sys_name>Get Support</sys_name><sys_overrides/><sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope><sys_update_name>sys_app_module_18549d98db28e340ee685e25ca9619c5</sys_update_name><sys_updated_by>will.young</sys_updated_by><sys_updated_on>2019-04-10 13:37:38</sys_updated_on><timeline_page/><title>Get Support</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1953380255</payload_hash>
+        <record_name>Get Support</record_name>
+        <reverted_from/>
+        <source>2c6a46e01b6e87107f50cb35604bcbaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>toan.tran</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:12</sys_created_on>
+        <sys_id>c852cba81ba2c7107f50cb35604bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc9e8e8580000001</sys_recorded_at>
+        <sys_updated_by>toan.tran</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:12</sys_updated_on>
+        <type>Module</type>
+        <update_guid>0452cba802a2c710c2c1382dbcc6a9b6</update_guid>
+        <update_guid_history>0452cba802a2c710c2c1382dbcc6a9b6:0,8e0a2da450e60b10628bc89cbfe82285:0,1fbe512c11660b10505b92cf32979da8:145002868,53aed9e862660b102455cc0364737552:0,bb2b03a318da4310e4a7375b5e07e702:0,9bd6cbaf91164310737370a35505ee91:-617266712,4dd687af0e16431087b38ae055988fb1:0,ba7ceae31c9243104e949049a0d14340:0,835b2e2f2e52431096f5b95954aa3f18:1236417749,064ba62f42524310b47d30a5f2f4cdcd:0,5db2f54d899e0710dc0edeb6567c6733:0,5b947c564c7d0310c30c2979d1239426:230245496,cd94f4565c7d0310ae35db8ba3c3ec91:2067011436</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-08-03 16:15:22">265203e81ba2c7107f50cb35604bcb8b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>77bc4567e7ac43e085b0682595637c10</sys_id>
+        <sys_metadata>18549d98db28e340ee685e25ca9619c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Support</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_app_module_18549d98db28e340ee685e25ca9619c5</sys_update_name>
+        <sys_update_version display_value="sys_app_module_18549d98db28e340ee685e25ca9619c5">c852cba81ba2c7107f50cb35604bcbb6</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

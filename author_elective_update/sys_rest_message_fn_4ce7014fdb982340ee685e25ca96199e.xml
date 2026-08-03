@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>${msgArray}</content>
+        <function_name>sendMessages</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>OnPage Secured [ sendMessages ]</qualified_name>
+        <rest_endpoint>https://${URLsub}.onpage.com/v1/s/message</rest_endpoint>
+        <rest_message display_value="OnPage Secured">b880854bdb982340ee685e25ca9619e6</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-06 17:47:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4ce7014fdb982340ee685e25ca96199e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sendMessages</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_rest_message_fn_4ce7014fdb982340ee685e25ca96199e</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-06 18:01:04</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_rest_message_fn_4ce7014fdb982340ee685e25ca96199e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>${msgArray}</content>
+        <function_name>sendMessages</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>OnPage Secured [ sendMessages ]</qualified_name>
+        <rest_endpoint>https://${URLsub}.onpage.com/v1/s/message</rest_endpoint>
+        <rest_message display_value="OnPage Secured">b880854bdb982340ee685e25ca9619e6</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-06 17:47:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4ce7014fdb982340ee685e25ca96199e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sendMessages</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_rest_message_fn_4ce7014fdb982340ee685e25ca96199e</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-06 18:01:04</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>]]></payload>
+        <payload_hash>2007837189</payload_hash>
+        <record_name>sendMessages</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:39</sys_created_on>
+        <sys_id>e01ae5e447e60b10cfdde3cc236d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887ee4a0000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:39</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>2c1ae5e40ee60b10332e06c43e1ab314</update_guid>
+        <update_guid_history>2c1ae5e40ee60b10332e06c43e1ab314:0,a7ce5d2c66660b10865febbdd77d1ffc:-663744199,ee3b8ba320da43102a8c22b4f615ac47:0,28f6c7ef7a1643103a2221ce3db30d15:-974334161,e28ca62773924310fe4874322e62ece0:0,b76b666fea52431058823b48be20a995:65132811,dec2758d919e071086725083a542a5d2:0,d2b47896c47d03100f3dae887732a233:65132811,96b478967e7d0310bf2ab590761c4411:1686766103</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>5f68251819354cd4a587b2c4d61ebde4</sys_id>
+        <sys_metadata>4ce7014fdb982340ee685e25ca96199e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sendMessages</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent display_value="">b880854bdb982340ee685e25ca9619e6</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_4ce7014fdb982340ee685e25ca96199e</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_4ce7014fdb982340ee685e25ca96199e">e01ae5e447e60b10cfdde3cc236d4315</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

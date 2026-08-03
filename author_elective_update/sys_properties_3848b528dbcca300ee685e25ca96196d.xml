@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>How many times should the system attempt to retry sending notifications before they are considered failed? [default:10]</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_onpr_onpage.errors.send_retries</name>
+        <read_roles>x_onpr_onpage.admin</read_roles>
+        <suffix>errors.send_retries</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-08-17 16:38:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3848b528dbcca300ee685e25ca96196d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_onpr_onpage.errors.send_retries</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_properties_3848b528dbcca300ee685e25ca96196d</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-12 21:14:52</sys_updated_on>
+        <type>integer</type>
+        <value>10</value>
+        <write_roles>x_onpr_onpage.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=3848b528dbcca300ee685e25ca96196d"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_properties_3848b528dbcca300ee685e25ca96196d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>How many times should the system attempt to retry sending notifications before they are considered failed? [default:10]</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_onpr_onpage.errors.send_retries</name>
+        <read_roles>x_onpr_onpage.admin</read_roles>
+        <suffix>errors.send_retries</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-08-17 16:38:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3848b528dbcca300ee685e25ca96196d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_onpr_onpage.errors.send_retries</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_properties_3848b528dbcca300ee685e25ca96196d</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-12 21:14:52</sys_updated_on>
+        <type>integer</type>
+        <value>10</value>
+        <write_roles>x_onpr_onpage.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=3848b528dbcca300ee685e25ca96196d"/>
+</record_update>]]></payload>
+        <payload_hash>-91053133</payload_hash>
+        <record_name>x_onpr_onpage.errors.send_retries</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:37</sys_created_on>
+        <sys_id>cc1a65e447e60b10cfdde3cc236d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887e6bd0000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:37</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>081a65e427e60b1017ce4d8ccb185f4b</update_guid>
+        <update_guid_history>081a65e427e60b1017ce4d8ccb185f4b:0,42ce592cd5660b105eed3c12c8bf03c7:1094437798,c63b0ba313da4310efd679eb9dc5b733:0,32e683ef15164310c5ba696f7944169a:-176172461,358c2627a392431001b53272c1a237e5:0,866b626f975243107a067a9317f0a2fb:-36827619,99c2f18d149e0710472a612f30eced51:0,94b43496707d031033532626618f18f6:-36827619,f2a43496b57d031061cd9322c7fa8d24:1375921169</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>4df33b9804224d889a867e03dadd4910</sys_id>
+        <sys_metadata>3848b528dbcca300ee685e25ca96196d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_onpr_onpage.errors.send_retries</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_properties_3848b528dbcca300ee685e25ca96196d</sys_update_name>
+        <sys_update_version display_value="sys_properties_3848b528dbcca300ee685e25ca96196d">cc1a65e447e60b10cfdde3cc236d434b</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

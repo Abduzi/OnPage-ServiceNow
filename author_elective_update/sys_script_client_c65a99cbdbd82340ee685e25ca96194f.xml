@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>table</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Check Table</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if(isLoading){
+		return;
+	}
+	var tables = g_scratchpad.tables;
+	if(tables.indexOf(newValue)==-1){
+		g_form.showErrorBox('table',"The table you have selected is not enabled for notifications. Please use the Get Support link if you think this is in error.",false);
+	}
+	else{
+		g_form.hideErrorBox('table');
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-06 19:08:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c65a99cbdbd82340ee685e25ca96194f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Check Table</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_script_client_c65a99cbdbd82340ee685e25ca96194f</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-03-21 21:14:29</sys_updated_on>
+        <table>x_onpr_onpage_onpage_template</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_script_client_c65a99cbdbd82340ee685e25ca96194f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;
+    &lt;sys_script_client action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+        &lt;condition/&gt;
+        &lt;description/&gt;
+        &lt;field&gt;table&lt;/field&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;isolate_script&gt;false&lt;/isolate_script&gt;
+        &lt;messages/&gt;
+        &lt;name&gt;Check Table&lt;/name&gt;
+        &lt;order/&gt;
+        &lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if(isLoading){
+		return;
+	}
+	var tables = g_scratchpad.tables;
+	if(tables.indexOf(newValue)==-1){
+		g_form.showErrorBox('table',"The table you have selected is not enabled for notifications. Please use the Get Support link if you think this is in error.",false);
+	}
+	else{
+		g_form.hideErrorBox('table');
+	}
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;will.young&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-06 19:08:21&lt;/sys_created_on&gt;
+        &lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;c65a99cbdbd82340ee685e25ca96194f&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Check Table&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="OnPage Integration" source="x_onpr_onpage"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;
+        &lt;sys_scope display_value="OnPage Integration"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_client_c65a99cbdbd82340ee685e25ca96194f&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;will.young&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-03-21 21:14:29&lt;/sys_updated_on&gt;
+        &lt;table&gt;x_onpr_onpage_onpage_template&lt;/table&gt;
+        &lt;type&gt;onChange&lt;/type&gt;
+        &lt;ui_type&gt;10&lt;/ui_type&gt;
+        &lt;view/&gt;
+    &lt;/sys_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1414444376</payload_hash>
+        <record_name>Check Table</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:41</sys_created_on>
+        <sys_id>091a69e447e60b10cfdde3cc236d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887f63d0000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:41</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>411a69e41de60b10709d79bf4e4e174b</update_guid>
+        <update_guid_history>411a69e41de60b10709d79bf4e4e174b:0,4dae19e86e660b1065c1e986c78ec592:-1385148812,0f3b0fa331da431014867e37c1972465:0,5e96c72f19164310224cf3246a77f781:1588097020,d78c6a2722924310121aad0886664d86:0,120b2aab295243101380a65411c5bf97:-368950770,dbc2398d2b9e0710914c9a62a7556cbf:0,9b1434d22c7d03107b5bba5ea949b508:-368950770</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:14:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>386e7484dc8f4a1ca897e39c5018ba10</sys_id>
+        <sys_metadata>c65a99cbdbd82340ee685e25ca96194f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check Table</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent display_value="">7af9ed6447e60b10cfdde3cc236d43fb</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_script_client_c65a99cbdbd82340ee685e25ca96194f</sys_update_name>
+        <sys_update_version display_value="sys_script_client_c65a99cbdbd82340ee685e25ca96194f">091a69e447e60b10cfdde3cc236d434b</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:14:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

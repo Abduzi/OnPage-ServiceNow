@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>OnPage Notifications</name>
+        <order>100</order>
+        <roles>x_onpr_onpage.admin,x_onpr_onpage.user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>David.Delahoz</sys_created_by>
+        <sys_created_on>2018-08-21 19:31:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03168f71dbcc2b00c822fcd6f4961903</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OnPage User</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_app_application_03168f71dbcc2b00c822fcd6f4961903</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-10 15:57:03</sys_updated_on>
+        <title>OnPage User</title>
+        <view_name/>
+    </sys_app_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_app_application_03168f71dbcc2b00c822fcd6f4961903</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>OnPage Notifications</name>
+        <order>100</order>
+        <roles>x_onpr_onpage.admin,x_onpr_onpage.user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>David.Delahoz</sys_created_by>
+        <sys_created_on>2018-08-21 19:31:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03168f71dbcc2b00c822fcd6f4961903</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OnPage User</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_app_application_03168f71dbcc2b00c822fcd6f4961903</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-10 15:57:03</sys_updated_on>
+        <title>OnPage User</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>]]></payload>
+        <payload_hash>2086159491</payload_hash>
+        <record_name>OnPage User</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:29</sys_created_on>
+        <sys_id>8a0a2da447e60b10cfdde3cc236d4373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887c6ce0000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:29</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>c20a2da410e60b10a98c95466b125373</update_guid>
+        <update_guid_history>c20a2da410e60b10a98c95466b125373:0,1baed9e83c660b102374596e5b5c216f:-432674808,bf2bcf6338da431032a330a0321859ef:0,8dd687af4c16431028e6804a565cd0ce:-32270777,fe7ceae3af924310cfa105811fe1b62d:0,c24ba62f6352431030acbb257ad639e9:95427733,c5b2b54d1e9e071039e6ff04e7b889ec:0,8994f456d47d031068c0f636af724baa:95427733,4194f456097d03109585ca25a6777771:-1736349663</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-08-03 16:15:11">c452cba81ba2c7107f50cb35604bcbae</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>26b2e9db4bae420c8246ec5a79f00269</sys_id>
+        <sys_metadata>03168f71dbcc2b00c822fcd6f4961903</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OnPage User</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_app_application_03168f71dbcc2b00c822fcd6f4961903</sys_update_name>
+        <sys_update_version display_value="sys_app_application_03168f71dbcc2b00c822fcd6f4961903">8a0a2da447e60b10cfdde3cc236d4373</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

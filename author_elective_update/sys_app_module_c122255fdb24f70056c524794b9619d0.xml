@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="OnPage Administration">eb4e19fadb0cab00c822fcd6f49619d0</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_onpr_onpage_notification">status=failed^EQ<item endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="failed"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Failed Notifications</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_onpr_onpage_notification</name>
+        <order>2400</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2019-04-06 20:48:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c122255fdb24f70056c524794b9619d0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Failed Notifications</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_app_module_c122255fdb24f70056c524794b9619d0</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-04-06 21:19:51</sys_updated_on>
+        <timeline_page/>
+        <title>Failed Notifications</title>
+        <uncancelable>false</uncancelable>
+        <view_name>failed_notifications</view_name>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_app_module_c122255fdb24f70056c524794b9619d0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="OnPage Administration">eb4e19fadb0cab00c822fcd6f49619d0</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_onpr_onpage_notification">status=failed^EQ<item endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="failed"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Failed Notifications</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_onpr_onpage_notification</name>
+        <order>2400</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2019-04-06 20:48:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c122255fdb24f70056c524794b9619d0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Failed Notifications</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_app_module_c122255fdb24f70056c524794b9619d0</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-04-06 21:19:51</sys_updated_on>
+        <timeline_page/>
+        <title>Failed Notifications</title>
+        <uncancelable>false</uncancelable>
+        <view_name>failed_notifications</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>1913241850</payload_hash>
+        <record_name>Failed Notifications</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:29</sys_created_on>
+        <sys_id>960a2da447e60b10cfdde3cc236d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887c8730000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:29</sys_updated_on>
+        <type>Module</type>
+        <update_guid>de0a2da48be60b107e90ffd43bb1eff4</update_guid>
+        <update_guid_history>de0a2da48be60b107e90ffd43bb1eff4:0,6e9e51e8c7660b1089e8fa171d1efab7:1813709266,843b03a349da4310ac6dba6d966f364c:0,81c68f6f39164310648f17ee99a9bd32:842425622,fa7ceae3069243100470b84bfd2850af:0,522b6aebc4524310fe1d4f35005faa67:-716194332,5db2f54d979e07103c9f621b7570d58a:0,89847056227d0310106f4b7a543cf818:-970745875,34847056d07d0310b53093abcd09f510:-1685792799</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-08-03 16:14:46">393243a81ba2c7107f50cb35604bcbae</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:14:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>961a6a52e99b477b9b0f53ac158e3d19</sys_id>
+        <sys_metadata>c122255fdb24f70056c524794b9619d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Failed Notifications</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_app_module_c122255fdb24f70056c524794b9619d0</sys_update_name>
+        <sys_update_version display_value="sys_app_module_c122255fdb24f70056c524794b9619d0">960a2da447e60b10cfdde3cc236d43f5</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:14:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

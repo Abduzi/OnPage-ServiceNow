@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_element">
+    <sys_embedded_tour_element action="DELETE">
+        <cell_edit/>
+        <cell_types/>
+        <col/>
+        <cxs_results/>
+        <element_type>other</element_type>
+        <field/>
+        <field_action/>
+        <field_header/>
+        <filters/>
+        <form_buttons>additional_actions</form_buttons>
+        <form_element>field</form_element>
+        <form_section/>
+        <frameset>nav_filter</frameset>
+        <js_path/>
+        <list_element>ui_action</list_element>
+        <list_header/>
+        <manual_css>.module-node [data-id="a0f79d4bdbd82340ee685e25ca961979"]</manual_css>
+        <name>.module-node [data-id="a0f79d4bdbd82340e</name>
+        <record_id/>
+        <related_field/>
+        <related_links/>
+        <related_list_element>ui_action</related_list_element>
+        <related_lists/>
+        <related_table/>
+        <row/>
+        <seismic_selector>a[data-id='a0f79d4bdbd82340ee685e25ca961979']</seismic_selector>
+        <sys_class_name>sys_embedded_tour_element</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-24 17:17:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a78da13cdbf427c0c822fcd6f496191b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>.module-node [data-id="a0f79d4bdbd82340e</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_embedded_tour_element_a78da13cdbf427c0c822fcd6f496191b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-07-23 20:29:27</sys_updated_on>
+        <table/>
+        <type>manual_css</type>
+        <ui_action/>
+    </sys_embedded_tour_element>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_embedded_tour_element_a78da13cdbf427c0c822fcd6f496191b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_element">
+    <sys_embedded_tour_element action="INSERT_OR_UPDATE">
+        <cell_edit/>
+        <cell_types/>
+        <col/>
+        <cxs_results/>
+        <element_type>other</element_type>
+        <field/>
+        <field_action/>
+        <field_header/>
+        <filters/>
+        <form_buttons>additional_actions</form_buttons>
+        <form_element>field</form_element>
+        <form_section/>
+        <frameset>nav_filter</frameset>
+        <js_path/>
+        <list_element>ui_action</list_element>
+        <list_header/>
+        <manual_css>.module-node [data-id="a0f79d4bdbd82340ee685e25ca961979"]</manual_css>
+        <name>.module-node [data-id="a0f79d4bdbd82340e</name>
+        <record_id/>
+        <related_field/>
+        <related_links/>
+        <related_list_element>ui_action</related_list_element>
+        <related_lists/>
+        <related_table/>
+        <row/>
+        <seismic_selector>a[data-id='a0f79d4bdbd82340ee685e25ca961979']</seismic_selector>
+        <sys_class_name>sys_embedded_tour_element</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-24 17:17:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a78da13cdbf427c0c822fcd6f496191b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>.module-node [data-id="a0f79d4bdbd82340e</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_embedded_tour_element_a78da13cdbf427c0c822fcd6f496191b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-07-23 20:29:27</sys_updated_on>
+        <table/>
+        <type>manual_css</type>
+        <ui_action/>
+    </sys_embedded_tour_element>
+</record_update>]]></payload>
+        <payload_hash>-575077898</payload_hash>
+        <record_name>.module-node [data-id="a0f79d4bdbd82340e</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:31</sys_created_on>
+        <sys_id>a20aada447e60b10cfdde3cc236d43e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887d0310000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:31</sys_updated_on>
+        <type>Guided Tour Element</type>
+        <update_guid>ea0aada435e60b10d8e14faf2c2b33e7</update_guid>
+        <update_guid_history>ea0aada435e60b10d8e14faf2c2b33e7:0,32fe95ac80660b106e5e3de03329803f:1072050982,e43b83a32fda431022d670faa484c13f:0,0627cb230a564310a77162cb71d47e65:25119196,277c6ee3529243109c2d87aa544a83ed:0,279b6aaf42524310840a7ce82e23f0ec:-1729520446,8de239cd019e0710a00f31f71693041e:-935033522,16b2b94d2a9e0710188ac0309916dc58:0,36e4301af07d0310b48f8afd04555318:-1729520446,941c0d1da015f9108df90fe5d5a7d782:-935033522,d41c0d1d8715f9102ab8f71c0e9e8e81:-1299460731</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-08-03 23:16:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_embedded_tour_element">sys_embedded_tour_element</sys_db_object>
+        <sys_id>14f0c43381cc40c3b5e87bef54f7b4c9</sys_id>
+        <sys_metadata>a78da13cdbf427c0c822fcd6f496191b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.module-node [data-id="a0f79d4bdbd82340e</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_element_a78da13cdbf427c0c822fcd6f496191b</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_element_a78da13cdbf427c0c822fcd6f496191b">a20aada447e60b10cfdde3cc236d43e8</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:16:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

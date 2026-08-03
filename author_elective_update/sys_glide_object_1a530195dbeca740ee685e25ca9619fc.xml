@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_glide_object">
+    <sys_glide_object action="DELETE">
+        <attributes/>
+        <class_name/>
+        <label>Email Script</label>
+        <name>email_script</name>
+        <scalar_length/>
+        <scalar_type>string</scalar_type>
+        <sys_class_name>sys_glide_object</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-13 17:14:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1a530195dbeca740ee685e25ca9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email Script</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_glide_object_1a530195dbeca740ee685e25ca9619fc</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-13 17:14:11</sys_updated_on>
+        <use_original_value>true</use_original_value>
+        <visible>false</visible>
+    </sys_glide_object>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_glide_object_1a530195dbeca740ee685e25ca9619fc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_glide_object">
+    <sys_glide_object action="INSERT_OR_UPDATE">
+        <attributes/>
+        <class_name/>
+        <label>Email Script</label>
+        <name>email_script</name>
+        <scalar_length/>
+        <scalar_type>string</scalar_type>
+        <sys_class_name>sys_glide_object</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-13 17:14:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1a530195dbeca740ee685e25ca9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email Script</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_glide_object_1a530195dbeca740ee685e25ca9619fc</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-13 17:14:11</sys_updated_on>
+        <use_original_value>true</use_original_value>
+        <visible>false</visible>
+    </sys_glide_object>
+</record_update>]]></payload>
+        <payload_hash>-1742135035</payload_hash>
+        <record_name>Email Script</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:36</sys_created_on>
+        <sys_id>c01a25e447e60b10cfdde3cc236d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887e48d0000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:36</sys_updated_on>
+        <type>Field class</type>
+        <update_guid>0c1a25e459e60b10ee4ccf888838019e</update_guid>
+        <update_guid_history>0c1a25e459e60b10ee4ccf888838019e:0,a7be912c07660b1037a97b17184e5b0d:-2075708713,b93bc7a3f7da431071503c869584f1ac:0,a3d6cbafec164310fdbc5384cbcac8ff:485151814,698c2627b79243102c8b8319cd347a20:0,c35b2e2f3652431022c3ae684ef3b25b:697802807,85c2b18db59e0710fa3a8038bff0e110:0,ab947c56b97d0310d030f624c50ba37f:697802807,e7947c56397d0310cc05fafea0352e73:2143956779</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_glide_object">sys_glide_object</sys_db_object>
+        <sys_id>1fb8e22a7f9b4eb08724702d657dbd10</sys_id>
+        <sys_metadata>1a530195dbeca740ee685e25ca9619fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email Script</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_glide_object_1a530195dbeca740ee685e25ca9619fc</sys_update_name>
+        <sys_update_version display_value="sys_glide_object_1a530195dbeca740ee685e25ca9619fc">c01a25e447e60b10cfdde3cc236d439f</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="DELETE">
+        <dashboard display_value="OnPage Status">d216910bdbd82340ee685e25ca961903</dashboard>
+        <delete>true</delete>
+        <group/>
+        <identity>pa_admin</identity>
+        <read>true</read>
+        <role display_value="pa_admin" name="pa_admin">a4cc30b3bf101100b96dac808c073918</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-07-28 19:28:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f1c413ea1b168f107f50cb35604bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pa_admin</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_f1c413ea1b168f107f50cb35604bcb85</sys_update_name>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-07-28 19:28:01</sys_updated_on>
+        <type>1</type>
+        <user/>
+        <write>true</write>
+    </pa_dashboards_permissions>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>pa_dashboards_permissions_f1c413ea1b168f107f50cb35604bcb85</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="OnPage Status">d216910bdbd82340ee685e25ca961903</dashboard>
+        <delete>true</delete>
+        <group/>
+        <identity>pa_admin</identity>
+        <read>true</read>
+        <role display_value="pa_admin" name="pa_admin">a4cc30b3bf101100b96dac808c073918</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-07-28 19:28:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f1c413ea1b168f107f50cb35604bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pa_admin</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_f1c413ea1b168f107f50cb35604bcb85</sys_update_name>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-07-28 19:28:01</sys_updated_on>
+        <type>1</type>
+        <user/>
+        <write>true</write>
+    </pa_dashboards_permissions>
+</record_update>]]></payload>
+        <payload_hash>-1709535638</payload_hash>
+        <record_name>pa_admin</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:29</sys_created_on>
+        <sys_id>420a2da447e60b10cfdde3cc236d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887c6990000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:29</sys_updated_on>
+        <type>Dashboard Permissions</type>
+        <update_guid>8a0a2da46ce60b1055c62be3dbee4b69</update_guid>
+        <update_guid_history>8a0a2da46ce60b1055c62be3dbee4b69:0,891fd1eced660b10fec2f2702db8cb58:-160768831,b72bcf6300da4310e912a4c322fa57e6:0,e2374763b4564310bb88caf0bf53a5a3:957674834,b67ceae379924310aa0f379b827a4b24:0,14cb66ef6652431018f06d966696f0e1:957674834,79c413eaf4168f10bca859ff277fc3c5:-56638710</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-08-03 16:17:26">89d24f6c1ba2c7107f50cb35604bcbb9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 23:17:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="pa_dashboards_permissions">pa_dashboards_permissions</sys_db_object>
+        <sys_id>06cc7868c05a45e0808746e43fc201e4</sys_id>
+        <sys_metadata>f1c413ea1b168f107f50cb35604bcb85</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pa_admin</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>pa_dashboards_permissions_f1c413ea1b168f107f50cb35604bcb85</sys_update_name>
+        <sys_update_version display_value="pa_dashboards_permissions_f1c413ea1b168f107f50cb35604bcb85">420a2da447e60b10cfdde3cc236d436a</sys_update_version>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:17:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

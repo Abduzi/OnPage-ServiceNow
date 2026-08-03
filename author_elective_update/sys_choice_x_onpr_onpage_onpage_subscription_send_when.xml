@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="send_when" table="x_onpr_onpage_onpage_subscription" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>send_when</element>
+            <name>x_onpr_onpage_onpage_subscription</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>toan.tran</sys_created_by>
+            <sys_created_on>2021-05-14 20:05:20</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>send_when</sys_name>
+            <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+            <sys_update_name>sys_choice_x_onpr_onpage_onpage_subscription_send_when</sys_update_name>
+            <sys_updated_by>toan.tran</sys_updated_by>
+            <sys_updated_on>2021-05-14 20:05:20</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>send_when</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Records inserted or updated</label>
+            <language>en</language>
+            <name>x_onpr_onpage_onpage_subscription</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>toan.tran</sys_created_by>
+            <sys_created_on>2021-05-14 20:05:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>toan.tran</sys_updated_by>
+            <sys_updated_on>2021-05-14 20:05:20</sys_updated_on>
+            <value>both</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>send_when</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Records inserted</label>
+            <language>en</language>
+            <name>x_onpr_onpage_onpage_subscription</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>toan.tran</sys_created_by>
+            <sys_created_on>2021-05-14 20:05:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>toan.tran</sys_updated_by>
+            <sys_updated_on>2021-05-14 20:05:40</sys_updated_on>
+            <value>insert</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>send_when</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Records updated</label>
+            <language>en</language>
+            <name>x_onpr_onpage_onpage_subscription</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>toan.tran</sys_created_by>
+            <sys_created_on>2021-05-14 20:05:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>toan.tran</sys_updated_by>
+            <sys_updated_on>2021-05-14 20:05:49</sys_updated_on>
+            <value>update</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

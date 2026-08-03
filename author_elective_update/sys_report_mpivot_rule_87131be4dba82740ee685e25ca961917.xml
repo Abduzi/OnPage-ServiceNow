@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_mpivot_rule">
+    <sys_report_mpivot_rule action="DELETE">
+        <bg_color>background-color:</bg_color>
+        <bg_color_id/>
+        <color>background-color:#006400</color>
+        <color_id display_value="DarkGreen">65b3024aa9fe3dba0041a150cc135aed</color_id>
+        <operator>&lt;=</operator>
+        <order/>
+        <report_id display_value="OP Average Send Time (1hr)">c4135ba4dba82740ee685e25ca961983</report_id>
+        <sys_class_name>sys_report_mpivot_rule</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-11 19:47:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>87131be4dba82740ee685e25ca961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>&lt;=</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_report_mpivot_rule_87131be4dba82740ee685e25ca961917</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-11 19:47:21</sys_updated_on>
+        <value1>10</value1>
+        <value2/>
+    </sys_report_mpivot_rule>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_report_mpivot_rule_87131be4dba82740ee685e25ca961917</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_mpivot_rule">
+    <sys_report_mpivot_rule action="INSERT_OR_UPDATE">
+        <bg_color>background-color:</bg_color>
+        <bg_color_id/>
+        <color>background-color:#006400</color>
+        <color_id display_value="DarkGreen">65b3024aa9fe3dba0041a150cc135aed</color_id>
+        <operator>&lt;=</operator>
+        <order/>
+        <report_id display_value="OP Average Send Time (1hr)">c4135ba4dba82740ee685e25ca961983</report_id>
+        <sys_class_name>sys_report_mpivot_rule</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-11 19:47:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>87131be4dba82740ee685e25ca961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>&lt;=</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_report_mpivot_rule_87131be4dba82740ee685e25ca961917</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-11 19:47:21</sys_updated_on>
+        <value1>10</value1>
+        <value2/>
+    </sys_report_mpivot_rule>
+</record_update>]]></payload>
+        <payload_hash>635950971</payload_hash>
+        <record_name>&lt;=</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:39</sys_created_on>
+        <sys_id>2c1aa5e447e60b10cfdde3cc236d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887edb90000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:39</sys_updated_on>
+        <type>Multilevel Pivot Rule</type>
+        <update_guid>641aa5e4d5e60b10389869eb517e5ff9</update_guid>
+        <update_guid_history>641aa5e4d5e60b10389869eb517e5ff9:0,e2ee9d6c4c660b103265c1fa4daf926b:314376822,523b8ba303da431002d0887f4ccc202c:0,4517c323795643103451a69885417ee7:-2027390534,a68ca627ca924310e67ed25090244fb8:0,3a8ba2aff252431055b1d8c2571c38cd:-216862037,dac2758dea9e07106669ebd3e06cf18b:0,cfd438d6487d0310dca154a4edecfa4e:-216862037,03d438d6d77d031086ef39524aa7b94a:-965541065</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:16:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_report_mpivot_rule">sys_report_mpivot_rule</sys_db_object>
+        <sys_id>163d6f267a494200a0f6ba38bc456691</sys_id>
+        <sys_metadata>87131be4dba82740ee685e25ca961917</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>&lt;=</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_report_mpivot_rule_87131be4dba82740ee685e25ca961917</sys_update_name>
+        <sys_update_version display_value="sys_report_mpivot_rule_87131be4dba82740ee685e25ca961917">2c1aa5e447e60b10cfdde3cc236d43f9</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:16:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

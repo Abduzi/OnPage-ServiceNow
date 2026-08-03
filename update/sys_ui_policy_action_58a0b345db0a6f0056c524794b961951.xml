@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>true</disabled>
         <field>document_id</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
@@ -19,7 +21,9 @@
         <sys_updated_by>will.young</sys_updated_by>
         <sys_updated_on>2018-11-27 00:46:58</sys_updated_on>
         <table>x_onpr_onpage_notification</table>
-        <ui_policy display_value="Read Only">a630bf05db0a6f0056c524794b9619b0</ui_policy>
+        <ui_policy display_value="">a630bf05db0a6f0056c524794b9619b0</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

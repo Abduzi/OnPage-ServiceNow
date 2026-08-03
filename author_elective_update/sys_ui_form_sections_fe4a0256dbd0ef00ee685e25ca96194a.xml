@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="fe4a0256dbd0ef00ee685e25ca96194a" sys_domain="global" table="x_onpr_onpage_onpage_subscription" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>lorena.villanueva</sys_created_by>
+            <sys_created_on>2018-09-04 14:42:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>764a0256dbd0ef00ee685e25ca96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_onpr_onpage_onpage_subscription" name="x_onpr_onpage_onpage_subscription" sys_domain="global" view="Default view">fe4a0256dbd0ef00ee685e25ca96194a</sys_ui_form>
+            <sys_ui_section caption="Subscription Information" display_value="Subscription Information" name="x_onpr_onpage_onpage_subscription" sys_domain="global" view="Default view">4c45ce52dbd0ef00ee685e25ca961940</sys_ui_section>
+            <sys_updated_by>lorena.villanueva</sys_updated_by>
+            <sys_updated_on>2018-09-04 14:42:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>lorena.villanueva</sys_created_by>
+            <sys_created_on>2018-09-04 14:42:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>724a0256dbd0ef00ee685e25ca96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_onpr_onpage_onpage_subscription" name="x_onpr_onpage_onpage_subscription" sys_domain="global" view="Default view">fe4a0256dbd0ef00ee685e25ca96194a</sys_ui_form>
+            <sys_ui_section caption="Conditions" display_value="Conditions" name="x_onpr_onpage_onpage_subscription" sys_domain="global" view="Default view">3e4a0256dbd0ef00ee685e25ca961949</sys_ui_section>
+            <sys_updated_by>lorena.villanueva</sys_updated_by>
+            <sys_updated_on>2018-09-04 14:42:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_onpr_onpage_onpage_subscription</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>lorena.villanueva</sys_created_by>
+            <sys_created_on>2018-09-04 14:42:23</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe4a0256dbd0ef00ee685e25ca96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_onpr_onpage_onpage_subscription</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fe4a0256dbd0ef00ee685e25ca96194a</sys_update_name>
+            <sys_updated_by>lorena.villanueva</sys_updated_by>
+            <sys_updated_on>2018-09-04 14:42:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_ui_form_sections_fe4a0256dbd0ef00ee685e25ca96194a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="fe4a0256dbd0ef00ee685e25ca96194a" sys_domain="global" table="x_onpr_onpage_onpage_subscription" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>lorena.villanueva</sys_created_by>
+            <sys_created_on>2018-09-04 14:42:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>764a0256dbd0ef00ee685e25ca96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_onpr_onpage_onpage_subscription" name="x_onpr_onpage_onpage_subscription" sys_domain="global" view="Default view">fe4a0256dbd0ef00ee685e25ca96194a</sys_ui_form>
+            <sys_ui_section caption="Subscription Information" display_value="Subscription Information" name="x_onpr_onpage_onpage_subscription" sys_domain="global" view="Default view">4c45ce52dbd0ef00ee685e25ca961940</sys_ui_section>
+            <sys_updated_by>lorena.villanueva</sys_updated_by>
+            <sys_updated_on>2018-09-04 14:42:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>lorena.villanueva</sys_created_by>
+            <sys_created_on>2018-09-04 14:42:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>724a0256dbd0ef00ee685e25ca96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_onpr_onpage_onpage_subscription" name="x_onpr_onpage_onpage_subscription" sys_domain="global" view="Default view">fe4a0256dbd0ef00ee685e25ca96194a</sys_ui_form>
+            <sys_ui_section caption="Conditions" display_value="Conditions" name="x_onpr_onpage_onpage_subscription" sys_domain="global" view="Default view">3e4a0256dbd0ef00ee685e25ca961949</sys_ui_section>
+            <sys_updated_by>lorena.villanueva</sys_updated_by>
+            <sys_updated_on>2018-09-04 14:42:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_onpr_onpage_onpage_subscription</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>lorena.villanueva</sys_created_by>
+            <sys_created_on>2018-09-04 14:42:23</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe4a0256dbd0ef00ee685e25ca96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_onpr_onpage_onpage_subscription</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fe4a0256dbd0ef00ee685e25ca96194a</sys_update_name>
+            <sys_updated_by>lorena.villanueva</sys_updated_by>
+            <sys_updated_on>2018-09-04 14:42:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>]]></payload>
+        <payload_hash>1208886266</payload_hash>
+        <record_name>OnPage Subscription</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:46</sys_created_on>
+        <sys_id>9e1aede447e60b10cfdde3cc236d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc8880bc90000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:46</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>d61aede4abe60b10fb5019ed17150586</update_guid>
+        <update_guid_history>d61aede4abe60b10fb5019ed17150586:0,478e95a879660b10fc36937183261b6a:-947448509,644b83e33cda4310f3d70ea91b6c45f9:0,3fa6836f80164310aeb9b4cf237d1f35:1320337308,919cee2747924310d5caf404d6cb98ca:0,b30beaab4c5243103c1ee6e9132768a9:940894251,46d231cd259e071042976e33360480ff:0,c12438d29d7d03100c9f3987d246071d:940894251</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lorena.villanueva</sys_created_by>
+        <sys_created_on>2026-08-03 23:14:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>512fd2976e324ea7a2c287d409064951</sys_id>
+        <sys_metadata>fe4a0256dbd0ef00ee685e25ca96194a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_onpr_onpage_onpage_subscription</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent display_value="">56f9ad6447e60b10cfdde3cc236d436a</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_fe4a0256dbd0ef00ee685e25ca96194a</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_fe4a0256dbd0ef00ee685e25ca96194a">9e1aede447e60b10cfdde3cc236d4386</sys_update_version>
+        <sys_updated_by>lorena.villanueva</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:14:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

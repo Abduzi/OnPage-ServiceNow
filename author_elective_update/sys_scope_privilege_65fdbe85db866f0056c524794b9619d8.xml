@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>onpage</sys_created_by>
+        <sys_created_on>2018-11-26 21:05:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>65fdbe85db866f0056c524794b9619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScriptableServiceResultBuilder.setStatus</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_scope_privilege_65fdbe85db866f0056c524794b9619d8</sys_update_name>
+        <sys_updated_by>onpage</sys_updated_by>
+        <sys_updated_on>2018-11-26 21:05:36</sys_updated_on>
+        <target_name>ScriptableServiceResultBuilder.setStatus</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_scope_privilege_65fdbe85db866f0056c524794b9619d8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>onpage</sys_created_by>
+        <sys_created_on>2018-11-26 21:05:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>65fdbe85db866f0056c524794b9619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScriptableServiceResultBuilder.setStatus</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_scope_privilege_65fdbe85db866f0056c524794b9619d8</sys_update_name>
+        <sys_updated_by>onpage</sys_updated_by>
+        <sys_updated_on>2018-11-26 21:05:36</sys_updated_on>
+        <target_name>ScriptableServiceResultBuilder.setStatus</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>]]></payload>
+        <payload_hash>-1854391151</payload_hash>
+        <record_name>ScriptableServiceResultBuilder.setStatus</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:40</sys_created_on>
+        <sys_id>701a29e447e60b10cfdde3cc236d435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887f29a0000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:40</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>b81a29e432e60b10ad4bdb1212e9875a</update_guid>
+        <update_guid_history>b81a29e432e60b10ad4bdb1212e9875a:0,d2de556cca660b10dca5c2cbf1048011:-230101457,b63bcba3ccda4310a948e2f08c0ea475:0,a107cbef78164310a0c7c95fde5e23d3:-1415481161,478c2a276c924310ab6cd00d54af0f4b:0,b97baa6fa152431029354ed2b95e740e:-271922171,72c2f58def9e07104c508e1fb34df66f:0,1ec4fc960d7d0310eb6eac62fa336c3b:-271922171,02c4fc96337d03103c6898bace3b6337:-1270655495</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>onpage</sys_created_by>
+        <sys_created_on>2026-08-03 23:16:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>0cabe44f965c43f48e1fd1a7ffb21a90</sys_id>
+        <sys_metadata>65fdbe85db866f0056c524794b9619d8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScriptableServiceResultBuilder.setStatus</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_65fdbe85db866f0056c524794b9619d8</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_65fdbe85db866f0056c524794b9619d8">701a29e447e60b10cfdde3cc236d435b</sys_update_version>
+        <sys_updated_by>onpage</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:16:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

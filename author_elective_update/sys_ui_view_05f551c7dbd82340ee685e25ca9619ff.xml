@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>pa_new_tab</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>lorena.villanueva</sys_created_by>
+        <sys_created_on>2018-09-06 18:49:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>05f551c7dbd82340ee685e25ca9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pa_new_tab</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_ui_view_05f551c7dbd82340ee685e25ca9619ff</sys_update_name>
+        <sys_updated_by>lorena.villanueva</sys_updated_by>
+        <sys_updated_on>2018-09-06 18:49:10</sys_updated_on>
+        <title>Pa_new_tab</title>
+        <user/>
+    </sys_ui_view>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_ui_view_05f551c7dbd82340ee685e25ca9619ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>pa_new_tab</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>lorena.villanueva</sys_created_by>
+        <sys_created_on>2018-09-06 18:49:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>05f551c7dbd82340ee685e25ca9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pa_new_tab</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_ui_view_05f551c7dbd82340ee685e25ca9619ff</sys_update_name>
+        <sys_updated_by>lorena.villanueva</sys_updated_by>
+        <sys_updated_on>2018-09-06 18:49:10</sys_updated_on>
+        <title>Pa_new_tab</title>
+        <user/>
+    </sys_ui_view>
+</record_update>]]></payload>
+        <payload_hash>-1379530627</payload_hash>
+        <record_name>Pa_new_tab</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:28</sys_created_on>
+        <sys_id>0e0ae9a447e60b10cfdde3cc236d43ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887c4b90000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:28</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>460ae9a4aae60b10ab38e94706da88ee</update_guid>
+        <update_guid_history>460ae9a4aae60b10ab38e94706da88ee:0,d7aed9e8e8660b1024eb522aa76bf0de:-1222395804,ff2bcf63a2da431042042fe401b5b169:0,1dd6c7afba1643107405f505cbf8c52a:-1405092914,ea7caae365924310ccdb2f2541c1f19b:0,4e4be62f54524310fd41b993e0718335:1819587517,7cb2b54d179e071083a5136be371cb33:0,1d9438569c7d03101f34598f01ed9d20:1819587517,8594f456e27d0310dbc9fadcc5b03dfd:304451145</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lorena.villanueva</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>194e6f71fdd5459288e9b6d9d292a929</sys_id>
+        <sys_metadata>05f551c7dbd82340ee685e25ca9619ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pa_new_tab</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_ui_view_05f551c7dbd82340ee685e25ca9619ff</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_05f551c7dbd82340ee685e25ca9619ff">0e0ae9a447e60b10cfdde3cc236d43ee</sys_update_version>
+        <sys_updated_by>lorena.villanueva</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

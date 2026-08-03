@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="DELETE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref/>
+        <active>true</active>
+        <content><![CDATA[Navigate to the &#39;Filter navigator&#39; and type &#39;OnPage Configuration&#39;]]></content>
+        <guide/>
+        <implicit>false</implicit>
+        <link/>
+        <name>Step 14</name>
+        <options/>
+        <order>0</order>
+        <placement>bottom</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>lorena.villanueva</sys_created_by>
+        <sys_created_on>2018-09-13 18:56:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>dbaa1d91db642380c822fcd6f49619c3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Step 14</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_dbaa1d91db642380c822fcd6f49619c3</sys_update_name>
+        <sys_updated_by>lorena.villanueva</sys_updated_by>
+        <sys_updated_on>2018-09-13 18:56:20</sys_updated_on>
+        <target/>
+        <target_ref/>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>home.do</window>
+    </sys_embedded_tour_step>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_embedded_tour_step_dbaa1d91db642380c822fcd6f49619c3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_embedded_tour_step"&gt;&lt;sys_embedded_tour_step action="INSERT_OR_UPDATE"&gt;&lt;action&gt;false&lt;/action&gt;&lt;action_event&gt;next&lt;/action_event&gt;&lt;action_target/&gt;&lt;action_target_ref/&gt;&lt;active&gt;true&lt;/active&gt;&lt;content&gt;&lt;![CDATA[Navigate to the &amp;#39;Filter navigator&amp;#39; and type &amp;#39;OnPage Configuration&amp;#39;]]&gt;&lt;/content&gt;&lt;guide/&gt;&lt;implicit&gt;false&lt;/implicit&gt;&lt;link/&gt;&lt;name&gt;Step 14&lt;/name&gt;&lt;options/&gt;&lt;order&gt;0&lt;/order&gt;&lt;placement&gt;bottom&lt;/placement&gt;&lt;skippable&gt;false&lt;/skippable&gt;&lt;step_type&gt;step&lt;/step_type&gt;&lt;sys_class_name&gt;sys_embedded_tour_step&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lorena.villanueva&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-13 18:56:07&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;dbaa1d91db642380c822fcd6f49619c3&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Step 14&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="OnPage Integration" source="x_onpr_onpage"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="OnPage Integration"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_embedded_tour_step_dbaa1d91db642380c822fcd6f49619c3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lorena.villanueva&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-09-13 18:56:20&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;target_ref/&gt;&lt;title/&gt;&lt;ui_version&gt;dynamic&lt;/ui_version&gt;&lt;view/&gt;&lt;window&gt;home.do&lt;/window&gt;&lt;/sys_embedded_tour_step&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-648744232</payload_hash>
+        <record_name>Step 14</record_name>
+        <reverted_from/>
+        <source>2c6a46e01b6e87107f50cb35604bcbaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>toan.tran</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:24</sys_created_on>
+        <sys_id>c75243e81ba2c7107f50cb35604bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc9e9188b0000001</sys_recorded_at>
+        <sys_updated_by>toan.tran</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:24</sys_updated_on>
+        <type>Guided Tour Step</type>
+        <update_guid>035243e871a2c7108591d4d0238e3ec8</update_guid>
+        <update_guid_history>035243e871a2c7108591d4d0238e3ec8:0,c35243e872a2c71026718e60a66d09c4:0,870a21e46ae60b10f20ca3ecc916e493:0,871f55ecf9660b10a36361850e9494e6:-1850126775,efbe912c6d660b1047978829fb160fa5:0,a3be912c0c660b10fd90da084146bba2:0,fc3bc3a32eda43106e99a25db46b9bf7:0,6f37c763275643106ad3937bd2f939b2:-445307572,b3d60fafa31643107101b0d44899628b:0,77d60faf1916431004a42dae21b9ed87:0,188ceee397924310e774c3ebec4f30e3:0,11cbe6efc45243109eb25d21a6a964d9:-445307572,935b2e2fa3524310bb3366bc03df2dfb:0,575b2e2f935243106dad079ab0e145f7:0,07b23d4d709e07103a6d9fd49a8547b6:0,1a15bc1a8d7d0310ace69c731d17b1bb:-445307572,a794bc56887d03105841dafd8c181210:0,ef947c56387d0310217ff3c1ffb5d2fe:1784894999</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lorena.villanueva</sys_created_by>
+        <sys_created_on>2026-08-03 23:17:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_embedded_tour_step">sys_embedded_tour_step</sys_db_object>
+        <sys_id>91ff3614cea74030ac51c14844b23990</sys_id>
+        <sys_metadata>dbaa1d91db642380c822fcd6f49619c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Step 14</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_step_dbaa1d91db642380c822fcd6f49619c3</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_step_dbaa1d91db642380c822fcd6f49619c3">c75243e81ba2c7107f50cb35604bcbc8</sys_update_version>
+        <sys_updated_by>lorena.villanueva</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:17:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

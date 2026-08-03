@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_gauge_counts">
+    <sys_gauge_counts action="DELETE">
+        <gauge_id display_value="Additional Metrics">53d6e3231f3121006d691b220e8b70e0</gauge_id>
+        <image/>
+        <name>MaxAllOrchTransactionLast12Month</name>
+        <omit_line>false</omit_line>
+        <order/>
+        <override_style/>
+        <query/>
+        <script>SNC.UsageAnalyticsScriptUtils.getCount('MaxAllOrchTransactionLast12Month', 'In the last 12 months, The highest Orchestration transactions executed in a given month');</script>
+        <short_description>In the last 12 months, The highest Orchestration transactions executed in a give</short_description>
+        <sys_class_name>sys_gauge_counts</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-10-25 06:00:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>72fb7226db916bc0ee685e25ca9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MaxAllOrchTransactionLast12Month</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_gauge_counts_72fb7226db916bc0ee685e25ca9619ab</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-10-25 06:00:45</sys_updated_on>
+        <tablename>MaxAllOrchTransactionLast12Month</tablename>
+        <use_script>true</use_script>
+    </sys_gauge_counts>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_gauge_counts_72fb7226db916bc0ee685e25ca9619ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_gauge_counts">
+    <sys_gauge_counts action="INSERT_OR_UPDATE">
+        <gauge_id display_value="Additional Metrics">53d6e3231f3121006d691b220e8b70e0</gauge_id>
+        <image/>
+        <name>MaxAllOrchTransactionLast12Month</name>
+        <omit_line>false</omit_line>
+        <order/>
+        <override_style/>
+        <query/>
+        <script>SNC.UsageAnalyticsScriptUtils.getCount('MaxAllOrchTransactionLast12Month', 'In the last 12 months, The highest Orchestration transactions executed in a given month');</script>
+        <short_description>In the last 12 months, The highest Orchestration transactions executed in a give</short_description>
+        <sys_class_name>sys_gauge_counts</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-10-25 06:00:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>72fb7226db916bc0ee685e25ca9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MaxAllOrchTransactionLast12Month</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_gauge_counts_72fb7226db916bc0ee685e25ca9619ab</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-10-25 06:00:45</sys_updated_on>
+        <tablename>MaxAllOrchTransactionLast12Month</tablename>
+        <use_script>true</use_script>
+    </sys_gauge_counts>
+</record_update>]]></payload>
+        <payload_hash>1451183011</payload_hash>
+        <record_name>MaxAllOrchTransactionLast12Month</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:35</sys_created_on>
+        <sys_id>270aa1e447e60b10cfdde3cc236d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887dd190000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:35</sys_updated_on>
+        <type>Count Gauges</type>
+        <update_guid>6f0aa1e490e60b1060533cee9bf33380</update_guid>
+        <update_guid_history>6f0aa1e490e60b1060533cee9bf33380:0,70ee196c63660b104effac8d477de69d:-2063088832,953b47a36bda43103fed9cc42c4832c0:0,4f078feff0164310c0092d01d9b4b1af:-100425116,b08c6227069243102d245c7aa143649f:0,a88bae6f79524310bb08d35052a7341d:1119273651,48c2fd4d999e0710bc4d5f1dc79e7d1c:0,a3c4b0d6b97d0310f98da3c6343a09f7:1119273651,6bc4b0d61f7d0310dbd5052a61fe83f2:-2145496153</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-08-03 23:16:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_gauge_counts">sys_gauge_counts</sys_db_object>
+        <sys_id>069cb13c59ab4358816e46c00f3a3c40</sys_id>
+        <sys_metadata>72fb7226db916bc0ee685e25ca9619ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MaxAllOrchTransactionLast12Month</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_gauge_counts_72fb7226db916bc0ee685e25ca9619ab</sys_update_name>
+        <sys_update_version display_value="sys_gauge_counts_72fb7226db916bc0ee685e25ca9619ab">270aa1e447e60b10cfdde3cc236d4381</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:16:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

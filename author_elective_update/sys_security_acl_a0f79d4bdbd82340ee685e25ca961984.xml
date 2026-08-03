@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>users can read their own templates and public templates</description>
+        <name>x_onpr_onpage_onpage_template</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-06 18:57:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a0f79d4bdbd82340ee685e25ca961984</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_onpr_onpage_onpage_template</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_security_acl_a0f79d4bdbd82340ee685e25ca961984</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-11 22:00:25</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_security_acl_a0f79d4bdbd82340ee685e25ca961984</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>users can read their own templates and public templates</description>
+        <name>x_onpr_onpage_onpage_template</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-06 18:57:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a0f79d4bdbd82340ee685e25ca961984</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_onpr_onpage_onpage_template</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_security_acl_a0f79d4bdbd82340ee685e25ca961984</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-11 22:00:25</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>-2121211483</payload_hash>
+        <record_name>x_onpr_onpage_onpage_template</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:42</sys_created_on>
+        <sys_id>991aa9e447e60b10cfdde3cc236d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887fc080000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:42</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>d11aa9e42fe60b10e3c11fb9b65a9fd9</update_guid>
+        <update_guid_history>d11aa9e42fe60b10e3c11fb9b65a9fd9:0,98ae95e849660b100657f8abc742f59d:-1626412757,a33b8fa315da4310a460330e030f3a00:0,d996472f861643104f3040b3cc80a34f:1326208575,0c9caa271092431013a2030526e0fbf8:0,090ba6ab78524310b60e1bc82bedcd61:1975396354,0cd2b98d8b9e0710d94529708d5bfac8:0,c61470d26a7d03104952bc044e05ec86:465508966,c61470d2657d03103fbee6a30503f772:-1344521230</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:14:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>91684b17769341d493a6ba55d8fa1210</sys_id>
+        <sys_metadata>a0f79d4bdbd82340ee685e25ca961984</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_onpr_onpage_onpage_template</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent display_value="">bef9ed6447e60b10cfdde3cc236d43fd</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_security_acl_a0f79d4bdbd82340ee685e25ca961984</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_a0f79d4bdbd82340ee685e25ca961984">991aa9e447e60b10cfdde3cc236d43d9</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:14:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

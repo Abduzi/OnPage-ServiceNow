@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="DELETE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>x_onpr_onpage_col_embedded</formatter>
+        <name>OnPage Reply Formatter</name>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-07 19:24:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>83136653db906740c822fcd6f49619c9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>OnPage Reply Formatter</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_ui_formatter_83136653db906740c822fcd6f49619c9</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-07 19:50:43</sys_updated_on>
+        <table>x_onpr_onpage_onpage_reply_options</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_ui_formatter_83136653db906740c822fcd6f49619c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>x_onpr_onpage_col_embedded</formatter>
+        <name>OnPage Reply Formatter</name>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-07 19:24:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>83136653db906740c822fcd6f49619c9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>OnPage Reply Formatter</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_ui_formatter_83136653db906740c822fcd6f49619c9</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-07 19:50:43</sys_updated_on>
+        <table>x_onpr_onpage_onpage_reply_options</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>]]></payload>
+        <payload_hash>280987171</payload_hash>
+        <record_name>OnPage Reply Formatter</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:46</sys_created_on>
+        <sys_id>921aede447e60b10cfdde3cc236d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc8880be20000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:46</sys_updated_on>
+        <type>UI Formatter</type>
+        <update_guid>da1aede442e60b10806de491036bdb8a</update_guid>
+        <update_guid_history>da1aede442e60b10806de491036bdb8a:0,e2ee5d6c58660b10aa93c97b86943ccc:-577291506,a84b83e358da4310451a848dcce1bafd:0,8d17c323bd564310db5d923baa05ee54:102479120,a59cee27aa9243101a8af5671a5453ce:0,228ba2afa6524310c559431bc5bfd662:1739000069,46d271cde89e0710c5152f1860460d04:0,07d4f4d6cb7d031079bed5b2e4944ff8:1739000069,cfd4f4d6757d0310674011966e7416f2:-2055868015</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:16:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_formatter">sys_ui_formatter</sys_db_object>
+        <sys_id>9c72e01e344e4808a880f368518cc040</sys_id>
+        <sys_metadata>83136653db906740c822fcd6f49619c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OnPage Reply Formatter</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent display_value="">b6f921a447e60b10cfdde3cc236d4347</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_ui_formatter_83136653db906740c822fcd6f49619c9</sys_update_name>
+        <sys_update_version display_value="sys_ui_formatter_83136653db906740c822fcd6f49619c9">921aede447e60b10cfdde3cc236d438b</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:16:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

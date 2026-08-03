@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_element">
+    <sys_embedded_tour_element action="DELETE">
+        <cell_edit/>
+        <cell_types/>
+        <col/>
+        <cxs_results/>
+        <element_type>link</element_type>
+        <field/>
+        <field_action/>
+        <field_header/>
+        <filters/>
+        <form_buttons>additional_actions</form_buttons>
+        <form_element>related_list</form_element>
+        <form_section/>
+        <frameset>nav_filter</frameset>
+        <list_element>ui_action</list_element>
+        <list_header/>
+        <manual_css>tr:first-child[record_class="sys_user_has_role"] &gt; td:eq(2)</manual_css>
+        <name>sys_user.form.related_listlist_column</name>
+        <record_id/>
+        <related_field/>
+        <related_links/>
+        <related_list_element>ui_action</related_list_element>
+        <related_lists>sys_user_has_role.user</related_lists>
+        <related_table/>
+        <row/>
+        <sys_class_name>sys_embedded_tour_element</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2019-03-21 21:04:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>fcac4fc2dbd4bf40c8c656594b961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user.form.related_listlist_column</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_embedded_tour_element_fcac4fc2dbd4bf40c8c656594b961920</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-03-21 21:04:55</sys_updated_on>
+        <table>sys_user</table>
+        <type>manual_css</type>
+        <ui_action/>
+    </sys_embedded_tour_element>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_embedded_tour_element_fcac4fc2dbd4bf40c8c656594b961920</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_element">
+    <sys_embedded_tour_element action="INSERT_OR_UPDATE">
+        <cell_edit/>
+        <cell_types/>
+        <col/>
+        <cxs_results/>
+        <element_type>link</element_type>
+        <field/>
+        <field_action/>
+        <field_header/>
+        <filters/>
+        <form_buttons>additional_actions</form_buttons>
+        <form_element>related_list</form_element>
+        <form_section/>
+        <frameset>nav_filter</frameset>
+        <list_element>ui_action</list_element>
+        <list_header/>
+        <manual_css>tr:first-child[record_class="sys_user_has_role"] &gt; td:eq(2)</manual_css>
+        <name>sys_user.form.related_listlist_column</name>
+        <record_id/>
+        <related_field/>
+        <related_links/>
+        <related_list_element>ui_action</related_list_element>
+        <related_lists>sys_user_has_role.user</related_lists>
+        <related_table/>
+        <row/>
+        <sys_class_name>sys_embedded_tour_element</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2019-03-21 21:04:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>fcac4fc2dbd4bf40c8c656594b961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user.form.related_listlist_column</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_embedded_tour_element_fcac4fc2dbd4bf40c8c656594b961920</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-03-21 21:04:55</sys_updated_on>
+        <table>sys_user</table>
+        <type>manual_css</type>
+        <ui_action/>
+    </sys_embedded_tour_element>
+</record_update>]]></payload>
+        <payload_hash>150745339</payload_hash>
+        <record_name>sys_user.form.related_listlist_column</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:32</sys_created_on>
+        <sys_id>360aeda447e60b10cfdde3cc236d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887d1eb0000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:32</sys_updated_on>
+        <type>Guided Tour Element</type>
+        <update_guid>7e0aeda4e7e60b1090e3c8a6b72b1385</update_guid>
+        <update_guid_history>7e0aeda4e7e60b1090e3c8a6b72b1385:0,342fd9ec30660b104ca39ebe23c39e28:-651774821,243b83a3eada43109151a0f64da2cab8:0,d9470f6326564310dfc1a565aacdd502:-580767461,737caee374924310305557298af65e66:0,dbcb2eefed52431035bdc28a74e25b4f:-580767461,a6b2f94d5c9e07108e11b5d52b467409:0,ac25f05a4f7d0310f152fa96847457fd:-580767461,a425f05a1a7d031011116cc5b36542f7:-1022791001</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:17:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_embedded_tour_element">sys_embedded_tour_element</sys_db_object>
+        <sys_id>501b985a3df3469a9e11fb9ed4907541</sys_id>
+        <sys_metadata>fcac4fc2dbd4bf40c8c656594b961920</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user.form.related_listlist_column</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_element_fcac4fc2dbd4bf40c8c656594b961920</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_element_fcac4fc2dbd4bf40c8c656594b961920">360aeda447e60b10cfdde3cc236d4386</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:17:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>Should info-level logging be enabled? [default:No]</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_onpr_onpage.event_log.info</name>
+        <read_roles>x_onpr_onpage.admin</read_roles>
+        <suffix>event_log.info</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-08 17:25:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>29b55bebdb5ca740c822fcd6f4961972</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>x_onpr_onpage.event_log.info</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_properties_29b55bebdb5ca740c822fcd6f4961972</sys_update_name>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-07-23 21:10:28</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles>x_onpr_onpage.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=29b55bebdb5ca740c822fcd6f4961972"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_properties_29b55bebdb5ca740c822fcd6f4961972</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Should info-level logging be enabled? [default:No]</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_onpr_onpage.event_log.info</name>
+        <read_roles>x_onpr_onpage.admin</read_roles>
+        <suffix>event_log.info</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-08 17:25:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>29b55bebdb5ca740c822fcd6f4961972</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>x_onpr_onpage.event_log.info</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_properties_29b55bebdb5ca740c822fcd6f4961972</sys_update_name>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-07-23 21:10:28</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles>x_onpr_onpage.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=29b55bebdb5ca740c822fcd6f4961972"/>
+</record_update>]]></payload>
+        <payload_hash>-937377930</payload_hash>
+        <record_name>x_onpr_onpage.event_log.info</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:37</sys_created_on>
+        <sys_id>c81a65e447e60b10cfdde3cc236d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887e69e0000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:37</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>041a65e461e60b10b0cde6878e445445</update_guid>
+        <update_guid_history>041a65e461e60b10b0cde6878e445445:0,5dce952cc6660b106bdf6d7d76c6da94:-224455985,c23b0ba31cda4310c4999bf8dda21d2d:0,f1e603ef8a164310cd337e58725ef33f:-1528559346,f98c2627849243107ae49799b68473b9:0,8d6b226fb95243100cd307238222e705:2112795740,7d4cb541eb124710362ea2d55526d451:-435781808,d1c2f18dce9e07101376edda205e4a3e:0,75a4b096a37d0310dd1c25e981a4c304:2112795740,a9a47096cf7d0310eea07a57780a7f98:-435781808</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>0d017f046fe94fe8ad5b2ec9a30a0bb9</sys_id>
+        <sys_metadata>29b55bebdb5ca740c822fcd6f4961972</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_onpr_onpage.event_log.info</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_properties_29b55bebdb5ca740c822fcd6f4961972</sys_update_name>
+        <sys_update_version display_value="sys_properties_29b55bebdb5ca740c822fcd6f4961972">c81a65e447e60b10cfdde3cc236d4345</sys_update_version>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

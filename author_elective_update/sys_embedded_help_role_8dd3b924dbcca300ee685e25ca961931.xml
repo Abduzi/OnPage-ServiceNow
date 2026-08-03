@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="DELETE">
+        <order>1000</order>
+        <role display_value="">81d3b924dbcca300ee685e25ca961930</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-08-17 16:19:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8dd3b924dbcca300ee685e25ca961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>81d3b924dbcca300ee685e25ca961930</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_embedded_help_role_8dd3b924dbcca300ee685e25ca961931</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-08-17 16:19:11</sys_updated_on>
+    </sys_embedded_help_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_embedded_help_role_8dd3b924dbcca300ee685e25ca961931</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="">81d3b924dbcca300ee685e25ca961930</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-08-17 16:19:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8dd3b924dbcca300ee685e25ca961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>81d3b924dbcca300ee685e25ca961930</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_embedded_help_role_8dd3b924dbcca300ee685e25ca961931</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-08-17 16:19:11</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>]]></payload>
+        <payload_hash>-1455344821</payload_hash>
+        <record_name>81d3b924dbcca300ee685e25ca961930</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:30</sys_created_on>
+        <sys_id>de0a6da447e60b10cfdde3cc236d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887cb9c0000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:30</sys_updated_on>
+        <type>Embedded Help Role Priority</type>
+        <update_guid>1a0a6da486e60b101fba3c8d8ab65bc5</update_guid>
+        <update_guid_history>1a0a6da486e60b101fba3c8d8ab65bc5:0,76eedd6c16660b10890cd6220f69b83d:-511920571,883b43a30ada4310e0acee10a1659610:0,25170723e0564310bc74690afcbdb8cf:-1024800919,db7c2ee34f924310fe6af66602f9138c:0,0b8be2af8d524310c6297077fc7e1676:1213851509,3db2394d299e07107ea5e99688b739c7:0,abd478d64a7d0310bdad1d002abc7c5d:1213851509,6fd478d6c47d0310cb029c57042dd058:-1378568959</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:16:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_embedded_help_role">sys_embedded_help_role</sys_db_object>
+        <sys_id>a53919cacbfe45c8a2a6709edd38aa40</sys_id>
+        <sys_metadata>8dd3b924dbcca300ee685e25ca961931</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>81d3b924dbcca300ee685e25ca961930</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_embedded_help_role_8dd3b924dbcca300ee685e25ca961931</sys_update_name>
+        <sys_update_version display_value="sys_embedded_help_role_8dd3b924dbcca300ee685e25ca961931">de0a6da447e60b10cfdde3cc236d43c5</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:16:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

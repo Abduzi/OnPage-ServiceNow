@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="DELETE">
+        <active>true</active>
+        <map display_value="Onpage Event Transform">789411badb0cab00c822fcd6f49619df</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	var eventStatus = source.value.toString();
+	var eventTimeStamp = source.timestamp.toString();
+	var eventReply = source.replyoption.toString();
+	var eventOPID = source.opid.toString();
+	//gs.info("Transform variables: "+eventStatus+" "+eventTimeStamp+" "+eventReply+" "+eventOPID);
+
+
+	var grActualNotification = new GlideRecord('x_onpr_onpage_notification');
+	if(grActualNotification.get(source.sn_id.toString())){
+		var targetTable = grActualNotification.getValue('table');
+		var targetRec = grActualNotification.getValue('document_id');
+
+		//create notification for work notes
+		var grNotification = new GlideRecord('x_onpr_onpage_notification');
+			grNotification.initialize();
+			grNotification.setValue('status','received');
+			grNotification.setValue('parent','');
+			grNotification.setValue('table',targetTable);
+			grNotification.setValue('document_id',targetRec);
+			grNotification.setValue('short_description','OnPage Response');
+			grNotification.setValue('priority',"LOW");
+
+		var userFullName = getUsername(eventOPID);
+		var message = "";
+		var verb = "";
+		switch(eventStatus){
+			case 'Replied': message = userFullName+ " replied "+eventReply +" at "+ eventTimeStamp; break;
+			default : message = userFullName + " | " + eventStatus + " at " + eventTimeStamp; break;
+		}
+		grNotification.setValue('body',message);
+		grNotification.insert();
+		target.status='processed';
+		source.status='processed';
+		source.table = targetTable;
+		source.document_id  = targetRec;
+	}
+	else{
+		target.status='ignored';
+		source.status='ignored';
+	}
+	
+
+	function getUsername(eventOPID){
+		var gr = new GlideRecord('x_onpr_onpage_target');
+		if(gr.get("opid",eventOPID)){
+			var first = gr.getValue('first_name'),
+				last = gr.getValue('last_name');
+			if(first==null && last==null){
+				first = "OPID";
+				last = eventOPID;
+			}
+			return first + " "+ last;
+		}
+	}
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-20 04:04:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f321ded3dbec2f40ee685e25ca961974</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_transform_script_f321ded3dbec2f40ee685e25ca961974</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-04-06 21:42:57</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_transform_script_f321ded3dbec2f40ee685e25ca961974</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;
+    &lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;map display_value="Onpage Event Transform"&gt;789411badb0cab00c822fcd6f49619df&lt;/map&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;script&gt;&lt;![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	var eventStatus = source.value.toString();
+	var eventTimeStamp = source.timestamp.toString();
+	var eventReply = source.replyoption.toString();
+	var eventOPID = source.opid.toString();
+	//gs.info("Transform variables: "+eventStatus+" "+eventTimeStamp+" "+eventReply+" "+eventOPID);
+
+
+	var grActualNotification = new GlideRecord('x_onpr_onpage_notification');
+	if(grActualNotification.get(source.sn_id.toString())){
+		var targetTable = grActualNotification.getValue('table');
+		var targetRec = grActualNotification.getValue('document_id');
+
+		//create notification for work notes
+		var grNotification = new GlideRecord('x_onpr_onpage_notification');
+			grNotification.initialize();
+			grNotification.setValue('status','received');
+			grNotification.setValue('parent','');
+			grNotification.setValue('table',targetTable);
+			grNotification.setValue('document_id',targetRec);
+			grNotification.setValue('short_description','OnPage Response');
+			grNotification.setValue('priority',"LOW");
+
+		var userFullName = getUsername(eventOPID);
+		var message = "";
+		var verb = "";
+		switch(eventStatus){
+			case 'Replied': message = userFullName+ " replied "+eventReply +" at "+ eventTimeStamp; break;
+			default : message = userFullName + " | " + eventStatus + " at " + eventTimeStamp; break;
+		}
+		grNotification.setValue('body',message);
+		grNotification.insert();
+		target.status='processed';
+		source.status='processed';
+		source.table = targetTable;
+		source.document_id  = targetRec;
+	}
+	else{
+		target.status='ignored';
+		source.status='ignored';
+	}
+	
+
+	function getUsername(eventOPID){
+		var gr = new GlideRecord('x_onpr_onpage_target');
+		if(gr.get("opid",eventOPID)){
+			var first = gr.getValue('first_name'),
+				last = gr.getValue('last_name');
+			if(first==null &amp;&amp; last==null){
+				first = "OPID";
+				last = eventOPID;
+			}
+			return first + " "+ last;
+		}
+	}
+})(source, map, log, target);]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;will.young&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-20 04:04:53&lt;/sys_created_on&gt;
+        &lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;
+        &lt;sys_id&gt;f321ded3dbec2f40ee685e25ca961974&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;39&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;onBefore&lt;/sys_name&gt;
+        &lt;sys_package display_value="OnPage Integration" source="x_onpr_onpage"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;
+        &lt;sys_scope display_value="OnPage Integration"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_transform_script_f321ded3dbec2f40ee685e25ca961974&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;will.young&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-04-06 21:42:57&lt;/sys_updated_on&gt;
+        &lt;when&gt;onBefore&lt;/when&gt;
+    &lt;/sys_transform_script&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1245758116</payload_hash>
+        <record_name>onBefore</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:46</sys_created_on>
+        <sys_id>121aede447e60b10cfdde3cc236d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc88809920000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:46</sys_updated_on>
+        <type>Transform Script</type>
+        <update_guid>5a1aede486e60b108046f5d59d8e0c07</update_guid>
+        <update_guid_history>5a1aede486e60b108046f5d59d8e0c07:0,0aee1d6c70660b109d946d5730074b7f:-474930883,104b83e3f4da4310ab2ce4d7f9e2be7a:0,6417832347564310d36060e7cb230014:-1834848321,d99cee27199243108d05157657cd4e3e:0,5e8b62af5b524310700e56c2ac40225d:-479874072,b1d2fd8d469e0710ab251d4eafac21e8:0,e6d4b4d6817d03103b7d28f96ab2f8bb:-479874072,e2d4b4d6087d0310a21c3fd7c762acb6:-1292043812</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:16:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_transform_script">sys_transform_script</sys_db_object>
+        <sys_id>0e58d1ce68774f4c90f09a5447dd3ac9</sys_id>
+        <sys_metadata>f321ded3dbec2f40ee685e25ca961974</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent display_value="">789411badb0cab00c822fcd6f49619df</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_transform_script_f321ded3dbec2f40ee685e25ca961974</sys_update_name>
+        <sys_update_version display_value="sys_transform_script_f321ded3dbec2f40ee685e25ca961974">121aede447e60b10cfdde3cc236d4308</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:16:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

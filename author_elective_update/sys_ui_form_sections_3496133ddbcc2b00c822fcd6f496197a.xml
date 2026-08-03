@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="3496133ddbcc2b00c822fcd6f496197a" sys_domain="global" table="x_onpr_onpage_notification" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>David.Delahoz</sys_created_by>
+            <sys_created_on>2018-08-21 20:43:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b896133ddbcc2b00c822fcd6f496197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_onpr_onpage_notification" name="x_onpr_onpage_notification" sys_domain="global" view="Default view">3496133ddbcc2b00c822fcd6f496197a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_onpr_onpage_notification" sys_domain="global" view="Default view">3e26d339dbcc2b00c822fcd6f496192d</sys_ui_section>
+            <sys_updated_by>David.Delahoz</sys_updated_by>
+            <sys_updated_on>2018-08-21 20:43:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 20:09:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3d172dfdbd06740c822fcd6f49619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_onpr_onpage_notification" name="x_onpr_onpage_notification" sys_domain="global" view="Default view">3496133ddbcc2b00c822fcd6f496197a</sys_ui_form>
+            <sys_ui_section caption="Content" display_value="Content" name="x_onpr_onpage_notification" sys_domain="global" view="Default view">0fd172dfdbd06740c822fcd6f49619ca</sys_ui_section>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 20:09:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-11-27 00:49:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96113385db0a6f0056c524794b9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_onpr_onpage_notification" name="x_onpr_onpage_notification" sys_domain="global" view="Default view">3496133ddbcc2b00c822fcd6f496197a</sys_ui_form>
+            <sys_ui_section caption="History" display_value="History" name="x_onpr_onpage_notification" sys_domain="global" view="Default view">96117745db0a6f0056c524794b961937</sys_ui_section>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-11-27 00:49:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_onpr_onpage_notification</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>David.Delahoz</sys_created_by>
+            <sys_created_on>2018-08-21 20:43:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3496133ddbcc2b00c822fcd6f496197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_onpr_onpage_notification</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3496133ddbcc2b00c822fcd6f496197a</sys_update_name>
+            <sys_updated_by>David.Delahoz</sys_updated_by>
+            <sys_updated_on>2018-08-21 20:43:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_ui_form_sections_3496133ddbcc2b00c822fcd6f496197a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="3496133ddbcc2b00c822fcd6f496197a" sys_domain="global" table="x_onpr_onpage_notification" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>David.Delahoz</sys_created_by>
+            <sys_created_on>2018-08-21 20:43:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b896133ddbcc2b00c822fcd6f496197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_onpr_onpage_notification" name="x_onpr_onpage_notification" sys_domain="global" view="Default view">3496133ddbcc2b00c822fcd6f496197a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_onpr_onpage_notification" sys_domain="global" view="Default view">3e26d339dbcc2b00c822fcd6f496192d</sys_ui_section>
+            <sys_updated_by>David.Delahoz</sys_updated_by>
+            <sys_updated_on>2018-08-21 20:43:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 20:09:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3d172dfdbd06740c822fcd6f49619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_onpr_onpage_notification" name="x_onpr_onpage_notification" sys_domain="global" view="Default view">3496133ddbcc2b00c822fcd6f496197a</sys_ui_form>
+            <sys_ui_section caption="Content" display_value="Content" name="x_onpr_onpage_notification" sys_domain="global" view="Default view">0fd172dfdbd06740c822fcd6f49619ca</sys_ui_section>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 20:09:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-11-27 00:49:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96113385db0a6f0056c524794b9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_onpr_onpage_notification" name="x_onpr_onpage_notification" sys_domain="global" view="Default view">3496133ddbcc2b00c822fcd6f496197a</sys_ui_form>
+            <sys_ui_section caption="History" display_value="History" name="x_onpr_onpage_notification" sys_domain="global" view="Default view">96117745db0a6f0056c524794b961937</sys_ui_section>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-11-27 00:49:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_onpr_onpage_notification</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>David.Delahoz</sys_created_by>
+            <sys_created_on>2018-08-21 20:43:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3496133ddbcc2b00c822fcd6f496197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_onpr_onpage_notification</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3496133ddbcc2b00c822fcd6f496197a</sys_update_name>
+            <sys_updated_by>David.Delahoz</sys_updated_by>
+            <sys_updated_on>2018-08-21 20:43:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>]]></payload>
+        <payload_hash>-1315906604</payload_hash>
+        <record_name>Onpage Notification</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:46</sys_created_on>
+        <sys_id>121aede447e60b10cfdde3cc236d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc8880b070000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:46</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>5a1aede4d7e60b10ac4262c0047a714a</update_guid>
+        <update_guid_history>5a1aede4d7e60b10ac4262c0047a714a:0,729e51e89e660b102eaa97e429c2b1ed:1782236394,644b83e3a2da4310f70e54574e23b1d6:0,d9c68f6f11164310ecb1702d68fc9569:-696070254,d99cee2769924310fd535f4dbcb1f69a:0,2e2b6aeb42524310b22fcd98bdc17a94:2122381881,82d231cdfb9e07106223723f6a20cd68:0,558470561e7d03106d1f956d947f4061:2122381881</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>David.Delahoz</sys_created_by>
+        <sys_created_on>2026-08-03 23:14:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>21cd02469a0c48b1b0dde80a64a3c571</sys_id>
+        <sys_metadata>3496133ddbcc2b00c822fcd6f496197a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_onpr_onpage_notification</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent display_value="">c2f9ad6447e60b10cfdde3cc236d4301</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_3496133ddbcc2b00c822fcd6f496197a</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_3496133ddbcc2b00c822fcd6f496197a">121aede447e60b10cfdde3cc236d434b</sys_update_version>
+        <sys_updated_by>David.Delahoz</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:14:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <description/>
+        <event_name>x_onpr_onpage.notification_queue</event_name>
+        <fired_by>Scheduled Job </fired_by>
+        <queue/>
+        <suffix>notification_queue</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>lorena.villanueva</sys_created_by>
+        <sys_created_on>2018-09-06 20:47:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dec0f50bdb1c2340ee685e25ca9619da</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_onpr_onpage.notification_queue</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sysevent_register_dec0f50bdb1c2340ee685e25ca9619da</sys_update_name>
+        <sys_updated_by>lorena.villanueva</sys_updated_by>
+        <sys_updated_on>2018-09-06 20:48:00</sys_updated_on>
+        <table>x_onpr_onpage_notification</table>
+    </sysevent_register>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sysevent_register_dec0f50bdb1c2340ee685e25ca9619da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>x_onpr_onpage.notification_queue</event_name>
+        <fired_by>Scheduled Job </fired_by>
+        <queue/>
+        <suffix>notification_queue</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>lorena.villanueva</sys_created_by>
+        <sys_created_on>2018-09-06 20:47:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dec0f50bdb1c2340ee685e25ca9619da</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_onpr_onpage.notification_queue</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sysevent_register_dec0f50bdb1c2340ee685e25ca9619da</sys_update_name>
+        <sys_updated_by>lorena.villanueva</sys_updated_by>
+        <sys_updated_on>2018-09-06 20:48:00</sys_updated_on>
+        <table>x_onpr_onpage_notification</table>
+    </sysevent_register>
+</record_update>]]></payload>
+        <payload_hash>199010726</payload_hash>
+        <record_name>x_onpr_onpage.notification_queue</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:50</sys_created_on>
+        <sys_id>571ae12847e60b10cfdde3cc236d43a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc8881b4c0000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:50</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>9f1ae1289be60b1024dc14662998c7a7</update_guid>
+        <update_guid_history>9f1ae1289be60b1024dc14662998c7a7:0,1b1f95ec59660b10a562d27287737a4e:129394682,6d4b87e345da4310eec5e6a27c0a38f5:0,2737c763e956431023746d0f3f74fdfa:1433449507,0f9c266711924310a4aadcb86673055c:0,9dcb2aef065243102a0da023f010f012:1433449507,cce2b5cdce9e07108616aa0363a21a54:0,de15fc1adb7d0310a78822d8be871732:974978855,9615fc1ae57d0310c88c6646a5a9062c:2047787675</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lorena.villanueva</sys_created_by>
+        <sys_created_on>2026-08-03 23:17:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>70ced8cb423b418286633b2a10116ab1</sys_id>
+        <sys_metadata>dec0f50bdb1c2340ee685e25ca9619da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_onpr_onpage.notification_queue</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent display_value="">c2f9ad6447e60b10cfdde3cc236d4301</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sysevent_register_dec0f50bdb1c2340ee685e25ca9619da</sys_update_name>
+        <sys_update_version display_value="sysevent_register_dec0f50bdb1c2340ee685e25ca9619da">571ae12847e60b10cfdde3cc236d43a8</sys_update_version>
+        <sys_updated_by>lorena.villanueva</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:17:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

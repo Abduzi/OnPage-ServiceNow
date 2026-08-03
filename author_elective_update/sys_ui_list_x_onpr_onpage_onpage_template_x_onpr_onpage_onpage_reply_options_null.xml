@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="x_onpr_onpage_onpage_reply_options" relationship="" sys_domain="global" table="x_onpr_onpage_onpage_template" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_onpr_onpage_onpage_template" element="NULL" name="x_onpr_onpage_onpage_template" parent="x_onpr_onpage_onpage_reply_options" relationship="NULL" sys_domain="global" view="Default view">c39f2e9bdbd06740c822fcd6f496194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 19:59:22</sys_created_on>
+            <sys_id>df9f2e9bdbd06740c822fcd6f496194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 19:59:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>owner</element>
+            <list_id display_value="x_onpr_onpage_onpage_template" element="NULL" name="x_onpr_onpage_onpage_template" parent="x_onpr_onpage_onpage_reply_options" relationship="NULL" sys_domain="global" view="Default view">c39f2e9bdbd06740c822fcd6f496194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 19:59:22</sys_created_on>
+            <sys_id>579f2e9bdbd06740c822fcd6f496194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 19:59:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>subject</element>
+            <list_id display_value="x_onpr_onpage_onpage_template" element="NULL" name="x_onpr_onpage_onpage_template" parent="x_onpr_onpage_onpage_reply_options" relationship="NULL" sys_domain="global" view="Default view">c39f2e9bdbd06740c822fcd6f496194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 19:59:22</sys_created_on>
+            <sys_id>d79f2e9bdbd06740c822fcd6f496194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 19:59:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>body</element>
+            <list_id display_value="x_onpr_onpage_onpage_template" element="NULL" name="x_onpr_onpage_onpage_template" parent="x_onpr_onpage_onpage_reply_options" relationship="NULL" sys_domain="global" view="Default view">c39f2e9bdbd06740c822fcd6f496194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 19:59:22</sys_created_on>
+            <sys_id>5b9f2e9bdbd06740c822fcd6f496194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 19:59:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>recipients</element>
+            <list_id display_value="x_onpr_onpage_onpage_template" element="NULL" name="x_onpr_onpage_onpage_template" parent="x_onpr_onpage_onpage_reply_options" relationship="NULL" sys_domain="global" view="Default view">c39f2e9bdbd06740c822fcd6f496194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 19:59:22</sys_created_on>
+            <sys_id>db9f2e9bdbd06740c822fcd6f496194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 19:59:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>table</element>
+            <list_id display_value="x_onpr_onpage_onpage_template" element="NULL" name="x_onpr_onpage_onpage_template" parent="x_onpr_onpage_onpage_reply_options" relationship="NULL" sys_domain="global" view="Default view">c39f2e9bdbd06740c822fcd6f496194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 19:59:22</sys_created_on>
+            <sys_id>5f9f2e9bdbd06740c822fcd6f496194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 19:59:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_onpr_onpage_onpage_template</name>
+            <parent>x_onpr_onpage_onpage_reply_options</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 19:59:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c39f2e9bdbd06740c822fcd6f496194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_onpr_onpage_onpage_template</sys_name>
+            <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+            <sys_update_name>sys_ui_list_x_onpr_onpage_onpage_template_x_onpr_onpage_onpage_reply_options_null</sys_update_name>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 19:59:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_ui_list_x_onpr_onpage_onpage_template_x_onpr_onpage_onpage_reply_options_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="x_onpr_onpage_onpage_reply_options" relationship="" sys_domain="global" table="x_onpr_onpage_onpage_template" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_onpr_onpage_onpage_template" element="NULL" name="x_onpr_onpage_onpage_template" parent="x_onpr_onpage_onpage_reply_options" relationship="NULL" sys_domain="global" view="Default view">c39f2e9bdbd06740c822fcd6f496194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 19:59:22</sys_created_on>
+            <sys_id>df9f2e9bdbd06740c822fcd6f496194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 19:59:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>owner</element>
+            <list_id display_value="x_onpr_onpage_onpage_template" element="NULL" name="x_onpr_onpage_onpage_template" parent="x_onpr_onpage_onpage_reply_options" relationship="NULL" sys_domain="global" view="Default view">c39f2e9bdbd06740c822fcd6f496194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 19:59:22</sys_created_on>
+            <sys_id>579f2e9bdbd06740c822fcd6f496194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 19:59:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>subject</element>
+            <list_id display_value="x_onpr_onpage_onpage_template" element="NULL" name="x_onpr_onpage_onpage_template" parent="x_onpr_onpage_onpage_reply_options" relationship="NULL" sys_domain="global" view="Default view">c39f2e9bdbd06740c822fcd6f496194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 19:59:22</sys_created_on>
+            <sys_id>d79f2e9bdbd06740c822fcd6f496194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 19:59:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>body</element>
+            <list_id display_value="x_onpr_onpage_onpage_template" element="NULL" name="x_onpr_onpage_onpage_template" parent="x_onpr_onpage_onpage_reply_options" relationship="NULL" sys_domain="global" view="Default view">c39f2e9bdbd06740c822fcd6f496194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 19:59:22</sys_created_on>
+            <sys_id>5b9f2e9bdbd06740c822fcd6f496194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 19:59:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>recipients</element>
+            <list_id display_value="x_onpr_onpage_onpage_template" element="NULL" name="x_onpr_onpage_onpage_template" parent="x_onpr_onpage_onpage_reply_options" relationship="NULL" sys_domain="global" view="Default view">c39f2e9bdbd06740c822fcd6f496194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 19:59:22</sys_created_on>
+            <sys_id>db9f2e9bdbd06740c822fcd6f496194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 19:59:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>table</element>
+            <list_id display_value="x_onpr_onpage_onpage_template" element="NULL" name="x_onpr_onpage_onpage_template" parent="x_onpr_onpage_onpage_reply_options" relationship="NULL" sys_domain="global" view="Default view">c39f2e9bdbd06740c822fcd6f496194d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 19:59:22</sys_created_on>
+            <sys_id>5f9f2e9bdbd06740c822fcd6f496194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 19:59:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_onpr_onpage_onpage_template</name>
+            <parent>x_onpr_onpage_onpage_reply_options</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>will.young</sys_created_by>
+            <sys_created_on>2018-09-07 19:59:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c39f2e9bdbd06740c822fcd6f496194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_onpr_onpage_onpage_template</sys_name>
+            <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+            <sys_update_name>sys_ui_list_x_onpr_onpage_onpage_template_x_onpr_onpage_onpage_reply_options_null</sys_update_name>
+            <sys_updated_by>will.young</sys_updated_by>
+            <sys_updated_on>2018-09-07 19:59:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>]]></payload>
+        <payload_hash>513023311</payload_hash>
+        <record_name>OnPage Reply Options.OnPage Template</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:47</sys_created_on>
+        <sys_id>2a1a212847e60b10cfdde3cc236d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc8880f200000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:47</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>621a212835e60b10228fbc28dbd2dd7c</update_guid>
+        <update_guid_history>621a212835e60b10228fbc28dbd2dd7c:0,7caed5e887660b1051d8f8beeba99ebd:-1096841719,744bc3e384da43103e9b4fd33c4442c8:0,7d96872ff5164310eae5cfd61a7f644b:-1096841719,359c2267a69243102cb642baff559cf1:0,b50be6abc3524310e314bbcc9f226fc3:-1096841719,66d2b1cd2b9e0710fddff02606b86e15:0,7a14b0d2cc7d0310a3323c07c46409e2:-1096841719</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:14:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>070003ecdfb244198236a9337f8d3651</sys_id>
+        <sys_metadata>c39f2e9bdbd06740c822fcd6f496194d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_onpr_onpage_onpage_template</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent display_value="">7af9ed6447e60b10cfdde3cc236d43fb</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_onpr_onpage_onpage_template_x_onpr_onpage_onpage_reply_options_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_onpr_onpage_onpage_template_x_onpr_onpage_onpage_reply_options_null">2a1a212847e60b10cfdde3cc236d437c</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:14:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

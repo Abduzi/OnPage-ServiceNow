@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>create</operation>
+        <source_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2019-03-21 20:09:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>58cffacadb94bf40c8c656594b9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_scope_privilege_58cffacadb94bf40c8c656594b9619ef</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-03-21 20:09:00</sys_updated_on>
+        <target_name>sys_user</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_scope_privilege_58cffacadb94bf40c8c656594b9619ef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>create</operation>
+        <source_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2019-03-21 20:09:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>58cffacadb94bf40c8c656594b9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_scope_privilege_58cffacadb94bf40c8c656594b9619ef</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-03-21 20:09:00</sys_updated_on>
+        <target_name>sys_user</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>]]></payload>
+        <payload_hash>-2032119579</payload_hash>
+        <record_name>sys_user</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:40</sys_created_on>
+        <sys_id>701a29e447e60b10cfdde3cc236d4354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887f2700000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:40</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>b81a29e424e60b107d7b8a215aeee053</update_guid>
+        <update_guid_history>b81a29e424e60b107d7b8a215aeee053:0,e1de516ce1660b105497c42917da9fed:-472568058,b63bcba3b5da43106964a67689df1d6e:0,28074befb2164310fecf22fd80637475:-1677670920,c78c2a2742924310054f726c9303b92b:0,347be66f49524310294e28b3f04dd743:-863588417,7ac2f58df59e0710450b5e03421f4666:0,89c4f896057d03105a4a21f83056f6d6:-863588417,09c4f896d07d0310fcc2df0d9bb9e2d1:-194630477</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:16:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>1379fba76219482caedf54e3eef72889</sys_id>
+        <sys_metadata>58cffacadb94bf40c8c656594b9619ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_58cffacadb94bf40c8c656594b9619ef</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_58cffacadb94bf40c8c656594b9619ef">701a29e447e60b10cfdde3cc236d4354</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:16:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

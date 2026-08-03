@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="DELETE">
+        <action>true</action>
+        <action_event>click</action_event>
+        <action_target/>
+        <action_target_ref/>
+        <active>true</active>
+        <content><![CDATA[Save your changes]]></content>
+        <guide/>
+        <implicit>false</implicit>
+        <link/>
+        <name>Step 40</name>
+        <options/>
+        <order>11</order>
+        <placement>top</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-11-01 14:12:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>cebfa04ddb2d2fc4c822fcd6f4961963</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Step 40</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_cebfa04ddb2d2fc4c822fcd6f4961963</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-12-31 19:31:39</sys_updated_on>
+        <target/>
+        <target_ref/>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>system_properties_ui.do</window>
+    </sys_embedded_tour_step>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_embedded_tour_step_cebfa04ddb2d2fc4c822fcd6f4961963</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_embedded_tour_step"&gt;&lt;sys_embedded_tour_step action="INSERT_OR_UPDATE"&gt;&lt;action&gt;true&lt;/action&gt;&lt;action_event&gt;click&lt;/action_event&gt;&lt;action_target/&gt;&lt;action_target_ref/&gt;&lt;active&gt;true&lt;/active&gt;&lt;content&gt;&lt;![CDATA[Save your changes]]&gt;&lt;/content&gt;&lt;guide/&gt;&lt;implicit&gt;false&lt;/implicit&gt;&lt;link/&gt;&lt;name&gt;Step 40&lt;/name&gt;&lt;options/&gt;&lt;order&gt;11&lt;/order&gt;&lt;placement&gt;top&lt;/placement&gt;&lt;skippable&gt;false&lt;/skippable&gt;&lt;step_type&gt;step&lt;/step_type&gt;&lt;sys_class_name&gt;sys_embedded_tour_step&lt;/sys_class_name&gt;&lt;sys_created_by&gt;will.young&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-01 14:12:45&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;cebfa04ddb2d2fc4c822fcd6f4961963&lt;/sys_id&gt;&lt;sys_mod_count&gt;29&lt;/sys_mod_count&gt;&lt;sys_name&gt;Step 40&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="OnPage Integration" source="x_onpr_onpage"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="OnPage Integration"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_embedded_tour_step_cebfa04ddb2d2fc4c822fcd6f4961963&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;will.young&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-12-31 19:31:39&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;target_ref/&gt;&lt;title/&gt;&lt;ui_version&gt;dynamic&lt;/ui_version&gt;&lt;view/&gt;&lt;window&gt;system_properties_ui.do&lt;/window&gt;&lt;/sys_embedded_tour_step&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1377857715</payload_hash>
+        <record_name>Step 40</record_name>
+        <reverted_from/>
+        <source>2c6a46e01b6e87107f50cb35604bcbaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>toan.tran</sys_created_by>
+        <sys_created_on>2026-08-03 23:16:37</sys_created_on>
+        <sys_id>8da28f2c1ba2c7107f50cb35604bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc9ea37690000001</sys_recorded_at>
+        <sys_updated_by>toan.tran</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:16:37</sys_updated_on>
+        <type>Guided Tour Step</type>
+        <update_guid>c5a28f2c22a2c710d967593eefc6dc92</update_guid>
+        <update_guid_history>c5a28f2c22a2c710d967593eefc6dc92:0,5d528fa8f2a2c710ccc5952a5e89eb42:0,11528fa839a2c710b5bfd10238bc873f:0,cb0a21e4c4e60b107c652017ac6a2b88:0,b41f91ec05660b10479a97f6af225fcf:-84266887,7fee91ac34660b108f2785f9f7c5c904:0,e2bedde854660b10184bb6c20a41ea5e:0,a6bedde833660b1063391de17748d85a:0,343bc3a3deda43109a2ccb30d51341ed:0,9e374763725643105b459e62f83bfa4c:-168404647,2217c723e7564310abc5a84287acaa32:0,42d60baf191643100b0a53d20fc840ea:0,06d60bafa3164310d7b0172ce3fd00e6:0,188ceee31d924310af7d684053dcfbb3:0,48cb66efd15243108b69401094e9cf31:-168404647,509b66af8252431022f2c80ef53a86d2:0,d85b6a2fb4524310e0689c350a471612:0,9c5b6a2f8d52431024e80e9f42f3430e:0,8fb23d4dcb9e0710ba4353c3abaeaa9c:0,e305f81aa57d03101b1c36e82d46c3c0:-168404647,f0e43cd6f17d0310baf8a3c817fcfb81:0,8e947856237d03108c5bff1f39f7c1df:0,8e947856617d031056b0f07ffd12b9da:-658104449</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:17:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_embedded_tour_step">sys_embedded_tour_step</sys_db_object>
+        <sys_id>28c21238c383401cb86821ab9303e679</sys_id>
+        <sys_metadata>cebfa04ddb2d2fc4c822fcd6f4961963</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Step 40</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_step_cebfa04ddb2d2fc4c822fcd6f4961963</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_step_cebfa04ddb2d2fc4c822fcd6f4961963">8da28f2c1ba2c7107f50cb35604bcb92</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:17:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

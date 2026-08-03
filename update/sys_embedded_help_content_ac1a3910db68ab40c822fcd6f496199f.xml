@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
     <sys_embedded_help_content action="INSERT_OR_UPDATE">
         <active>true</active>
+        <ai_generated>false</ai_generated>
         <category>sys-help-tours</category>
         <content><![CDATA[<div>
  <h1 class="title topictitle1">Edit a guided tour</h1>
@@ -23,13 +24,13 @@
      Related information
     <br />
     <div>
-     <a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Guided-Tours&amp;version&#61;kingston" target="_blank" rel="nofollow">Guided tours</a>
+     <a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Guided-Tours&amp;version&#61;kingston" target="_blank" rel="nofollow noopener noreferrer">Guided tours</a>
     </div>
     <div>
-     <a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:GTD-Interface&amp;version&#61;kingston" target="_blank" rel="nofollow">Guided Tour Designer interface</a>
+     <a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:GTD-Interface&amp;version&#61;kingston" target="_blank" rel="nofollow noopener noreferrer">Guided Tour Designer interface</a>
     </div>
     <div>
-     <a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Guided-Tour-Edit&amp;version&#61;kingston" target="_blank" rel="nofollow">Edit a guided tour</a>
+     <a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Guided-Tour-Edit&amp;version&#61;kingston" target="_blank" rel="nofollow noopener noreferrer">Edit a guided tour</a>
     </div>
    </div>
   </div>

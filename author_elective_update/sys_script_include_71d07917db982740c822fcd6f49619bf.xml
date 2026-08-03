@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_onpr_onpage.setup</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>setup</name>
+        <script><![CDATA[var setup = Class.create();
+setup.prototype = {
+    initialize: function() {
+		this.URLsub = gs.getProperty('x_onpr_onpage.URLsubdomain');
+		//LOGGING/////////
+		this.logType = "outbound";
+		this.logTable = '';
+		this.logID = '';
+		this.log = new x_onpr_onpage.log();
+		this.error = function(message){
+		  this.log.error(message,this.logType,this.logTable,this.logID);
+		};
+		this.info = function(message){
+		  this.log.info(message,this.logType,this.logTable,this.logID);
+		};
+    },
+	register: function(email,pw){
+		//register the instance with OnPage and get token/key
+		this.info("Starting registration process");
+		var instance = gs.getProperty('instance_name'),
+			username = "onpage",
+			password = pw;
+		var rest = new sn_ws.RESTMessageV2("Register with OnPage","Register");
+			rest.setStringParameterNoEscape('URLsub',this.URLsub);
+			rest.setStringParameterNoEscape('dispEmail',email);
+			rest.setStringParameterNoEscape('dispPass',pw);
+			rest.setStringParameterNoEscape('instance',instance);
+			rest.setStringParameterNoEscape('username',username);
+			rest.setStringParameterNoEscape('password',password);
+		var response = rest.execute();
+		var status = response.getStatusCode();
+		var body = response.getBody();
+		this.info("Registration response: "+status+": "+body);
+		if(status!=200){
+			this.error("Automatic registration process failed.");
+			var request = rest.getRequestBody(),
+				table = '',
+				id = '';
+			this._handleErrors(request,status,body);
+		}
+		else{
+			//parse for key values and update sys properties
+			var json = JSON.parse(body);
+			var token = json.credentials.token;
+			var key = json.credentials.secretKey;
+			this.info("New Token: "+token);
+			this.info("New Key: "+key);
+			gs.setProperty('x_onpr_onpage.auth.token',token);
+			gs.setProperty('x_onpr_onpage.auth.key',key);
+		}
+	
+
+		//Sync all targets(users/groups) after setup done
+		var syncTargets = new x_onpr_onpage.sync();
+		syncTargets.targetSync();
+
+		this.info("Registration process completed.");
+	},
+	setupIA: function(){
+		var script = (function executeRule(current, previous /*null when async*/) {
+	var updatedBy = current.getValue('sys_updated_by');
+	if(updatedBy=='onpage'){
+		return;
+	}
+	//check if there is are subscriptions for this table
+	var prop = gs.getProperty('x_onpr_onpage.subscription.tables'),
+		tables = prop.split(","),
+		table = current.getTableName();
+	if(tables.indexOf(table)==-1){
+		return;
+	}
+	var jsonCurrent = new global.JSON().encode(current);
+	var jsonPrevious = new global.JSON().encode(previous);
+	var gr = new GlideRecord('x_onpr_onpage_event');
+		gr.initialize();
+		gr.setValue('table', current.getTableName());
+		gr.setValue('document_id', current.sys_id);
+		gr.setValue('status', 'new');
+		gr.setValue('type', 'outbound');
+		gr.setValue('current', jsonCurrent);
+		gr.setValue('previous', jsonPrevious);
+		gr.insert();
+
+})(current, previous);
+		
+		
+		var gr = new GlideRecord('sys_script');
+		gr.initialize();
+		gr.setValue('collection',"incident_alert");
+		gr.setValue('name',"Generate OnPage events from IA Updates");
+		gr.setValue('action_insert','true');
+		gr.setValue('action_update','true');
+		gr.setValue('advanced','true');
+		gr.setValue('script',script);
+		gr.insert();
+	},
+	_createUser: function(){
+		this.info("Create User function starting");
+
+		//check for existing account
+		var sys_id;
+		var gr = new GlideRecord('sys_user');
+			gr.addQuery('user_name',"onpage");
+			gr.query();
+		if(gr.next()){
+			//if exists, update password
+			this.info("OnPage user already exists.");
+			sys_id = gr.getUniqueValue();
+		}
+		else{
+			//doesn't exist, create user
+			this.info("OnPage user does not exist. Creating.");
+			gr.initialize();
+			gr.setValue('user_name',"onpage");
+			gr.setValue('first_name',"OnPage");
+			gr.setValue('last_name',"Integration");
+			gr.setValue('web_service_access_only',true);
+			gr.insert();
+			sys_id = gr.getUniqueValue();
+		}
+		//check for user roles
+		this.info("Checking for user roles.");
+		var role = new GlideRecord('sys_user_role');
+		if(role.get("name","x_onpr_onpage.integration_user")){
+			var roleGR = new GlideRecord('sys_user_has_role');
+				roleGR.addQuery('user',sys_id);
+				roleGR.addQuery('role',role.getUniqueValue());
+				roleGR.query();
+			if(roleGR.next()){
+				//if existing, do nothing
+				this.info("OnPage user has roles. No changes to make.");
+			}
+			else{
+				//not existing, create record
+				this.info("OnPage user does not have roles. Adding role.");
+				var grantRole = new GlideRecord('sys_user_has_role');
+				grantRole.initialize();
+				grantRole.setValue('user',sys_id);
+				grantRole.setValue('role',role.getUniqueValue());
+				grantRole.insert();
+			}
+			this.info("create user sys id:"+sys_id);
+			return sys_id;
+		}
+	},
+	_handleErrors: function(request,status,body){
+		var handle = new x_onpr_onpage.handleErrors();
+			handle.rest(request,status,body);
+	},
+    type: 'setup'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-07 15:49:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>71d07917db982740c822fcd6f49619bf</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>setup</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_script_include_71d07917db982740c822fcd6f49619bf</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-04-06 21:01:53</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_script_include_71d07917db982740c822fcd6f49619bf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_onpr_onpage.setup&lt;/api_name&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;setup&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var setup = Class.create();
+setup.prototype = {
+    initialize: function() {
+		this.URLsub = gs.getProperty('x_onpr_onpage.URLsubdomain');
+		//LOGGING/////////
+		this.logType = "outbound";
+		this.logTable = '';
+		this.logID = '';
+		this.log = new x_onpr_onpage.log();
+		this.error = function(message){
+		  this.log.error(message,this.logType,this.logTable,this.logID);
+		};
+		this.info = function(message){
+		  this.log.info(message,this.logType,this.logTable,this.logID);
+		};
+    },
+	register: function(email,pw){
+		//register the instance with OnPage and get token/key
+		this.info("Starting registration process");
+		var instance = gs.getProperty('instance_name'),
+			username = "onpage",
+			password = pw;
+		var rest = new sn_ws.RESTMessageV2("Register with OnPage","Register");
+			rest.setStringParameterNoEscape('URLsub',this.URLsub);
+			rest.setStringParameterNoEscape('dispEmail',email);
+			rest.setStringParameterNoEscape('dispPass',pw);
+			rest.setStringParameterNoEscape('instance',instance);
+			rest.setStringParameterNoEscape('username',username);
+			rest.setStringParameterNoEscape('password',password);
+		var response = rest.execute();
+		var status = response.getStatusCode();
+		var body = response.getBody();
+		this.info("Registration response: "+status+": "+body);
+		if(status!=200){
+			this.error("Automatic registration process failed.");
+			var request = rest.getRequestBody(),
+				table = '',
+				id = '';
+			this._handleErrors(request,status,body);
+		}
+		else{
+			//parse for key values and update sys properties
+			var json = JSON.parse(body);
+			var token = json.credentials.token;
+			var key = json.credentials.secretKey;
+			this.info("New Token: "+token);
+			this.info("New Key: "+key);
+			gs.setProperty('x_onpr_onpage.auth.token',token);
+			gs.setProperty('x_onpr_onpage.auth.key',key);
+		}
+	
+
+		//Sync all targets(users/groups) after setup done
+		var syncTargets = new x_onpr_onpage.sync();
+		syncTargets.targetSync();
+
+		this.info("Registration process completed.");
+	},
+	setupIA: function(){
+		var script = (function executeRule(current, previous /*null when async*/) {
+	var updatedBy = current.getValue('sys_updated_by');
+	if(updatedBy=='onpage'){
+		return;
+	}
+	//check if there is are subscriptions for this table
+	var prop = gs.getProperty('x_onpr_onpage.subscription.tables'),
+		tables = prop.split(","),
+		table = current.getTableName();
+	if(tables.indexOf(table)==-1){
+		return;
+	}
+	var jsonCurrent = new global.JSON().encode(current);
+	var jsonPrevious = new global.JSON().encode(previous);
+	var gr = new GlideRecord('x_onpr_onpage_event');
+		gr.initialize();
+		gr.setValue('table', current.getTableName());
+		gr.setValue('document_id', current.sys_id);
+		gr.setValue('status', 'new');
+		gr.setValue('type', 'outbound');
+		gr.setValue('current', jsonCurrent);
+		gr.setValue('previous', jsonPrevious);
+		gr.insert();
+
+})(current, previous);
+		
+		
+		var gr = new GlideRecord('sys_script');
+		gr.initialize();
+		gr.setValue('collection',"incident_alert");
+		gr.setValue('name',"Generate OnPage events from IA Updates");
+		gr.setValue('action_insert','true');
+		gr.setValue('action_update','true');
+		gr.setValue('advanced','true');
+		gr.setValue('script',script);
+		gr.insert();
+	},
+	_createUser: function(){
+		this.info("Create User function starting");
+
+		//check for existing account
+		var sys_id;
+		var gr = new GlideRecord('sys_user');
+			gr.addQuery('user_name',"onpage");
+			gr.query();
+		if(gr.next()){
+			//if exists, update password
+			this.info("OnPage user already exists.");
+			sys_id = gr.getUniqueValue();
+		}
+		else{
+			//doesn't exist, create user
+			this.info("OnPage user does not exist. Creating.");
+			gr.initialize();
+			gr.setValue('user_name',"onpage");
+			gr.setValue('first_name',"OnPage");
+			gr.setValue('last_name',"Integration");
+			gr.setValue('web_service_access_only',true);
+			gr.insert();
+			sys_id = gr.getUniqueValue();
+		}
+		//check for user roles
+		this.info("Checking for user roles.");
+		var role = new GlideRecord('sys_user_role');
+		if(role.get("name","x_onpr_onpage.integration_user")){
+			var roleGR = new GlideRecord('sys_user_has_role');
+				roleGR.addQuery('user',sys_id);
+				roleGR.addQuery('role',role.getUniqueValue());
+				roleGR.query();
+			if(roleGR.next()){
+				//if existing, do nothing
+				this.info("OnPage user has roles. No changes to make.");
+			}
+			else{
+				//not existing, create record
+				this.info("OnPage user does not have roles. Adding role.");
+				var grantRole = new GlideRecord('sys_user_has_role');
+				grantRole.initialize();
+				grantRole.setValue('user',sys_id);
+				grantRole.setValue('role',role.getUniqueValue());
+				grantRole.insert();
+			}
+			this.info("create user sys id:"+sys_id);
+			return sys_id;
+		}
+	},
+	_handleErrors: function(request,status,body){
+		var handle = new x_onpr_onpage.handleErrors();
+			handle.rest(request,status,body);
+	},
+    type: 'setup'
+};]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;will.young&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-07 15:49:22&lt;/sys_created_on&gt;
+        &lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;
+        &lt;sys_id&gt;71d07917db982740c822fcd6f49619bf&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;38&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;setup&lt;/sys_name&gt;
+        &lt;sys_package display_value="OnPage Integration" source="x_onpr_onpage"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;
+        &lt;sys_scope display_value="OnPage Integration"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_71d07917db982740c822fcd6f49619bf&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;will.young&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-04-06 21:01:53&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1220243075</payload_hash>
+        <record_name>setup</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:41</sys_created_on>
+        <sys_id>0d1a69e447e60b10cfdde3cc236d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887f7a60000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:41</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>451a69e45de60b104a5cfbdd0c5f68a1</update_guid>
+        <update_guid_history>451a69e45de60b104a5cfbdd0c5f68a1:0,a4ee196c34660b10e482f2fdea5fff06:858767513,4b3b0fa32eda431025d96dfc2c834096:0,e2078fef98164310dcb1d690d6ac9a1a:445429816,a78c6a274e9243102773038d3aa798b7:0,448b6e6f79524310cf7e0f0eb7085a68:1695906230,6fc2798ddc9e0710110b0875efe6512b:0,97c470d6527d0310e13c1c2522d337da:-1288768154,c3c470d6887d031051ebc34b4c9f48c4:-1454015142</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:16:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>9a2d7f9367ab4df8a05b193dc96f8724</sys_id>
+        <sys_metadata>71d07917db982740c822fcd6f49619bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>setup</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_script_include_71d07917db982740c822fcd6f49619bf</sys_update_name>
+        <sys_update_version display_value="sys_script_include_71d07917db982740c822fcd6f49619bf">0d1a69e447e60b10cfdde3cc236d43a1</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:16:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

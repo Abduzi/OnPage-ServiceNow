@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_onpr_onpage.cleanup</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>cleanup</name>
+        <script><![CDATA[var cleanup = Class.create();
+cleanup.prototype = {
+    initialize: function() {
+		//LOGGING/////////
+		this.logType = "internal";
+		this.logTable = 'sysauto_script';
+		this.logID = gs.getProperty('x_onpr_onpage.scripts.cleanup');
+		this.log = new x_onpr_onpage.log();
+		this.error = function(message){
+		  this.log.error(message,this.logType,this.logTable,this.logID);
+		};
+		this.info = function(message){
+		  this.log.info(message,this.logType,this.logTable,this.logID);
+		};
+    },
+	allEvents: function(){
+		this.info('Cleanup info function starting');
+		this.info("Starting default log cleanup.");
+		//number of days
+		var days = 90;
+		var gr = new GlideRecord('x_onpr_onpage_event');
+			gr.addEncodedQuery('sys_created_onRELATIVELE@dayofweek@ago@'+days);
+			gr.query();
+		if(gr.hasNext()){
+			this.info('Deleting info messages older than '+days+' days.');
+			gr.deleteMultiple();
+		}
+
+		var gr2 = new GlideRecord('x_onpr_onpage_notification');
+			gr2.addEncodedQuery('sys_created_onRELATIVELE@dayofweek@ago@'+days);
+			gr2.query();
+		if(gr2.hasNext()){
+			this.info('Deleting info messages older than '+days+' days.');
+			gr2.deleteMultiple();
+		}
+	},
+
+	infoLog: function(){
+		this.info('Cleanup info function starting');
+		this.info("Starting info log cleanup.");
+		//number of days
+		var days = 14;
+		var gr = new GlideRecord('x_onpr_onpage_event');
+			gr.addQuery('status','info');
+			gr.addEncodedQuery('sys_created_onRELATIVELE@dayofweek@ago@'+days);
+			gr.query();
+		if(gr.hasNext()){
+			this.info('Deleting info messages older than '+days+' days.');
+			gr.deleteMultiple();
+		}
+	},
+
+	errorLog: function(){
+		this.info("Starting error log cleanup.");
+		//number of days
+		var days = 30;
+		var gr = new GlideRecord('x_onpr_onpage_event');
+			gr.addQuery('status','error');
+			gr.addEncodedQuery('sys_created_onRELATIVELE@dayofweek@ago@'+days);
+			gr.query();
+		if(gr.hasNext()){
+			this.error('Deleting error messages older than '+days+' days.');
+			gr.deleteMultiple();
+		}
+	},
+
+    type: 'cleanup'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-11 15:14:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>50b3562cdba42740ee685e25ca961961</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>cleanup</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_script_include_50b3562cdba42740ee685e25ca961961</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-03-21 21:55:46</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_script_include_50b3562cdba42740ee685e25ca961961</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;public&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_onpr_onpage.cleanup&lt;/api_name&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;cleanup&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var cleanup = Class.create();
+cleanup.prototype = {
+    initialize: function() {
+		//LOGGING/////////
+		this.logType = "internal";
+		this.logTable = 'sysauto_script';
+		this.logID = gs.getProperty('x_onpr_onpage.scripts.cleanup');
+		this.log = new x_onpr_onpage.log();
+		this.error = function(message){
+		  this.log.error(message,this.logType,this.logTable,this.logID);
+		};
+		this.info = function(message){
+		  this.log.info(message,this.logType,this.logTable,this.logID);
+		};
+    },
+	allEvents: function(){
+		this.info('Cleanup info function starting');
+		this.info("Starting default log cleanup.");
+		//number of days
+		var days = 90;
+		var gr = new GlideRecord('x_onpr_onpage_event');
+			gr.addEncodedQuery('sys_created_onRELATIVELE@dayofweek@ago@'+days);
+			gr.query();
+		if(gr.hasNext()){
+			this.info('Deleting info messages older than '+days+' days.');
+			gr.deleteMultiple();
+		}
+
+		var gr2 = new GlideRecord('x_onpr_onpage_notification');
+			gr2.addEncodedQuery('sys_created_onRELATIVELE@dayofweek@ago@'+days);
+			gr2.query();
+		if(gr2.hasNext()){
+			this.info('Deleting info messages older than '+days+' days.');
+			gr2.deleteMultiple();
+		}
+	},
+
+	infoLog: function(){
+		this.info('Cleanup info function starting');
+		this.info("Starting info log cleanup.");
+		//number of days
+		var days = 14;
+		var gr = new GlideRecord('x_onpr_onpage_event');
+			gr.addQuery('status','info');
+			gr.addEncodedQuery('sys_created_onRELATIVELE@dayofweek@ago@'+days);
+			gr.query();
+		if(gr.hasNext()){
+			this.info('Deleting info messages older than '+days+' days.');
+			gr.deleteMultiple();
+		}
+	},
+
+	errorLog: function(){
+		this.info("Starting error log cleanup.");
+		//number of days
+		var days = 30;
+		var gr = new GlideRecord('x_onpr_onpage_event');
+			gr.addQuery('status','error');
+			gr.addEncodedQuery('sys_created_onRELATIVELE@dayofweek@ago@'+days);
+			gr.query();
+		if(gr.hasNext()){
+			this.error('Deleting error messages older than '+days+' days.');
+			gr.deleteMultiple();
+		}
+	},
+
+    type: 'cleanup'
+};]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;will.young&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-11 15:14:09&lt;/sys_created_on&gt;
+        &lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;
+        &lt;sys_id&gt;50b3562cdba42740ee685e25ca961961&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;cleanup&lt;/sys_name&gt;
+        &lt;sys_package display_value="OnPage Integration" source="x_onpr_onpage"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;
+        &lt;sys_scope display_value="OnPage Integration"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_50b3562cdba42740ee685e25ca961961&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;will.young&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-03-21 21:55:46&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>2049319722</payload_hash>
+        <record_name>cleanup</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:41</sys_created_on>
+        <sys_id>851a69e447e60b10cfdde3cc236d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887f7540000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:41</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>cd1a69e4c2e60b10270eb4d0eb2e3280</update_guid>
+        <update_guid_history>cd1a69e4c2e60b10270eb4d0eb2e3280:0,3bcedd2cc0660b10234639f6df40d07c:2115208851,473b0fa32cda43101e767baefcd1bd8f:0,e2f60bef051643107134038521f84874:-530247461,238c6a271692431033986bc6772039b0:0,247ba66fca524310dc8b2e9b8f8f0569:-1141325573,6fc2798d849e071074da4fa5234a6822:0,20c4b896b67d03106e3aa9c30395e0f7:-1141325573,2cc4b8967d7d03108017b56fbbebe9c4:-937873529</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>a0597c82bc844bcc9e7a543e9bb9b009</sys_id>
+        <sys_metadata>50b3562cdba42740ee685e25ca961961</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cleanup</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_script_include_50b3562cdba42740ee685e25ca961961</sys_update_name>
+        <sys_update_version display_value="sys_script_include_50b3562cdba42740ee685e25ca961961">851a69e447e60b10cfdde3cc236d4381</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

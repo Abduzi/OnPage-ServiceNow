@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>Use the ServiceNow scheduler for notifications? [default:No]&#13;
+NOTE: This does not disable scheduling in OnPage.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_onpr_onpage.sn_scheduler.enabled</name>
+        <read_roles>x_onpr_onpage.admin</read_roles>
+        <suffix>sn_scheduler.enabled</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-08-17 16:32:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fa6675a4dbcca300ee685e25ca961944</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_onpr_onpage.sn_scheduler.enabled</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_properties_fa6675a4dbcca300ee685e25ca961944</sys_update_name>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-07-23 20:43:10</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles>x_onpr_onpage.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=fa6675a4dbcca300ee685e25ca961944"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_properties_fa6675a4dbcca300ee685e25ca961944</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Use the ServiceNow scheduler for notifications? [default:No]&#13;
+NOTE: This does not disable scheduling in OnPage.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_onpr_onpage.sn_scheduler.enabled</name>
+        <read_roles>x_onpr_onpage.admin</read_roles>
+        <suffix>sn_scheduler.enabled</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-08-17 16:32:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fa6675a4dbcca300ee685e25ca961944</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_onpr_onpage.sn_scheduler.enabled</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_properties_fa6675a4dbcca300ee685e25ca961944</sys_update_name>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-07-23 20:43:10</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles>x_onpr_onpage.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=fa6675a4dbcca300ee685e25ca961944"/>
+</record_update>]]></payload>
+        <payload_hash>-1576123716</payload_hash>
+        <record_name>x_onpr_onpage.sn_scheduler.enabled</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:38</sys_created_on>
+        <sys_id>d81aa5e447e60b10cfdde3cc236d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887eb6a0000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:38</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>141aa5e471e60b108bf26389ee0d8a85</update_guid>
+        <update_guid_history>141aa5e471e60b108bf26389ee0d8a85:0,ac2f99ec8b660b10c35de7c1a86cbac9:-246773107,5e3b4ba3d2da4310d4055cd60364e1b7:0,1947cb63155643101179222b0ec04f6e:-268196954,568ca6273f924310955395956b00192b:0,87cb2eef705243105432bb51961b3614:-268196954,3506354585de0710a0fa530cbbeedba7:577342514,cec2358d669e0710f84e420915fa9ee1:0,dc25f05a917d031017c8e6dd73b3d086:-1247246161,8025f05a2a7d031037c6a9716a868d4a:-805326429</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 23:17:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>034e393b34a448f095b2f9e67896d900</sys_id>
+        <sys_metadata>fa6675a4dbcca300ee685e25ca961944</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_onpr_onpage.sn_scheduler.enabled</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_properties_fa6675a4dbcca300ee685e25ca961944</sys_update_name>
+        <sys_update_version display_value="sys_properties_fa6675a4dbcca300ee685e25ca961944">d81aa5e447e60b10cfdde3cc236d4385</sys_update_version>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:17:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>template</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-11-27 00:46:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ad907345db0a6f0056c524794b961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>template</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ad907345db0a6f0056c524794b961959</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-11-27 00:46:47</sys_updated_on>
+        <table>x_onpr_onpage_notification</table>
+        <ui_policy display_value="Read Only">a630bf05db0a6f0056c524794b9619b0</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_ui_policy_action_ad907345db0a6f0056c524794b961959</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>template</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-11-27 00:46:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ad907345db0a6f0056c524794b961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>template</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ad907345db0a6f0056c524794b961959</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-11-27 00:46:47</sys_updated_on>
+        <table>x_onpr_onpage_notification</table>
+        <ui_policy display_value="Read Only">a630bf05db0a6f0056c524794b9619b0</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>-1329290221</payload_hash>
+        <record_name>template</record_name>
+        <reverted_from/>
+        <source>901bc72347da4310cfdde3cc236d4317</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>toan.tran</sys_created_by>
+        <sys_created_on>2026-07-31 21:20:22</sys_created_on>
+        <sys_id>744b07e347da4310cfdde3cc236d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fba0cb42e0000001</sys_recorded_at>
+        <sys_updated_by>toan.tran</sys_updated_by>
+        <sys_updated_on>2026-07-31 21:20:22</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>bc4b07e3c9da4310d1c0305f3d188a69</update_guid>
+        <update_guid_history>bc4b07e3c9da4310d1c0305f3d188a69:0,9b964b2f0e164310d0d16a8f5283286e:-736315032,c69c6267639243106a1a79197aefc7ab:0,8f0baaaba95243100bfd383e80a8fe55:-46682033,76d2f1cd0a9e07100694b59eae75cb2f:0,8c24b4d2177d0310fd1178656c1d6c43:-119900792,4824b4d26a7d0310dffb7eb93298823e:-1797325700</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:14:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>a1c8d967df724ec6aa12e46f4bd2af24</sys_id>
+        <sys_metadata>ad907345db0a6f0056c524794b961959</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>template</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent display_value="">a630bf05db0a6f0056c524794b9619b0</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_ad907345db0a6f0056c524794b961959</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_ad907345db0a6f0056c524794b961959">744b07e347da4310cfdde3cc236d436a</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:14:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

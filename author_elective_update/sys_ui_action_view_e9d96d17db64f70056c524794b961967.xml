@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="DELETE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2019-04-06 21:21:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e9d96d17db64f70056c524794b961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel Failed Notifications.Failed Notifications</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_ui_action display_value="Cancel ALL Failed Notifications">f6f2299fdb24f70056c524794b9619e0</sys_ui_action>
+        <sys_ui_view display_value="Failed Notifications" name="failed_notifications">105361dfdb24f70056c524794b96198f</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_e9d96d17db64f70056c524794b961967</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-04-06 21:21:21</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_ui_action_view_e9d96d17db64f70056c524794b961967</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2019-04-06 21:21:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e9d96d17db64f70056c524794b961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel Failed Notifications.Failed Notifications</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_ui_action display_value="Cancel ALL Failed Notifications">f6f2299fdb24f70056c524794b9619e0</sys_ui_action>
+        <sys_ui_view display_value="Failed Notifications" name="failed_notifications">105361dfdb24f70056c524794b96198f</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_e9d96d17db64f70056c524794b961967</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-04-06 21:21:21</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+</record_update>]]></payload>
+        <payload_hash>1635011898</payload_hash>
+        <record_name>include</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:46</sys_created_on>
+        <sys_id>921aede447e60b10cfdde3cc236d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc8880ab20000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:46</sys_updated_on>
+        <type>UI View Action</type>
+        <update_guid>da1aede46de60b10fc59b8385c7bc73b</update_guid>
+        <update_guid_history>da1aede46de60b10fc59b8385c7bc73b:0,3abedde8bf660b102518024b21a596e0:1476526046,e04b83e3dbda431000e2fd235e4afdc7:0,ead64baf341643100799409aa605a69b:866418492,dd9cee279a924310f848c1d9a72b0772:0,a85b6a2f12524310815ca0c81ff7a2be:-866677675,75d231cdae9e0710ff46d744e7b33f4b:0,d694b856a97d03103f543c22e93418db:-866677675,d694b856217d0310d1de8fe2cbec4ad6:-1077768479</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_action_view">sys_ui_action_view</sys_db_object>
+        <sys_id>005a1d05ec7743b0800053c54837df90</sys_id>
+        <sys_metadata>e9d96d17db64f70056c524794b961967</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel Failed Notifications.Failed Notifications</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent display_value="">f6f2299fdb24f70056c524794b9619e0</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_ui_action_view_e9d96d17db64f70056c524794b961967</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_view_e9d96d17db64f70056c524794b961967">921aede447e60b10cfdde3cc236d433c</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

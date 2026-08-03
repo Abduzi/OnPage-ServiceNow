@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="DELETE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref/>
+        <active>true</active>
+        <content><![CDATA[Indicate which tables will have notifications enabled]]></content>
+        <guide/>
+        <implicit>false</implicit>
+        <link/>
+        <name>Step 3</name>
+        <options/>
+        <order>3</order>
+        <placement>bottom</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>lorena.villanueva</sys_created_by>
+        <sys_created_on>2018-09-11 14:57:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d3f052a8dba42740ee685e25ca9619b0</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Step 3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_d3f052a8dba42740ee685e25ca9619b0</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-24 15:47:48</sys_updated_on>
+        <target/>
+        <target_ref/>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>system_properties_ui.do</window>
+    </sys_embedded_tour_step>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_embedded_tour_step_d3f052a8dba42740ee685e25ca9619b0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_embedded_tour_step"&gt;&lt;sys_embedded_tour_step action="INSERT_OR_UPDATE"&gt;&lt;action&gt;false&lt;/action&gt;&lt;action_event&gt;next&lt;/action_event&gt;&lt;action_target/&gt;&lt;action_target_ref/&gt;&lt;active&gt;true&lt;/active&gt;&lt;content&gt;&lt;![CDATA[Indicate which tables will have notifications enabled]]&gt;&lt;/content&gt;&lt;guide/&gt;&lt;implicit&gt;false&lt;/implicit&gt;&lt;link/&gt;&lt;name&gt;Step 3&lt;/name&gt;&lt;options/&gt;&lt;order&gt;3&lt;/order&gt;&lt;placement&gt;bottom&lt;/placement&gt;&lt;skippable&gt;false&lt;/skippable&gt;&lt;step_type&gt;step&lt;/step_type&gt;&lt;sys_class_name&gt;sys_embedded_tour_step&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lorena.villanueva&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-11 14:57:59&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;d3f052a8dba42740ee685e25ca9619b0&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;Step 3&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="OnPage Integration" source="x_onpr_onpage"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="OnPage Integration"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_embedded_tour_step_d3f052a8dba42740ee685e25ca9619b0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;will.young&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-09-24 15:47:48&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;target_ref/&gt;&lt;title/&gt;&lt;ui_version&gt;dynamic&lt;/ui_version&gt;&lt;view/&gt;&lt;window&gt;system_properties_ui.do&lt;/window&gt;&lt;/sys_embedded_tour_step&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>78566189</payload_hash>
+        <record_name>Step 3</record_name>
+        <reverted_from/>
+        <source>2c6a46e01b6e87107f50cb35604bcbaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>toan.tran</sys_created_by>
+        <sys_created_on>2026-08-03 23:16:38</sys_created_on>
+        <sys_id>45a28f2c1ba2c7107f50cb35604bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc9ea38d40000001</sys_recorded_at>
+        <sys_updated_by>toan.tran</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:16:38</sys_updated_on>
+        <type>Guided Tour Step</type>
+        <update_guid>8da28f2cb5a2c710fe7e175d7bc7b2bc</update_guid>
+        <update_guid_history>8da28f2cb5a2c710fe7e175d7bc7b2bc:0,41a28f2c52a2c710c33613a07dd253b9:0,4f0a21e4fce60b1071b350d8063a998f:0,0d1fd1ec57660b1086468c0b23406bae:-371805935,7bee91ac88660b10a3536287f3f8b154:0,3fee91acbf660b10b65a24aa295a8450:0,b43bc3a344da4310191746e51ef295f4:0,6a374763b3564310117861e925fcd2d8:-762935495,7617c723e6564310db104b3444145f5b:0,3a17c7233f56431086a65f2e0269b757:0,988ceee3dd92431054ba0a4742591aba:0,5ccba6ef7b524310b48290a22891413d:-762935495,589b66afba524310d59771538acf5afa:0,1c9b66af21524310ff1164fafaa36bf6:0,cfb23d4d969e07106e4d2848dce894b1:0,ff053c1ac77d0310c7fd26ca5c97b14e:-762935495,38e43cd6907d03106478770b1d98dfaa:0,38e43cd61b7d0310da1b75e2619ed8a5:1485515370</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:17:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_embedded_tour_step">sys_embedded_tour_step</sys_db_object>
+        <sys_id>aa451acfb1b54ad184006f62f0badfd1</sys_id>
+        <sys_metadata>d3f052a8dba42740ee685e25ca9619b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Step 3</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_step_d3f052a8dba42740ee685e25ca9619b0</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_step_d3f052a8dba42740ee685e25ca9619b0">45a28f2c1ba2c7107f50cb35604bcbbd</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:17:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

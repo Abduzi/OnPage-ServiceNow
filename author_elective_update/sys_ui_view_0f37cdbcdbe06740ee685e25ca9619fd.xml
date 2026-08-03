@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>default_view</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-12 04:14:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0f37cdbcdbe06740ee685e25ca9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default_view</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_ui_view_0f37cdbcdbe06740ee685e25ca9619fd</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-12 04:14:13</sys_updated_on>
+        <title>Default_view</title>
+        <user/>
+    </sys_ui_view>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_ui_view_0f37cdbcdbe06740ee685e25ca9619fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>default_view</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-12 04:14:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0f37cdbcdbe06740ee685e25ca9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default_view</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_ui_view_0f37cdbcdbe06740ee685e25ca9619fd</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-12 04:14:13</sys_updated_on>
+        <title>Default_view</title>
+        <user/>
+    </sys_ui_view>
+</record_update>]]></payload>
+        <payload_hash>-944946408</payload_hash>
+        <record_name>Default_view</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:28</sys_created_on>
+        <sys_id>8e0ae9a447e60b10cfdde3cc236d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887c4d00000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:28</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>c60ae9a429e60b10983c53c41fd734f2</update_guid>
+        <update_guid_history>c60ae9a429e60b10983c53c41fd734f2:0,eebedde84c660b10e7d7d889fefccca4:944105042,732bcf630ada4310ec91791754b0fe6e:0,ded64baf32164310116ba933a2bd1246:-963443413,6e7caae3c09243103f0a60cb7f20669f:0,685b6a2fd452431069b69de8ff09f05e:-1238302590,f8b2b54d119e0710ce6ed43cb6c07038:0,d294b856d17d0310fcd60c162793de65:-1238302590,d294b856577d0310f6a8f4d898ab4b51:1413399054</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>00ef9645128d44a080aa3628901c4be4</sys_id>
+        <sys_metadata>0f37cdbcdbe06740ee685e25ca9619fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default_view</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_ui_view_0f37cdbcdbe06740ee685e25ca9619fd</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_0f37cdbcdbe06740ee685e25ca9619fd">8e0ae9a447e60b10cfdde3cc236d43f2</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

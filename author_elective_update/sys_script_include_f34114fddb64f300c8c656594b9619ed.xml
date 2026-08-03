@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_onpr_onpage.bulkProcess</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>bulkProcess</name>
+        <script><![CDATA[var bulkProcess = Class.create();
+bulkProcess.prototype = {
+	initialize: function() {
+	},
+	sendFailed: function(){
+		while(haveFailed()){
+			sendNotif();
+		}
+		function haveFailed(){
+			var gr = new GlideRecord('x_onpr_onpage_notification');
+			gr.addQuery('status',"failed");
+			gr.query();
+			if(gr.hasNext()){
+				return true;
+			}
+			else{
+				return false;
+			}
+		}
+		function sendNotif(){
+			var notifications = [];
+			
+			//bulk update to sending
+			var gr1 = new GlideRecord('x_onpr_onpage_notification');
+			gr1.addQuery('status',"failed");
+			gr1.setLimit(25);
+			gr1.query();
+			if(!gr1.hasNext()){
+				return;
+			}
+			while(gr1.next()){
+				notifications.push(gr1.getUniqueValue());
+				gr1.setValue('status',"sending");
+				gr1.setValue('retries',1);
+				gr1.update();
+			}
+			
+			//collect notification values into array of messages
+			var array = [];
+			for(var i=0;i<notifications.length;i++){
+				var gr = new GlideRecord('x_onpr_onpage_notification');
+				if(gr.get(notifications[i])){
+					var table = gr.getValue('table'),
+					doc = gr.getValue('document_id'),
+					sd = encodeURI(gr.getValue('short_description')),
+					body = encodeURI(gr.getValue('body')),
+					recip = gr.getValue('recipients').split(","),
+					priority = gr.getValue('priority'),
+					options = gr.getValue('reply_options'),
+					reply = '';
+					if(options!=''&&options!=null){
+						reply = options.split(",");
+					}
+					var template = '{"id": "'+doc+'","subject":"'+sd+'","body":"'+body+'","recipients":'+this.reformat(recip)+',"priority":"'+priority+'","possibleAnswers":'+this.reformat(reply)+'}';
+						array.push(template);
+					}
+				}
+				this.info("Message array: "+array.toString());
+				
+				// send bulk message
+				var resp = new x_onpr_onpage.workflow().sendRestMessages('['+array.toString()+']',gs.getProperty('x_onpr_onpage.scripts.process_failed_notifs'));
+				//process response
+				var ans = resp.split(';'),
+				status = ans[0],
+				respBdy = ans[1];
+				this.info("Response body is: "+respBdy);
+				
+				//update all records with status
+				for(var k=0;k<notifications.length;k++){
+					var gr2 = new GlideRecord('x_onpr_onpage_notification');
+					if(gr2.get(notifications[k])){
+						if(status=="error"){
+							gr2.setValue('status',"error");
+							gr2.setValue('error',respBdy);
+							gr2.update();
+						}
+						else{
+							var json = JSON.parse(respBdy);
+							var obj = json[k];
+							var snID = obj.id,
+							acptd = obj.accepted;
+							if(acptd){
+								gr2.setValue('status',status);
+								//gr2.setValue('onpage_id',snID);
+								gr2.setValue('error','');
+							}
+							else{
+								gr2.setValue('status',"error");
+								gr2.setValue('error',obj.errorDescription);
+							}
+							gr2.update();
+						}
+					}
+				}
+			}
+			
+		},
+		info: function(message){
+			//LOGGING/////////
+			var logType = "outbound";
+			var logTable = 'sysauto_script';
+			var id = gs.getProperty('x_onpr_onpage.scripts.process_failed_notifs');
+			var log = new x_onpr_onpage.log();
+			log.info(message,logType,logTable,id);
+		},
+		reformat: function(array){
+			if(array==''){
+				return '[]';
+			}
+			var string,
+			quotes = [];
+			for(var i=0;i<array.length;i++){
+				quotes.push('"'+array[i]+'"');
+			}
+			string = '['+quotes.toString()+']';
+			return string;
+		},
+		cancelFailed: function(){
+			cancel();
+			function cancel(){
+				var gr1 = new GlideRecord('x_onpr_onpage_notification');
+				gr1.addQuery('status',"failed");
+				gr1.query();
+				if(!gr1.hasNext()){
+					return;
+				}
+				gr1.setValue('status',"cancelled");
+				gr1.setValue('error',"Failed notification was cancelled by an administrator.");
+				gr1.update();
+			}
+			function info(message){
+				//LOGGING/////////
+				var logType = "outbound";
+				var logTable = 'sysauto_script';
+				var id = gs.getProperty('x_onpr_onpage.scripts.cancel_failed_notifs');
+				var log = new x_onpr_onpage.log();
+				log.info(message,logType,logTable,id);
+			}
+		},
+		syncTargets: function(){
+			var sync = new x_onpr_onpage.sync();
+			sync.syncUsers();
+			sync.syncGroups();
+		},
+		
+		type: 'bulkProcess'
+	};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2019-04-01 23:07:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f34114fddb64f300c8c656594b9619ed</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>bulkProcess</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_script_include_f34114fddb64f300c8c656594b9619ed</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-04-06 21:36:25</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_script_include_f34114fddb64f300c8c656594b9619ed</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_onpr_onpage.bulkProcess&lt;/api_name&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;bulkProcess&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var bulkProcess = Class.create();
+bulkProcess.prototype = {
+	initialize: function() {
+	},
+	sendFailed: function(){
+		while(haveFailed()){
+			sendNotif();
+		}
+		function haveFailed(){
+			var gr = new GlideRecord('x_onpr_onpage_notification');
+			gr.addQuery('status',"failed");
+			gr.query();
+			if(gr.hasNext()){
+				return true;
+			}
+			else{
+				return false;
+			}
+		}
+		function sendNotif(){
+			var notifications = [];
+			
+			//bulk update to sending
+			var gr1 = new GlideRecord('x_onpr_onpage_notification');
+			gr1.addQuery('status',"failed");
+			gr1.setLimit(25);
+			gr1.query();
+			if(!gr1.hasNext()){
+				return;
+			}
+			while(gr1.next()){
+				notifications.push(gr1.getUniqueValue());
+				gr1.setValue('status',"sending");
+				gr1.setValue('retries',1);
+				gr1.update();
+			}
+			
+			//collect notification values into array of messages
+			var array = [];
+			for(var i=0;i&lt;notifications.length;i++){
+				var gr = new GlideRecord('x_onpr_onpage_notification');
+				if(gr.get(notifications[i])){
+					var table = gr.getValue('table'),
+					doc = gr.getValue('document_id'),
+					sd = encodeURI(gr.getValue('short_description')),
+					body = encodeURI(gr.getValue('body')),
+					recip = gr.getValue('recipients').split(","),
+					priority = gr.getValue('priority'),
+					options = gr.getValue('reply_options'),
+					reply = '';
+					if(options!=''&amp;&amp;options!=null){
+						reply = options.split(",");
+					}
+					var template = '{"id": "'+doc+'","subject":"'+sd+'","body":"'+body+'","recipients":'+this.reformat(recip)+',"priority":"'+priority+'","possibleAnswers":'+this.reformat(reply)+'}';
+						array.push(template);
+					}
+				}
+				this.info("Message array: "+array.toString());
+				
+				// send bulk message
+				var resp = new x_onpr_onpage.workflow().sendRestMessages('['+array.toString()+']',gs.getProperty('x_onpr_onpage.scripts.process_failed_notifs'));
+				//process response
+				var ans = resp.split(';'),
+				status = ans[0],
+				respBdy = ans[1];
+				this.info("Response body is: "+respBdy);
+				
+				//update all records with status
+				for(var k=0;k&lt;notifications.length;k++){
+					var gr2 = new GlideRecord('x_onpr_onpage_notification');
+					if(gr2.get(notifications[k])){
+						if(status=="error"){
+							gr2.setValue('status',"error");
+							gr2.setValue('error',respBdy);
+							gr2.update();
+						}
+						else{
+							var json = JSON.parse(respBdy);
+							var obj = json[k];
+							var snID = obj.id,
+							acptd = obj.accepted;
+							if(acptd){
+								gr2.setValue('status',status);
+								//gr2.setValue('onpage_id',snID);
+								gr2.setValue('error','');
+							}
+							else{
+								gr2.setValue('status',"error");
+								gr2.setValue('error',obj.errorDescription);
+							}
+							gr2.update();
+						}
+					}
+				}
+			}
+			
+		},
+		info: function(message){
+			//LOGGING/////////
+			var logType = "outbound";
+			var logTable = 'sysauto_script';
+			var id = gs.getProperty('x_onpr_onpage.scripts.process_failed_notifs');
+			var log = new x_onpr_onpage.log();
+			log.info(message,logType,logTable,id);
+		},
+		reformat: function(array){
+			if(array==''){
+				return '[]';
+			}
+			var string,
+			quotes = [];
+			for(var i=0;i&lt;array.length;i++){
+				quotes.push('"'+array[i]+'"');
+			}
+			string = '['+quotes.toString()+']';
+			return string;
+		},
+		cancelFailed: function(){
+			cancel();
+			function cancel(){
+				var gr1 = new GlideRecord('x_onpr_onpage_notification');
+				gr1.addQuery('status',"failed");
+				gr1.query();
+				if(!gr1.hasNext()){
+					return;
+				}
+				gr1.setValue('status',"cancelled");
+				gr1.setValue('error',"Failed notification was cancelled by an administrator.");
+				gr1.update();
+			}
+			function info(message){
+				//LOGGING/////////
+				var logType = "outbound";
+				var logTable = 'sysauto_script';
+				var id = gs.getProperty('x_onpr_onpage.scripts.cancel_failed_notifs');
+				var log = new x_onpr_onpage.log();
+				log.info(message,logType,logTable,id);
+			}
+		},
+		syncTargets: function(){
+			var sync = new x_onpr_onpage.sync();
+			sync.syncUsers();
+			sync.syncGroups();
+		},
+		
+		type: 'bulkProcess'
+	};]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;will.young&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-04-01 23:07:31&lt;/sys_created_on&gt;
+        &lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;
+        &lt;sys_id&gt;f34114fddb64f300c8c656594b9619ed&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;bulkProcess&lt;/sys_name&gt;
+        &lt;sys_package display_value="OnPage Integration" source="x_onpr_onpage"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;
+        &lt;sys_scope display_value="OnPage Integration"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_f34114fddb64f300c8c656594b9619ed&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;will.young&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-04-06 21:36:25&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-2100066344</payload_hash>
+        <record_name>bulkProcess</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:41</sys_created_on>
+        <sys_id>c51a69e447e60b10cfdde3cc236d43a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887f7f70000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:41</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>011a69e481e60b108a17949ed873b1a9</update_guid>
+        <update_guid_history>011a69e481e60b108a17949ed873b1a9:0,cc2f19ec99660b10fe882df7f2df08ef:-1784269911,033b0fa37eda4310211c76f8f5b9afb7:0,68474b63b156431030d13683515c8bf2:1834242769,ef8c6a272d9243101c71ee6cbd00f3be:0,52cbaaefc7524310e5bfcf46ed931177:1834242769,27c2798d479e0710bb6c58f9cb9b6d35:0,eb15b05a447d03106d2341691944030f:1834242769,2f15705a6a7d031007ec95b8da75cae0:1328329157</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:17:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>035a556513574d83a1de224bfcadef49</sys_id>
+        <sys_metadata>f34114fddb64f300c8c656594b9619ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bulkProcess</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_script_include_f34114fddb64f300c8c656594b9619ed</sys_update_name>
+        <sys_update_version display_value="sys_script_include_f34114fddb64f300c8c656594b9619ed">c51a69e447e60b10cfdde3cc236d43a9</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:17:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

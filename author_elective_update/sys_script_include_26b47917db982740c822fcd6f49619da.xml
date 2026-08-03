@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_onpr_onpage.handleErrors</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>handleErrors</name>
+        <script><![CDATA[var handleErrors = Class.create();
+handleErrors.prototype = {
+    initialize: function() {
+		//LOGGING/////////
+		this.logType = "outbound";
+		this.logTable = '';
+		this.logID = '';
+		this.log = new x_onpr_onpage.log();
+		this.error = function(message){
+		  this.log.error(message,this.logType,this.logTable,this.logID);
+		};
+		this.info = function(message){
+		  this.log.error(message,this.logType,this.logTable,this.logID);
+		};
+    },
+	rest: function(request,status,body){
+		this.error("REST error response: \n"+status+": "+body);
+		this.error("REST error for for request body: \n"+request+"\n\n");
+		//var json = JSON.parse(body);
+		switch(status){
+			case 400 :
+// 				gs.eventQueue("x_onpr_onpage.error.notification", param1, param2);
+				break; //wrong format, notify admin
+			case 401 :
+// 				gs.eventQueue("x_onpr_onpage.error.notification", param1, param2);
+				break; //bad credentials, notify admin
+			case 403 :
+// 				gs.eventQueue("x_onpr_onpage.error.notification", param1, param2);
+				break; //not authorized, notify admin
+			case 500 :
+// 				gs.eventQueue("x_onpr_onpage.error.notification", param1, param2);
+				break; //server error, retry, notify OnPage
+		}
+	},
+
+    type: 'handleErrors'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-07 15:49:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>26b47917db982740c822fcd6f49619da</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>handleErrors</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_script_include_26b47917db982740c822fcd6f49619da</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-02-20 23:52:56</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_script_include_26b47917db982740c822fcd6f49619da</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_onpr_onpage.handleErrors&lt;/api_name&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;handleErrors&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var handleErrors = Class.create();
+handleErrors.prototype = {
+    initialize: function() {
+		//LOGGING/////////
+		this.logType = "outbound";
+		this.logTable = '';
+		this.logID = '';
+		this.log = new x_onpr_onpage.log();
+		this.error = function(message){
+		  this.log.error(message,this.logType,this.logTable,this.logID);
+		};
+		this.info = function(message){
+		  this.log.error(message,this.logType,this.logTable,this.logID);
+		};
+    },
+	rest: function(request,status,body){
+		this.error("REST error response: \n"+status+": "+body);
+		this.error("REST error for for request body: \n"+request+"\n\n");
+		//var json = JSON.parse(body);
+		switch(status){
+			case 400 :
+// 				gs.eventQueue("x_onpr_onpage.error.notification", param1, param2);
+				break; //wrong format, notify admin
+			case 401 :
+// 				gs.eventQueue("x_onpr_onpage.error.notification", param1, param2);
+				break; //bad credentials, notify admin
+			case 403 :
+// 				gs.eventQueue("x_onpr_onpage.error.notification", param1, param2);
+				break; //not authorized, notify admin
+			case 500 :
+// 				gs.eventQueue("x_onpr_onpage.error.notification", param1, param2);
+				break; //server error, retry, notify OnPage
+		}
+	},
+
+    type: 'handleErrors'
+};]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;will.young&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-07 15:49:26&lt;/sys_created_on&gt;
+        &lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;
+        &lt;sys_id&gt;26b47917db982740c822fcd6f49619da&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;handleErrors&lt;/sys_name&gt;
+        &lt;sys_package display_value="OnPage Integration" source="x_onpr_onpage"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;
+        &lt;sys_scope display_value="OnPage Integration"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_26b47917db982740c822fcd6f49619da&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;will.young&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-02-20 23:52:56&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1961229594</payload_hash>
+        <record_name>handleErrors</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:41</sys_created_on>
+        <sys_id>851a69e447e60b10cfdde3cc236d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887f7070000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:41</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>cd1a69e465e60b108e6be1a453df7f6c</update_guid>
+        <update_guid_history>cd1a69e465e60b108e6be1a453df7f6c:0,20ce152ca8660b10c90ea463469ededa:1326883583,0f3b0fa349da4310f97d3652afb9fd87:0,f0e68fafc0164310d893535d3aaab2a6:2116013180,e78c6a27649243100d98a67f0ff240a8:0,186bae2f6c5243108e85952d13152ef2:-1713389803,63c2798dbd9e0710893172a6ca8fab0d:0,b0a43096cb7d0310b518c1b3b7fbf35b:-1713389803,f4a43096707d0310d32bfa4f9f16964c:-1797466615</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>19ab15557cbc4f01a2af7f8083bc12c1</sys_id>
+        <sys_metadata>26b47917db982740c822fcd6f49619da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>handleErrors</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_script_include_26b47917db982740c822fcd6f49619da</sys_update_name>
+        <sys_update_version display_value="sys_script_include_26b47917db982740c822fcd6f49619da">851a69e447e60b10cfdde3cc236d436d</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

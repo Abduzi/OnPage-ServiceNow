@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_onpr_onpage.log</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>log</name>
+        <script><![CDATA[var log = Class.create();
+log.prototype = {
+    initialize: function() {
+		this.infoEnabled = gs.getProperty('x_onpr_onpage.event_log.info');
+    },
+	error: function(message,type,table,id){
+		if(table==null||table==undefined){
+			table='';
+		}
+		if(id==null||id==undefined){
+			id='';
+		}
+		this._createEvent(message,type,table,id,"error");
+	},
+	info: function(message,type,table,id){
+		if(this.infoEnabled=="false"){
+			return;
+		}
+		if(table==null||table==undefined){
+			table='';
+		}
+		if(id==null||id==undefined){
+			id='';
+		}
+		this._createEvent(message,type,table,id,"info");
+	},
+	_createEvent: function(message,type,table,id,status){
+		var gr = new GlideRecord('x_onpr_onpage_event');
+			gr.initialize();
+			gr.setValue('status',status);
+			gr.setValue('type',type);
+			gr.setValue('current',message);
+			gr.setValue('table',table);
+			gr.setValue('document_id',id);
+			gr.insert();
+	},
+
+    type: 'log'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-08 16:51:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a71c432fdbd8a740c822fcd6f49619fe</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>log</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_script_include_a71c432fdbd8a740c822fcd6f49619fe</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-08 17:29:29</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_script_include_a71c432fdbd8a740c822fcd6f49619fe</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_onpr_onpage.log&lt;/api_name&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;log&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var log = Class.create();
+log.prototype = {
+    initialize: function() {
+		this.infoEnabled = gs.getProperty('x_onpr_onpage.event_log.info');
+    },
+	error: function(message,type,table,id){
+		if(table==null||table==undefined){
+			table='';
+		}
+		if(id==null||id==undefined){
+			id='';
+		}
+		this._createEvent(message,type,table,id,"error");
+	},
+	info: function(message,type,table,id){
+		if(this.infoEnabled=="false"){
+			return;
+		}
+		if(table==null||table==undefined){
+			table='';
+		}
+		if(id==null||id==undefined){
+			id='';
+		}
+		this._createEvent(message,type,table,id,"info");
+	},
+	_createEvent: function(message,type,table,id,status){
+		var gr = new GlideRecord('x_onpr_onpage_event');
+			gr.initialize();
+			gr.setValue('status',status);
+			gr.setValue('type',type);
+			gr.setValue('current',message);
+			gr.setValue('table',table);
+			gr.setValue('document_id',id);
+			gr.insert();
+	},
+
+    type: 'log'
+};]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;will.young&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-08 16:51:22&lt;/sys_created_on&gt;
+        &lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;
+        &lt;sys_id&gt;a71c432fdbd8a740c822fcd6f49619fe&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;log&lt;/sys_name&gt;
+        &lt;sys_package display_value="OnPage Integration" source="x_onpr_onpage"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;
+        &lt;sys_scope display_value="OnPage Integration"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_a71c432fdbd8a740c822fcd6f49619fe&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;will.young&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2018-09-08 17:29:29&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1760159811</payload_hash>
+        <record_name>log</record_name>
+        <reverted_from/>
+        <source>5be9a16447e60b10cfdde3cc236d43a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>abduk</sys_created_by>
+        <sys_created_on>2026-08-03 16:49:41</sys_created_on>
+        <sys_id>c51a69e447e60b10cfdde3cc236d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc887f7ce0000001</sys_recorded_at>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-03 16:49:41</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>011a69e4d5e60b10fa87693bd9d5e9a5</update_guid>
+        <update_guid_history>011a69e4d5e60b10fa87693bd9d5e9a5:0,f6fe95acb3660b107f2c8ffaa91b2d34:549363521,833b0fa33cda431098d098a985ad71b3:0,3d27cb2386564310c64b5c36bc47394b:34866853,ef8c6a2792924310511f91a9d1a071ba:0,af9b6aafa6524310470fe527f96f23e2:-484752252,27c2798d9f9e071014b0b4a2c0e83f30:0,36e4301ad57d0310849dca546f31630e:-484752252,f6e4fcd6867d031008cad41fbb6917f5:-2113718256</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:16:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>22829de12dbe4550896a7377626ea040</sys_id>
+        <sys_metadata>a71c432fdbd8a740c822fcd6f49619fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>log</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_script_include_a71c432fdbd8a740c822fcd6f49619fe</sys_update_name>
+        <sys_update_version display_value="sys_script_include_a71c432fdbd8a740c822fcd6f49619fe">c51a69e447e60b10cfdde3cc236d43a5</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:16:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

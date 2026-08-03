@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="DELETE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref/>
+        <active>true</active>
+        <content><![CDATA[A plain text work notes entry is recorded for status updates returned by OnPage. The work note is created by the OnPage Integration user account.]]></content>
+        <guide/>
+        <implicit>false</implicit>
+        <link/>
+        <name>Step 6</name>
+        <options/>
+        <order>6</order>
+        <placement>top</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>lorena.villanueva</sys_created_by>
+        <sys_created_on>2018-09-10 20:26:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>5aa29a10db2ce340ee685e25ca96193d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Step 6</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_5aa29a10db2ce340ee685e25ca96193d</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-24 15:30:33</sys_updated_on>
+        <target/>
+        <target_ref/>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>system_properties_ui.do</window>
+    </sys_embedded_tour_step>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_embedded_tour_step_5aa29a10db2ce340ee685e25ca96193d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_embedded_tour_step"&gt;&lt;sys_embedded_tour_step action="INSERT_OR_UPDATE"&gt;&lt;action&gt;false&lt;/action&gt;&lt;action_event&gt;next&lt;/action_event&gt;&lt;action_target/&gt;&lt;action_target_ref/&gt;&lt;active&gt;true&lt;/active&gt;&lt;content&gt;&lt;![CDATA[A plain text work notes entry is recorded for status updates returned by OnPage. The work note is created by the OnPage Integration user account.]]&gt;&lt;/content&gt;&lt;guide/&gt;&lt;implicit&gt;false&lt;/implicit&gt;&lt;link/&gt;&lt;name&gt;Step 6&lt;/name&gt;&lt;options/&gt;&lt;order&gt;6&lt;/order&gt;&lt;placement&gt;top&lt;/placement&gt;&lt;skippable&gt;false&lt;/skippable&gt;&lt;step_type&gt;step&lt;/step_type&gt;&lt;sys_class_name&gt;sys_embedded_tour_step&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lorena.villanueva&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-10 20:26:47&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;5aa29a10db2ce340ee685e25ca96193d&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Step 6&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="OnPage Integration" source="x_onpr_onpage"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="OnPage Integration"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_embedded_tour_step_5aa29a10db2ce340ee685e25ca96193d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;will.young&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-09-24 15:30:33&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;target_ref/&gt;&lt;title/&gt;&lt;ui_version&gt;dynamic&lt;/ui_version&gt;&lt;view/&gt;&lt;window&gt;system_properties_ui.do&lt;/window&gt;&lt;/sys_embedded_tour_step&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1044894467</payload_hash>
+        <record_name>Step 6</record_name>
+        <reverted_from/>
+        <source>2c6a46e01b6e87107f50cb35604bcbaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>toan.tran</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:51</sys_created_on>
+        <sys_id>31728be81ba2c7107f50cb35604bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc9e983ef0000001</sys_recorded_at>
+        <sys_updated_by>toan.tran</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:51</sys_updated_on>
+        <type>Guided Tour Step</type>
+        <update_guid>79728be881a2c71032f4b04476ef0afe</update_guid>
+        <update_guid_history>79728be881a2c71032f4b04476ef0afe:0,3d728be8a3a2c71020a183942078e3fa:0,be0a21e496e60b10d481096640468908:0,b9ded16c40660b10e72b0e6e9edb742d:-1633623877,a6ced92caa660b10ba9fc5a5298635c7:0,6aced92c53660b10055471c95ac0bcc3:0,b03bc3a3c7da43109cbbd3b0e9e79748:0,b0078bef5a164310892b4d158b8f4b37:313220730,2fe607ef0516431087fc8b031257576b:0,efe607efe5164310141e2eb5fe09e567:0,408caee3eb924310cf5601e7c14512e9:0,5d7b2a6f3652431030f530f8f5d88440:296543351,fa6be26f64524310b21810d7a277cdb6:0,be6be26ffd5243100f5f288b058ccbb2:0,f2b2f94d529e07102742aea065b5d3b9:0,91c47c964f7d0310d6f073a9647b9403:296543351,ddb4b496157d03100c356ba825184cd1:0,ddb4b496607d0310f4068ae0915aa1cc:-571038362</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:16:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_embedded_tour_step">sys_embedded_tour_step</sys_db_object>
+        <sys_id>1365931e26a444f4a1db422d0da0fb84</sys_id>
+        <sys_metadata>5aa29a10db2ce340ee685e25ca96193d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Step 6</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_step_5aa29a10db2ce340ee685e25ca96193d</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_step_5aa29a10db2ce340ee685e25ca96193d">31728be81ba2c7107f50cb35604bcbff</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:16:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

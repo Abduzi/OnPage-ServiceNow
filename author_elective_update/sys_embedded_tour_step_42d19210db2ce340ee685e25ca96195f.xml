@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="DELETE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref/>
+        <active>true</active>
+        <content><![CDATA[Any TASK table can be utilized for triggering notifications. Use this list (comma separated, no spaces) to manage which task tables can have subscriptions and generate notifications. The default list is:
+incident,incident_task,incident_alert_task,problem,problem_task,change_request,change_task,sc_task .]]></content>
+        <guide/>
+        <implicit>false</implicit>
+        <link/>
+        <name>Step 2</name>
+        <options/>
+        <order>2</order>
+        <placement>bottom</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>lorena.villanueva</sys_created_by>
+        <sys_created_on>2018-09-10 20:23:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>42d19210db2ce340ee685e25ca96195f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Step 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_42d19210db2ce340ee685e25ca96195f</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2018-09-24 15:25:44</sys_updated_on>
+        <target/>
+        <target_ref/>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>system_properties_ui.do</window>
+    </sys_embedded_tour_step>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</application>
+        <file_path/>
+        <instance_id>5e3914cfdbc2c380563b7236bf96199a</instance_id>
+        <instance_name>ven02252</instance_name>
+        <name>sys_embedded_tour_step_42d19210db2ce340ee685e25ca96195f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_embedded_tour_step"&gt;&lt;sys_embedded_tour_step action="INSERT_OR_UPDATE"&gt;&lt;action&gt;false&lt;/action&gt;&lt;action_event&gt;next&lt;/action_event&gt;&lt;action_target/&gt;&lt;action_target_ref/&gt;&lt;active&gt;true&lt;/active&gt;&lt;content&gt;&lt;![CDATA[Any TASK table can be utilized for triggering notifications. Use this list (comma separated, no spaces) to manage which task tables can have subscriptions and generate notifications. The default list is:
+incident,incident_task,incident_alert_task,problem,problem_task,change_request,change_task,sc_task .]]&gt;&lt;/content&gt;&lt;guide/&gt;&lt;implicit&gt;false&lt;/implicit&gt;&lt;link/&gt;&lt;name&gt;Step 2&lt;/name&gt;&lt;options/&gt;&lt;order&gt;2&lt;/order&gt;&lt;placement&gt;bottom&lt;/placement&gt;&lt;skippable&gt;false&lt;/skippable&gt;&lt;step_type&gt;step&lt;/step_type&gt;&lt;sys_class_name&gt;sys_embedded_tour_step&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lorena.villanueva&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-10 20:23:14&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;42d19210db2ce340ee685e25ca96195f&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Step 2&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="OnPage Integration" source="x_onpr_onpage"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="OnPage Integration"&gt;864f25ecdb8ca300ee685e25ca96192d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_embedded_tour_step_42d19210db2ce340ee685e25ca96195f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;will.young&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-09-24 15:25:44&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;target_ref/&gt;&lt;title/&gt;&lt;ui_version&gt;dynamic&lt;/ui_version&gt;&lt;view/&gt;&lt;window&gt;system_properties_ui.do&lt;/window&gt;&lt;/sys_embedded_tour_step&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1724171119</payload_hash>
+        <record_name>Step 2</record_name>
+        <reverted_from/>
+        <source>2c6a46e01b6e87107f50cb35604bcbaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>toan.tran</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:51</sys_created_on>
+        <sys_id>21728be81ba2c7107f50cb35604bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc9e981c20000001</sys_recorded_at>
+        <sys_updated_by>toan.tran</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:51</sys_updated_on>
+        <type>Guided Tour Step</type>
+        <update_guid>69728be829a2c710e3d9e2342a62c8bb</update_guid>
+        <update_guid_history>69728be829a2c710e3d9e2342a62c8bb:0,2d728be86ea2c710f4ef03cd9c385ab7:0,3a0aeda499e60b103f5d521019f9a0e1:0,6eced92c43660b10f1d9512982a0cd86:-912493174,e2ced92c6d660b10d8df4e45f59e2378:0,a6ced92c05660b1057cab97aa0f05f74:0,b83bc3a326da431093c303eef5ca5839:0,6be607ef011643100936fea3315ebd2a:438806481,dfe607efc91643100974361e88047a1b:0,93e607efe9164310d3e1c34daaf71318:0,488caee3fa924310d9f33ff5f2cefbda:0,a26be26fcc52431033a4637bfe68cf73:589379555,ae6be26f3f52431061032fe821c6c366:0,626be26f285243100515b155d29b3d63:0,feb2f94d909e0710b2abc0e976f500a6:0,c1b4b4965e7d03103578990adfa6cd66:589379555,49b4b4967a7d0310b0cb34dff4a9b159:0,49b4b496497d0310997446dcdb88c054:588786020</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2026-08-03 23:15:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_embedded_tour_step">sys_embedded_tour_step</sys_db_object>
+        <sys_id>1940ee87cdee471885b32d6836a25e24</sys_id>
+        <sys_metadata>42d19210db2ce340ee685e25ca96195f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Step 2</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_step_42d19210db2ce340ee685e25ca96195f</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_step_42d19210db2ce340ee685e25ca96195f">21728be81ba2c7107f50cb35604bcbbc</sys_update_version>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2026-08-03 23:15:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

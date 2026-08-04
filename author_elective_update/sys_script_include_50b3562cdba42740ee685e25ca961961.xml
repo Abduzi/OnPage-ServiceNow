@@ -210,7 +210,6 @@ cleanup.prototype = {
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:15:59</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
         <sys_id>a0597c82bc844bcc9e7a543e9bb9b009</sys_id>
         <sys_metadata>50b3562cdba42740ee685e25ca961961</sys_metadata>
@@ -219,9 +218,8 @@ cleanup.prototype = {
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent/>
         <sys_policy>read</sys_policy>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_script_include_50b3562cdba42740ee685e25ca961961</sys_update_name>
         <sys_update_version display_value="sys_script_include_50b3562cdba42740ee685e25ca961961">851a69e447e60b10cfdde3cc236d4381</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

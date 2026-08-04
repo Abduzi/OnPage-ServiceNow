@@ -78,11 +78,10 @@
         <update_guid_history>0e0a2da43be60b10eddb61e5f900114b:0,f6ee9d6c4f660b108e99f6856b9391d0:544319706,372bcf638fda4310d827636912b0ead4:0,95170723ee56431041fee409e5cdf64c:642110008,367ceae343924310a7aa7ea931a14712:0,fe8be2afaa5243101dc5b755753add19:1528440285,c9b2b54dcb9e0710fb59a1cbe14478dd:0,93d438d6527d0310a98594869a7f7fde:1528440285,d3d438d6d07d031061316047df6385d8:-356494999</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:16:30">1f928b2c1ba2c7107f50cb35604bcb78</sys_audit_delete>
+        <sys_audit_delete display_value="">1f928b2c1ba2c7107f50cb35604bcb78</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:16:30</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="metric_definition">metric_definition</sys_db_object>
         <sys_id>61e03a5bd88c4a68b65dcb4bf3bff840</sys_id>
         <sys_metadata>89ed2c74db606740ee685e25ca9619d0</sys_metadata>
@@ -91,9 +90,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent display_value="">c2f9ad6447e60b10cfdde3cc236d4301</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>metric_definition_89ed2c74db606740ee685e25ca9619d0</sys_update_name>
         <sys_update_version display_value="metric_definition_89ed2c74db606740ee685e25ca9619d0">c20a2da447e60b10cfdde3cc236d434c</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

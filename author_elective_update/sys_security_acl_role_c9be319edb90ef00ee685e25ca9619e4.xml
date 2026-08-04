@@ -64,11 +64,10 @@
         <update_guid_history>061a6de460e60b108e668f3890dd81ce:0,2a8e55a829660b101eb147582048f58a:1912953233,844b43e36cda43107906c3fd770de040:0,dba6436f7a164310053158a990d90b60:-658638052,7c9cae270b92431040f044aca2596911:0,df0baaabd6524310f3c88d544cbc59ac:217352698,d9d2bd8d759e071093e4977351942f8b:0,9c24b4d2667d0310e31adfe3478af29a:217352698,1c24b4d2037d031019458c20b736be92:1108933870</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:14:08">6c124f281ba2c7107f50cb35604bcbdc</sys_audit_delete>
+        <sys_audit_delete display_value="">6c124f281ba2c7107f50cb35604bcbdc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>lorena.villanueva</sys_created_by>
         <sys_created_on>2026-08-03 23:14:09</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
         <sys_id>65b09e872ba94e12ad6f337b1228b5c4</sys_id>
         <sys_metadata>c9be319edb90ef00ee685e25ca9619e4</sys_metadata>
@@ -77,9 +76,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent display_value="">41be319edb90ef00ee685e25ca9619e2</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_security_acl_role_c9be319edb90ef00ee685e25ca9619e4</sys_update_name>
         <sys_update_version display_value="sys_security_acl_role_c9be319edb90ef00ee685e25ca9619e4">821a6de447e60b10cfdde3cc236d43db</sys_update_version>
         <sys_updated_by>lorena.villanueva</sys_updated_by>

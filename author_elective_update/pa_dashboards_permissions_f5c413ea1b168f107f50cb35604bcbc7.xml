@@ -76,11 +76,10 @@
         <update_guid_history>420a2da476e60b1080c40a022d8b2e6d:0,0d1fd1ec3a660b105be07f59ca4d7a6e:365256238,7f2bcf6312da4310cf263511e742b4e9:0,e6374763545643106f37bc53e94c43ab:326744104,7e7ceae3a09243106ddaace3a0ed5b27:0,dccb66ef5e5243103c87522b97f952f5:326744104,b9c413eabb168f1070bd34a02d90c2c9:948730336</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:17:26">cdd24f6c1ba2c7107f50cb35604bcbc3</sys_audit_delete>
+        <sys_audit_delete display_value="">cdd24f6c1ba2c7107f50cb35604bcbc3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>abduk</sys_created_by>
         <sys_created_on>2026-08-03 23:17:27</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="pa_dashboards_permissions">pa_dashboards_permissions</sys_db_object>
         <sys_id>1623692a7a464383b14bc23264e72899</sys_id>
         <sys_metadata>f5c413ea1b168f107f50cb35604bcbc7</sys_metadata>
@@ -89,9 +88,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>pa_dashboards_permissions_f5c413ea1b168f107f50cb35604bcbc7</sys_update_name>
         <sys_update_version display_value="pa_dashboards_permissions_f5c413ea1b168f107f50cb35604bcbc7">0a0a2da447e60b10cfdde3cc236d436d</sys_update_version>
         <sys_updated_by>abduk</sys_updated_by>

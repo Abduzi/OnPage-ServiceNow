@@ -316,11 +316,10 @@
         <update_guid_history>241aa5e4f7e60b10be5942256a9cb3d9:0,239e15e8d1660b10267a3f344245904a:2031852056,1a3b4ba3deda4310968b5aa42f552eff:0,56c603af931643102e4df8ae370a8796:1347990948,2e8ca62752924310497102bbeb7029a4:0,6f2beaeb395243104f9ede11b7ccd2cc:1468261714,06c2758da49e0710064f3afeeaf11f67:0,8a84f056747d031066aa3f1ffc7e0386:-1220739062</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:14:51">4b3207a81ba2c7107f50cb35604bcb31</sys_audit_delete>
+        <sys_audit_delete display_value="">4b3207a81ba2c7107f50cb35604bcb31</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:14:51</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_report">sys_report</sys_db_object>
         <sys_id>d944bd46ba534e22b59bbfc2e23fdce1</sys_id>
         <sys_metadata>e08b9f6fdb9ca740c822fcd6f49619e6</sys_metadata>
@@ -329,9 +328,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent display_value="">c2f9ad6447e60b10cfdde3cc236d4301</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_report_e08b9f6fdb9ca740c822fcd6f49619e6</sys_update_name>
         <sys_update_version display_value="sys_report_e08b9f6fdb9ca740c822fcd6f49619e6">e81aa5e447e60b10cfdde3cc236d43d9</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

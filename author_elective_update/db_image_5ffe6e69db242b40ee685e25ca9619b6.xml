@@ -152,11 +152,10 @@
         <update_guid_history>ca0a2da4c6e60b10adc2efaaa3ca2743:0,cade156c03660b108a94842ef549f300:1702936597,fb2bcf63eada43101e91a45e4469bcbf:0,c1078befb01643109467a74b4cfdb7f1:-1487129356,e27ceae34f92431093689ec110cdf70a:0,ed7b6a6ff252431002432f70ea8bb035:-1808828450,c1b2b54db09e07100a2223982625e4c7:0,31c47c96107d0310dee2c63846c309d5:-1808828450,25c47c960f7d0310a2a1620be32e1fc9:324990435</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:16:05">0182032c1ba2c7107f50cb35604bcbd9</sys_audit_delete>
+        <sys_audit_delete display_value="">0182032c1ba2c7107f50cb35604bcbd9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>lorena.villanueva</sys_created_by>
         <sys_created_on>2026-08-03 23:16:05</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="db_image">db_image</sys_db_object>
         <sys_id>2f015398a3d4495d8b6b7e6c7c39b579</sys_id>
         <sys_metadata>5ffe6e69db242b40ee685e25ca9619b6</sys_metadata>
@@ -165,9 +164,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>db_image_5ffe6e69db242b40ee685e25ca9619b6</sys_update_name>
         <sys_update_version display_value="db_image_5ffe6e69db242b40ee685e25ca9619b6">820a2da447e60b10cfdde3cc236d4344</sys_update_version>
         <sys_updated_by>lorena.villanueva</sys_updated_by>

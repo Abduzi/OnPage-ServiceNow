@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="System Import Sets" source="com.glide.system_import_set">912d5443db02030056c524794b9619ad</dependency>
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">ea158385db122010377b12261b961979</dependency>
         <min_version>1.0.0</min_version>
         <sys_created_by>toan.tran</sys_created_by>
         <sys_created_on>2026-08-03 23:19:35</sys_created_on>
-        <sys_id>9c530f201be2c7107f50cb35604bcbd4</sys_id>
+        <sys_id>5e99ee381bea4790160f8626604bcbaf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_updated_by>toan.tran</sys_updated_by>

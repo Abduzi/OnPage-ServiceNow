@@ -88,11 +88,10 @@
         <update_guid_history>0a0a2da4dee60b10bd734bd90854cb1d:0,06ce992c2d660b10da43df0bcb678946:1065245317,bf2bcf6340da4310b77d710f0121918c:0,cbe6c3ef9a1643104946fc67c5b76427:1569027502,227caae3d8924310ac8573f898d1a1cb:0,566ba26f1f524310cf36f2dfbe66247f:-1725998843,45b2b54d4d9e07104875494dd282828f:0,a0b47496067d03101d4afca400f40f45:-1867946139,6cb47496f27d03102928ac992c3fb925:-1405313191</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:15:49">09724be81ba2c7107f50cb35604bcbb2</sys_audit_delete>
+        <sys_audit_delete display_value="">09724be81ba2c7107f50cb35604bcbb2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:15:49</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="content_block_static">content_block_static</sys_db_object>
         <sys_id>216831cbd89845cd90ac116f3e328551</sys_id>
         <sys_metadata>3b439598db28e340ee685e25ca9619d8</sys_metadata>
@@ -101,9 +100,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>content_block_static_3b439598db28e340ee685e25ca9619d8</sys_update_name>
         <sys_update_version display_value="content_block_static_3b439598db28e340ee685e25ca9619d8">ce0a2da447e60b10cfdde3cc236d431d</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

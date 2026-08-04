@@ -80,7 +80,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:16:07</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_report_mpivot_rule">sys_report_mpivot_rule</sys_db_object>
         <sys_id>1d4460ddcb5e47fc9cf8b05203d65604</sys_id>
         <sys_metadata>6733d3a4dba82740ee685e25ca96190f</sys_metadata>
@@ -89,9 +88,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_report_mpivot_rule_6733d3a4dba82740ee685e25ca96190f</sys_update_name>
         <sys_update_version display_value="sys_report_mpivot_rule_6733d3a4dba82740ee685e25ca96190f">641aa5e447e60b10cfdde3cc236d43f6</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

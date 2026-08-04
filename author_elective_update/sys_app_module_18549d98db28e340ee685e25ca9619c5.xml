@@ -74,11 +74,10 @@
         <update_guid_history>0452cba802a2c710c2c1382dbcc6a9b6:0,8e0a2da450e60b10628bc89cbfe82285:0,1fbe512c11660b10505b92cf32979da8:145002868,53aed9e862660b102455cc0364737552:0,bb2b03a318da4310e4a7375b5e07e702:0,9bd6cbaf91164310737370a35505ee91:-617266712,4dd687af0e16431087b38ae055988fb1:0,ba7ceae31c9243104e949049a0d14340:0,835b2e2f2e52431096f5b95954aa3f18:1236417749,064ba62f42524310b47d30a5f2f4cdcd:0,5db2f54d899e0710dc0edeb6567c6733:0,5b947c564c7d0310c30c2979d1239426:230245496,cd94f4565c7d0310ae35db8ba3c3ec91:2067011436</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:15:22">265203e81ba2c7107f50cb35604bcb8b</sys_audit_delete>
+        <sys_audit_delete display_value="">265203e81ba2c7107f50cb35604bcb8b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:15:22</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
         <sys_id>77bc4567e7ac43e085b0682595637c10</sys_id>
         <sys_metadata>18549d98db28e340ee685e25ca9619c5</sys_metadata>
@@ -87,9 +86,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_app_module_18549d98db28e340ee685e25ca9619c5</sys_update_name>
         <sys_update_version display_value="sys_app_module_18549d98db28e340ee685e25ca9619c5">c852cba81ba2c7107f50cb35604bcbb6</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

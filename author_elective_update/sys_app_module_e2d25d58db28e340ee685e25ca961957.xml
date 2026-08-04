@@ -116,11 +116,10 @@
         <update_guid_history>960a2da4d7e60b1009978874b16458fc:0,931f95eccf660b10cb7370f82e4febd2:-1036995193,4c3b03a341da4310ece8945172a7ba53:0,ff370b63ff5643103e8d251f88f51180:-1121576221,7a7ceae343924310bc6fb19b9dde75c3:0,e5cb2aef3a524310806d14bb333fd1b5:-1121576221,1db2f54d919e0710fdf1f07ffcb6d393:0,2615fc1acf7d031019f3f47afb85e09e:-1611287174,ae15fc1a7b7d0310d452a62d44ee3295:-1004038290</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:17:40">98e283ac1ba2c7107f50cb35604bcb86</sys_audit_delete>
+        <sys_audit_delete display_value="">98e283ac1ba2c7107f50cb35604bcb86</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:17:40</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
         <sys_id>2496c47433e445e7a72e1a56c62cd051</sys_id>
         <sys_metadata>e2d25d58db28e340ee685e25ca961957</sys_metadata>
@@ -129,9 +128,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_app_module_e2d25d58db28e340ee685e25ca961957</sys_update_name>
         <sys_update_version display_value="sys_app_module_e2d25d58db28e340ee685e25ca961957">5e0a2da447e60b10cfdde3cc236d43fc</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

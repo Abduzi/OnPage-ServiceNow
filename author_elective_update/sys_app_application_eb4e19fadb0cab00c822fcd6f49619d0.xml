@@ -84,11 +84,10 @@
         <update_guid_history>c20a2da44ce60b10581dd92136509377:0,af1fd5ec8e660b10877f9e8643e407b6:2040585786,bf2bcf6348da4310bdd7a31a84aac0f3:0,c0470b63c25643103df53fb88351dbfa:-718002634,fe7ceae3969243103ca01d33c7fcd731:0,31cb6aef2752431051f1f0012ca8c72f:-718002634,c1b2b54d0f9e0710bd9e1d8d1c6b7ef1:0,7615305a167d0310037238f4bf488c2c:-718002634,7215305a447d031036c1fb50045e321e:-584723158</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:17:41">a4e2c3ac1ba2c7107f50cb35604bcb2a</sys_audit_delete>
+        <sys_audit_delete display_value="">a4e2c3ac1ba2c7107f50cb35604bcb2a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:17:41</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
         <sys_id>1fbeb35a36784b8ab633f97b875c10c4</sys_id>
         <sys_metadata>eb4e19fadb0cab00c822fcd6f49619d0</sys_metadata>
@@ -97,9 +96,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_app_application_eb4e19fadb0cab00c822fcd6f49619d0</sys_update_name>
         <sys_update_version display_value="sys_app_application_eb4e19fadb0cab00c822fcd6f49619d0">8a0a2da447e60b10cfdde3cc236d4377</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

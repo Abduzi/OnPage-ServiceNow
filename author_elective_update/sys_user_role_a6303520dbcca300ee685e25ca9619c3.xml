@@ -78,11 +78,10 @@
         <update_guid_history>9b1aa1282de60b10a4180777817231d7:0,89fe55accb660b1030cb51dbfded5413:-1627512842,5d4b87e353da43102197912e9e353625:0,5c278b23f856431096f28bb3e31d1142:1403402053,7e9ce2675e924310a48aea0010b96d7f:0,579b6aaf03524310b6c18e790a984e45:-1187499384,33d275cdc69e0710bd61893b8e7bba7a:0,12e4fcd6b67d0310d56ae0789dc2c71b:-1187499384,35e4bcd6d87d0310a474da79c63cfb67:1103328124</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:16:48">e7a2436c1ba2c7107f50cb35604bcb29</sys_audit_delete>
+        <sys_audit_delete display_value="">e7a2436c1ba2c7107f50cb35604bcb29</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:16:49</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
         <sys_id>0f14f1e130a741329d1f6ed64d13f031</sys_id>
         <sys_metadata>a6303520dbcca300ee685e25ca9619c3</sys_metadata>
@@ -91,9 +90,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_user_role_a6303520dbcca300ee685e25ca9619c3</sys_update_name>
         <sys_update_version display_value="sys_user_role_a6303520dbcca300ee685e25ca9619c3">531aa12847e60b10cfdde3cc236d43d8</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

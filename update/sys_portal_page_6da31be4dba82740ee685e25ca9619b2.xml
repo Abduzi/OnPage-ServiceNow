@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2026-08-03 23:25:06">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2026-08-04 18:20:36">
     <sys_portal_page action="INSERT_OR_UPDATE">
-        <layout display_value="CMS 3 Column">90f0af530a0a0bb100e1c54f6c1039de</layout>
+        <layout display_value="">90f0af530a0a0bb100e1c54f6c1039de</layout>
         <order>3001</order>
         <read_roles>x_onpr_onpage.admin</read_roles>
         <roles>x_onpr_onpage.admin,admin</roles>
@@ -8,7 +8,6 @@
         <sys_class_name>sys_portal_page</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2018-09-11 19:49:30</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6da31be4dba82740ee685e25ca9619b2</sys_id>
@@ -17,7 +16,6 @@
         <sys_overrides/>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name>sys_portal_page_6da31be4dba82740ee685e25ca9619b2</sys_update_name>
         <sys_updated_by>will.young</sys_updated_by>
@@ -161,6 +159,505 @@
                         <sys_updated_by>will.young</sys_updated_by>
                         <sys_updated_on>2019-02-20 23:38:31</sys_updated_on>
                         <value>48ca57abdb9ca740c822fcd6f49619f2</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone10</dropzone>
+                <offset>2</offset>
+                <page display_value="OnPage Integration Status Page">6da31be4dba82740ee685e25ca9619b2</page>
+                <summary/>
+                <sys_created_by>toan.tran</sys_created_by>
+                <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                <sys_id>2210d7971b1c9550301d0f22604bcb29</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>toan.tran</sys_updated_by>
+                <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>fromHome</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2210d7971b1c9550301d0f22604bcb29</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2210d7971b1c9550301d0f22604bcb2a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2210d7971b1c9550301d0f22604bcb29</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2210d7971b1c9550301d0f22604bcb2b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>OP Failed Notifications (24 hours)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2210d7971b1c9550301d0f22604bcb29</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2610d7971b1c9550301d0f22604bcb2a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2210d7971b1c9550301d0f22604bcb29</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2a10d7971b1c9550301d0f22604bcb29</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2210d7971b1c9550301d0f22604bcb29</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2a10d7971b1c9550301d0f22604bcb2a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2210d7971b1c9550301d0f22604bcb29</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2e10d7971b1c9550301d0f22604bcb29</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2210d7971b1c9550301d0f22604bcb29</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2e10d7971b1c9550301d0f22604bcb2a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>line</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2210d7971b1c9550301d0f22604bcb29</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a210d7971b1c9550301d0f22604bcb29</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>fc1adba7db9ca740c822fcd6f4961977</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2210d7971b1c9550301d0f22604bcb29</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a610d7971b1c9550301d0f22604bcb2b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>6da31be4dba82740ee685e25ca9619b2</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone100</dropzone>
+                <offset>0</offset>
+                <page display_value="OnPage Integration Status Page">6da31be4dba82740ee685e25ca9619b2</page>
+                <summary/>
+                <sys_created_by>toan.tran</sys_created_by>
+                <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                <sys_id>2610d7971b1c9550301d0f22604bcb33</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>toan.tran</sys_updated_by>
+                <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2610d7971b1c9550301d0f22604bcb33</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2210d7971b1c9550301d0f22604bcb34</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2610d7971b1c9550301d0f22604bcb33</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2210d7971b1c9550301d0f22604bcb35</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>OP Error Logs (12hrs)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>fromHome</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2610d7971b1c9550301d0f22604bcb33</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2610d7971b1c9550301d0f22604bcb34</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2610d7971b1c9550301d0f22604bcb33</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2a10d7971b1c9550301d0f22604bcb34</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2610d7971b1c9550301d0f22604bcb33</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2e10d7971b1c9550301d0f22604bcb33</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2610d7971b1c9550301d0f22604bcb33</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2e10d7971b1c9550301d0f22604bcb34</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2610d7971b1c9550301d0f22604bcb33</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a610d7971b1c9550301d0f22604bcb33</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>c2a8432bdb58a740c822fcd6f496195b</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone20</dropzone>
+                <offset>1</offset>
+                <page display_value="OnPage Integration Status Page">6da31be4dba82740ee685e25ca9619b2</page>
+                <summary/>
+                <sys_created_by>toan.tran</sys_created_by>
+                <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                <sys_id>2a10d7971b1c9550301d0f22604bcb20</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>toan.tran</sys_updated_by>
+                <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb20</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2210d7971b1c9550301d0f22604bcb21</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb20</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2210d7971b1c9550301d0f22604bcb22</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb20</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2610d7971b1c9550301d0f22604bcb21</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb20</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2610d7971b1c9550301d0f22604bcb22</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>OP Notifications in Queue</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>fromHome</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb20</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2a10d7971b1c9550301d0f22604bcb21</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb20</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2e10d7971b1c9550301d0f22604bcb21</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb20</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>aa10d7971b1c9550301d0f22604bcb20</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>e08b9f6fdb9ca740c822fcd6f49619e6</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone30</dropzone>
+                <offset>1</offset>
+                <page display_value="OnPage Integration Status Page">6da31be4dba82740ee685e25ca9619b2</page>
+                <summary/>
+                <sys_created_by>toan.tran</sys_created_by>
+                <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                <sys_id>2a10d7971b1c9550301d0f22604bcb2e</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>toan.tran</sys_updated_by>
+                <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb2e</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2210d7971b1c9550301d0f22604bcb2f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb2e</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2210d7971b1c9550301d0f22604bcb30</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb2e</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2610d7971b1c9550301d0f22604bcb2f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb2e</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2610d7971b1c9550301d0f22604bcb30</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>angular_gauge</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>fromHome</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb2e</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2a10d7971b1c9550301d0f22604bcb2f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb2e</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2a10d7971b1c9550301d0f22604bcb30</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>OP Notifications in Failure</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb2e</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2e10d7971b1c9550301d0f22604bcb2f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb2e</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>aa10d7971b1c9550301d0f22604bcb2e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>ba19da34db3fa700c8c656594b9619ac</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2a10d7971b1c9550301d0f22604bcb2e</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>ae10d7971b1c9550301d0f22604bcb30</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>6da31be4dba82740ee685e25ca9619b2</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone10</dropzone>
+                <offset>0</offset>
+                <page display_value="OnPage Integration Status Page">6da31be4dba82740ee685e25ca9619b2</page>
+                <summary/>
+                <sys_created_by>toan.tran</sys_created_by>
+                <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                <sys_id>2e10d7971b1c9550301d0f22604bcb24</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>toan.tran</sys_updated_by>
+                <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2e10d7971b1c9550301d0f22604bcb24</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2210d7971b1c9550301d0f22604bcb26</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2e10d7971b1c9550301d0f22604bcb24</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2610d7971b1c9550301d0f22604bcb25</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2e10d7971b1c9550301d0f22604bcb24</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2610d7971b1c9550301d0f22604bcb26</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2e10d7971b1c9550301d0f22604bcb24</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2a10d7971b1c9550301d0f22604bcb25</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2e10d7971b1c9550301d0f22604bcb24</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2a10d7971b1c9550301d0f22604bcb26</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>OP Notifications by Hour, Last 12hrs</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>fromHome</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2e10d7971b1c9550301d0f22604bcb24</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2e10d7971b1c9550301d0f22604bcb25</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">2e10d7971b1c9550301d0f22604bcb24</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>ae10d7971b1c9550301d0f22604bcb24</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>6769c3a7db58a740c822fcd6f496195d</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
@@ -630,6 +1127,483 @@
                         <sys_updated_by>will.young</sys_updated_by>
                         <sys_updated_on>2019-02-20 23:38:31</sys_updated_on>
                         <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone30</dropzone>
+                <offset>2</offset>
+                <page display_value="OnPage Integration Status Page">6da31be4dba82740ee685e25ca9619b2</page>
+                <summary/>
+                <sys_created_by>toan.tran</sys_created_by>
+                <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                <sys_id>a210d7971b1c9550301d0f22604bcb31</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>toan.tran</sys_updated_by>
+                <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">a210d7971b1c9550301d0f22604bcb31</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2610d7971b1c9550301d0f22604bcb31</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>96963728db2c2740ee685e25ca9619a9</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>fromHome</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">a210d7971b1c9550301d0f22604bcb31</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a210d7971b1c9550301d0f22604bcb32</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">a210d7971b1c9550301d0f22604bcb31</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a610d7971b1c9550301d0f22604bcb32</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">a210d7971b1c9550301d0f22604bcb31</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>aa10d7971b1c9550301d0f22604bcb31</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">a210d7971b1c9550301d0f22604bcb31</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>aa10d7971b1c9550301d0f22604bcb32</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">a210d7971b1c9550301d0f22604bcb31</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>ae10d7971b1c9550301d0f22604bcb31</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">a210d7971b1c9550301d0f22604bcb31</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>ae10d7971b1c9550301d0f22604bcb32</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>OP Unprocess Inbound Events</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone20</dropzone>
+                <offset>0</offset>
+                <page display_value="OnPage Integration Status Page">6da31be4dba82740ee685e25ca9619b2</page>
+                <summary/>
+                <sys_created_by>toan.tran</sys_created_by>
+                <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                <sys_id>aa10d7971b1c9550301d0f22604bcb1e</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>toan.tran</sys_updated_by>
+                <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb1e</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2210d7971b1c9550301d0f22604bcb20</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>content_block_static</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb1e</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2610d7971b1c9550301d0f22604bcb20</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>6da31be4dba82740ee685e25ca9619b2</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb1e</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2e10d7971b1c9550301d0f22604bcb1e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>3b439598db28e340ee685e25ca9619d8</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb1e</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a210d7971b1c9550301d0f22604bcb1f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>com.glide.cms.RenderBlock</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>fromHome</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb1e</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a610d7971b1c9550301d0f22604bcb1f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb1e</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>aa10d7971b1c9550301d0f22604bcb1f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>Helpful Links </value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone20</dropzone>
+                <offset>2</offset>
+                <page display_value="OnPage Integration Status Page">6da31be4dba82740ee685e25ca9619b2</page>
+                <summary/>
+                <sys_created_by>toan.tran</sys_created_by>
+                <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                <sys_id>aa10d7971b1c9550301d0f22604bcb22</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>toan.tran</sys_updated_by>
+                <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb22</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2e10d7971b1c9550301d0f22604bcb22</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>48ca57abdb9ca740c822fcd6f49619f2</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb22</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a210d7971b1c9550301d0f22604bcb23</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb22</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a210d7971b1c9550301d0f22604bcb24</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb22</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a610d7971b1c9550301d0f22604bcb23</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb22</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a610d7971b1c9550301d0f22604bcb24</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>OP Notifications in Error (Retrying)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>fromHome</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb22</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>aa10d7971b1c9550301d0f22604bcb23</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb22</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>ae10d7971b1c9550301d0f22604bcb23</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone30</dropzone>
+                <offset>0</offset>
+                <page display_value="OnPage Integration Status Page">6da31be4dba82740ee685e25ca9619b2</page>
+                <summary/>
+                <sys_created_by>toan.tran</sys_created_by>
+                <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                <sys_id>aa10d7971b1c9550301d0f22604bcb2b</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>toan.tran</sys_updated_by>
+                <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb2b</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2210d7971b1c9550301d0f22604bcb2e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb2b</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2610d7971b1c9550301d0f22604bcb2e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>7ec74bafdbd4a740c822fcd6f4961923</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb2b</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2e10d7971b1c9550301d0f22604bcb2b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>c4135ba4dba82740ee685e25ca961983</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb2b</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a210d7971b1c9550301d0f22604bcb2c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb2b</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a210d7971b1c9550301d0f22604bcb2d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb2b</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a610d7971b1c9550301d0f22604bcb2c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb2b</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a610d7971b1c9550301d0f22604bcb2d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>fromHome</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb2b</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>aa10d7971b1c9550301d0f22604bcb2c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb2b</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>aa10d7971b1c9550301d0f22604bcb2d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>OP Average Send Time (1hr)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">aa10d7971b1c9550301d0f22604bcb2b</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>ae10d7971b1c9550301d0f22604bcb2c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone10</dropzone>
+                <offset>1</offset>
+                <page display_value="OnPage Integration Status Page">6da31be4dba82740ee685e25ca9619b2</page>
+                <summary/>
+                <sys_created_by>toan.tran</sys_created_by>
+                <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                <sys_id>ae10d7971b1c9550301d0f22604bcb26</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>toan.tran</sys_updated_by>
+                <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">ae10d7971b1c9550301d0f22604bcb26</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>2210d7971b1c9550301d0f22604bcb27</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>896be7e8dbe82740ee685e25ca961982</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">ae10d7971b1c9550301d0f22604bcb26</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a210d7971b1c9550301d0f22604bcb28</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">ae10d7971b1c9550301d0f22604bcb26</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a610d7971b1c9550301d0f22604bcb27</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">ae10d7971b1c9550301d0f22604bcb26</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>a610d7971b1c9550301d0f22604bcb28</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">ae10d7971b1c9550301d0f22604bcb26</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>aa10d7971b1c9550301d0f22604bcb27</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">ae10d7971b1c9550301d0f22604bcb26</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>aa10d7971b1c9550301d0f22604bcb28</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value>OP Average Send Time (12 hours)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>fromHome</name>
+                        <portal_section display_value="Created 2022-06-30 12:39:23">ae10d7971b1c9550301d0f22604bcb26</portal_section>
+                        <sys_created_by>toan.tran</sys_created_by>
+                        <sys_created_on>2022-06-30 19:39:23</sys_created_on>
+                        <sys_id>ae10d7971b1c9550301d0f22604bcb27</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>toan.tran</sys_updated_by>
+                        <sys_updated_on>2022-06-30 19:39:23</sys_updated_on>
+                        <value/>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>

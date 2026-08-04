@@ -74,11 +74,10 @@
         <update_guid_history>c852cba822a2c71026564309ddcbb4b8:0,4a0a2da47ee60b10ad35dcb54e483a95:0,9ece992c19660b104c942576e0345ca4:-1285608355,1baed9e88f660b1010cbb07c05c90554:0,772b03a391da4310538e6ab7b07cc912:0,4fe6c3ef4116431013827da4565de588:-1645578452,05d687af8d16431013129a99dfece3b4:0,767ceae3a6924310705c118c58e12a50:0,d26ba26fd9524310a409f2aa0fd03cdf:345403009,ca4ba62f905243102a778d11d8227ecf:0,15b2f54d419e0710963c483b32740f47:0,f8b47496417d0310eee5b9a2716d23bd:496364588,c594f456617d0310a2152a54e5a82d96:-156331080</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:15:50">1d728be81ba2c7107f50cb35604bcb34</sys_audit_delete>
+        <sys_audit_delete display_value="">1d728be81ba2c7107f50cb35604bcb34</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:15:50</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
         <sys_id>74499caca4e140799e6d28d6acf21589</sys_id>
         <sys_metadata>3eed9d14db68e340ee685e25ca96195e</sys_metadata>
@@ -87,9 +86,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_app_module_3eed9d14db68e340ee685e25ca96195e</sys_update_name>
         <sys_update_version display_value="sys_app_module_3eed9d14db68e340ee685e25ca96195e">8052cba81ba2c7107f50cb35604bcbb9</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

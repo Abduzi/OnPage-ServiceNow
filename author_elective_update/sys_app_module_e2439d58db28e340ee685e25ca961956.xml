@@ -116,11 +116,10 @@
         <update_guid_history>1e0a2da407e60b10d5d980dfecc4caf8:0,9f1f95ec98660b10ef51a8c72f3078b7:920590552,c03b03a3b6da4310202072d5d5590750:0,f3370b631856431006d642f8fd231551:1803544587,3a7ceae3079243102aba46de16a85cb3:0,e9cb2aef6e524310bc175856fedddd9d:1803544587,95b2f54d4e9e0710108d9ebda671f58f:0,6215fc1a797d03100cb16017f28fd085:900842822,a615fc1a5d7d0310e0f7056cbac76c79:-946789318</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:17:40">dce283ac1ba2c7107f50cb35604bcb69</sys_audit_delete>
+        <sys_audit_delete display_value="">dce283ac1ba2c7107f50cb35604bcb69</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:17:40</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
         <sys_id>4e4ef297d363489c9724b24b01c9ca64</sys_id>
         <sys_metadata>e2439d58db28e340ee685e25ca961956</sys_metadata>
@@ -129,9 +128,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_app_module_e2439d58db28e340ee685e25ca961956</sys_update_name>
         <sys_update_version display_value="sys_app_module_e2439d58db28e340ee685e25ca961956">d20a2da447e60b10cfdde3cc236d43f9</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

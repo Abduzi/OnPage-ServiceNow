@@ -120,11 +120,10 @@
         <update_guid_history>0e0a2da4abe60b10ee3cca512cc02f60:0,c91fd1ec23660b104841519ab0772e7c:673002093,7b2bcf6340da43107d49f84e59f12ddd:0,6e374763a2564310d561a119e3a0e2b6:-84799651,3a7ceae3bf924310a79b318dc069a01b:0,9ccba6ef895243107da9e974f2753a0e:-84799651,3dc413ea82168f101a3daf8b63593c7b:-61708224,49b2b54d859e07102a5200295a3d75e5:0,f3fb05951b597d104406366bd513f168:0,3b0f103f7ab8555070ea233c6ec93d61:-994688301,d50c9ec159466f002d2bbea2f5ed373b:595300633</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:17:26">01d24f6c1ba2c7107f50cb35604bcbb3</sys_audit_delete>
+        <sys_audit_delete display_value="">01d24f6c1ba2c7107f50cb35604bcbb3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>abduk</sys_created_by>
         <sys_created_on>2026-08-03 23:17:27</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="pa_dashboards">pa_dashboards</sys_db_object>
         <sys_id>096085d097884793b94ac8aa020765a9</sys_id>
         <sys_metadata>d216910bdbd82340ee685e25ca961903</sys_metadata>
@@ -133,9 +132,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>pa_dashboards_d216910bdbd82340ee685e25ca961903</sys_update_name>
         <sys_update_version display_value="pa_dashboards_d216910bdbd82340ee685e25ca961903">c20a2da447e60b10cfdde3cc236d4361</sys_update_version>
         <sys_updated_by>abduk</sys_updated_by>

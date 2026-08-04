@@ -118,18 +118,16 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:16:01</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_ui_list_control">sys_ui_list_control</sys_db_object>
         <sys_id>02add353c88f45828aa837447d2667b1</sys_id>
         <sys_metadata>569c53e1dbe42b40ee685e25ca96198e</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>change_request</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
-        <sys_parent display_value="Change Request">47fd14c3db02030056c524794b96195a</sys_parent>
+        <sys_parent display_value="">47fd14c3db02030056c524794b96195a</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_ui_list_control_569c53e1dbe42b40ee685e25ca96198e</sys_update_name>
         <sys_update_version display_value="sys_ui_list_control_569c53e1dbe42b40ee685e25ca96198e">ae1aede447e60b10cfdde3cc236d43ab</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

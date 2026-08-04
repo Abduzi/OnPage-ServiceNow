@@ -316,11 +316,10 @@
         <update_guid_history>6c1aa5e44ae60b10263a17f49cbc0fb7:0,2b9ed1e861660b1092e80496b0376ce1:903687911,523b4ba39bda43107646494308c8bdde:0,cec603afcc164310959f4013b66a2146:561764282,5a8ca627da92431080d0669638f7bf51:0,272beaeb595243109589dfe5baf08594:676122022,cec2758dc69e0710d97f3c70907ef723:0,4a84f056317d0310cfdd4b2270146a4d:-1590248128</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:14:50">b632c3a81ba2c7107f50cb35604bcbc7</sys_audit_delete>
+        <sys_audit_delete display_value="">b632c3a81ba2c7107f50cb35604bcbc7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:14:50</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_report">sys_report</sys_db_object>
         <sys_id>0fb8b4d545994e5089a74e5da6091240</sys_id>
         <sys_metadata>48ca57abdb9ca740c822fcd6f49619f2</sys_metadata>
@@ -329,9 +328,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent display_value="">c2f9ad6447e60b10cfdde3cc236d4301</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_report_48ca57abdb9ca740c822fcd6f49619f2</sys_update_name>
         <sys_update_version display_value="sys_report_48ca57abdb9ca740c822fcd6f49619f2">241aa5e447e60b10cfdde3cc236d43b8</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

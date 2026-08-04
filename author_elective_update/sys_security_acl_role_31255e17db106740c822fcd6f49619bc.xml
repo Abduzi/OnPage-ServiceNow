@@ -64,11 +64,10 @@
         <update_guid_history>291ae9e410e60b100a13171a2e4c90fa:0,10ae95e87f660b1028f758f28ea4741e:367381434,ff3bcfa3b1da4310730b855404d4f891:0,0996072fa8164310468bd42f23ae47dc:560842516,549c2e278e9243104845939d02d4010c:0,7c0b66abc8524310f3f0286de85eeba7:1186155910,acd23d8df29e071030702405410dce31:0,f91470d20c7d0310844ce286c8a4af05:1186155910,791430d2eb7d03101223a214da3ffafd:-997796998</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:14:22">c02207681ba2c7107f50cb35604bcb9d</sys_audit_delete>
+        <sys_audit_delete display_value="">c02207681ba2c7107f50cb35604bcb9d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:14:22</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
         <sys_id>10e742b64dcf46ac82cd8ad8bada6710</sys_id>
         <sys_metadata>31255e17db106740c822fcd6f49619bc</sys_metadata>
@@ -77,9 +76,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent display_value="">65b965c7db1c2340ee685e25ca9619c0</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_security_acl_role_31255e17db106740c822fcd6f49619bc</sys_update_name>
         <sys_update_version display_value="sys_security_acl_role_31255e17db106740c822fcd6f49619bc">ed1ae9e447e60b10cfdde3cc236d43fa</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

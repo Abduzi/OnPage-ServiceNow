@@ -314,11 +314,10 @@
         <update_guid_history>581aa5e493e60b100051b1c901448fb3:0,41ae19e81e660b10f98f503101456f61:-1570142893,5e3b4ba3cada4310cd6618ae087bced9:0,4296c72f4016431016e5590a69ac3450:697793932,568ca627b692431029f8a3f3f4068c4d:0,060b2aab67524310cc76f6037460da6d:-625901765,06c2758dec9e071074adaa21933c7712:0,4714f0d2be7d0310070d8eb0f00f46d2:1318897715</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:14:27">d92287681ba2c7107f50cb35604bcbda</sys_audit_delete>
+        <sys_audit_delete display_value="">d92287681ba2c7107f50cb35604bcbda</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:14:27</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_report">sys_report</sys_db_object>
         <sys_id>0d155b93cce6477a8217a42ad78cf564</sys_id>
         <sys_metadata>201b13abdb9ca740c822fcd6f49619e6</sys_metadata>
@@ -327,9 +326,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent display_value="">7af9ed6447e60b10cfdde3cc236d43fb</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_report_201b13abdb9ca740c822fcd6f49619e6</sys_update_name>
         <sys_update_version display_value="sys_report_201b13abdb9ca740c822fcd6f49619e6">101aa5e447e60b10cfdde3cc236d43b4</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

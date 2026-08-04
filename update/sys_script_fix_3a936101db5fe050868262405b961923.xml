@@ -19,13 +19,11 @@ function updateTargets(){
         <sys_class_name>sys_script_fix</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2021-04-02 02:36:21</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>3a936101db5fe050868262405b961923</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Migrate Hidden Targets to Blocked Types</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name>sys_script_fix_3a936101db5fe050868262405b961923</sys_update_name>
         <sys_updated_by>will.young</sys_updated_by>

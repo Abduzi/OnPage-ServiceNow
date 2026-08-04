@@ -84,7 +84,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2026-08-03 23:16:53</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_gauge_counts">sys_gauge_counts</sys_db_object>
         <sys_id>103b98011ad44c288263f1b25f8f7240</sys_id>
         <sys_metadata>a82ced79db4da344c822fcd6f496190a</sys_metadata>
@@ -93,9 +92,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_gauge_counts_a82ced79db4da344c822fcd6f496190a</sys_update_name>
         <sys_update_version display_value="sys_gauge_counts_a82ced79db4da344c822fcd6f496190a">6b0ae1e447e60b10cfdde3cc236d433c</sys_update_version>
         <sys_updated_by>system</sys_updated_by>

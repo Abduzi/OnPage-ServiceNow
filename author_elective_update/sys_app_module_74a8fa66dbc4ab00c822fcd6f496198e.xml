@@ -120,11 +120,10 @@
         <update_guid_history>c60a2da4a6e60b108025df969aeb2fc1:0,237e5d680b660b10087fa9cd561c846a:98211101,443b03a3e9da43105ddf163e1c2b7d25:0,55b6476f881643102b0164949f1eb05c:804409400,ba7ceae3989243107330ec758add0e88:0,563b622f77524310f28181fcf14e7709:1665137139,11b2f54d9d9e07106c6d289e337abf5e:0,f104f4921e7d031006a5b35490d98fc2:619816446,7504f492a07d031003e08a4310e3afb9:1437382794</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:14:56">184287a81ba2c7107f50cb35604bcbe9</sys_audit_delete>
+        <sys_audit_delete display_value="">184287a81ba2c7107f50cb35604bcbe9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:14:56</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
         <sys_id>6fc7c165636749589504cc1a74cbbb84</sys_id>
         <sys_metadata>74a8fa66dbc4ab00c822fcd6f496198e</sys_metadata>
@@ -133,9 +132,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_app_module_74a8fa66dbc4ab00c822fcd6f496198e</sys_update_name>
         <sys_update_version display_value="sys_app_module_74a8fa66dbc4ab00c822fcd6f496198e">8e0a2da447e60b10cfdde3cc236d43c1</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

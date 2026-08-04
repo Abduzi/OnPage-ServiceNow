@@ -322,22 +322,20 @@
         <update_guid_history>a81aa5e4cbe60b1071a4149698a118c6:0,6eee9d6cfd660b107bc09d2881fbe0a4:230029114,9e3b4ba38cda431070c0d3e50c0ec3ec:0,d11707239d564310796f267b9a195114:1060418026,5e8ca627ab924310448de7972d0ed96c:0,b28ba2af9f524310e3268186dab9e5f5:-225074134,0ec2758d779e07106fb91430447cf836:0,5fd438d6e87d0310efa3a24b0bc2458f:-1430249390,97d438d6357d031031efa5a27752176a:-848795170</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:16:30">cf928b2c1ba2c7107f50cb35604bcb39</sys_audit_delete>
+        <sys_audit_delete display_value="">cf928b2c1ba2c7107f50cb35604bcb39</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:16:30</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_report">sys_report</sys_db_object>
         <sys_id>8a77a49e2c56454e9ebee1f73ee32219</sys_id>
         <sys_metadata>896be7e8dbe82740ee685e25ca961982</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>OP Average Send Time (12 hours)</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
-        <sys_parent display_value="Metric Instance">8400ac87db02030056c524794b961910</sys_parent>
+        <sys_parent display_value="">8400ac87db02030056c524794b961910</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_report_896be7e8dbe82740ee685e25ca961982</sys_update_name>
         <sys_update_version display_value="sys_report_896be7e8dbe82740ee685e25ca961982">601aa5e447e60b10cfdde3cc236d43c7</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

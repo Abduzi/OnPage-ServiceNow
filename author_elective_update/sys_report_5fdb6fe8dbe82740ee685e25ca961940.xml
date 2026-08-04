@@ -322,11 +322,10 @@
         <update_guid_history>a81aa5e4fee60b1010cd7d79b447fcbb:0,e79e15e836660b10ef707fe488736119:-394744399,9e3b4ba396da431068039485372f51e1:0,0ac603af5a164310e42c7a64f1cc3559:-431745140,968ca627c89243103b72475323a18555:0,672beaeb49524310ab4ac9605dbf10a4:2050769436,0ec2758dfa9e0710f16ccadb5e902628:0,4e84f056e87d031017b5e9a1fefb0b5d:237783724</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:14:50">f632c3a81ba2c7107f50cb35604bcbd8</sys_audit_delete>
+        <sys_audit_delete display_value="">f632c3a81ba2c7107f50cb35604bcbd8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2026-08-03 23:14:50</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_report">sys_report</sys_db_object>
         <sys_id>8718a39ca5bd4edaa2a6718e5d351169</sys_id>
         <sys_metadata>5fdb6fe8dbe82740ee685e25ca961940</sys_metadata>
@@ -335,9 +334,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent display_value="">c2f9ad6447e60b10cfdde3cc236d4301</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_report_5fdb6fe8dbe82740ee685e25ca961940</sys_update_name>
         <sys_update_version display_value="sys_report_5fdb6fe8dbe82740ee685e25ca961940">601aa5e447e60b10cfdde3cc236d43bc</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

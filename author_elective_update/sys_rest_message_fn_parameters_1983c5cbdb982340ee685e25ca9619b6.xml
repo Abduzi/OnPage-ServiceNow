@@ -70,7 +70,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>David.Delahoz</sys_created_by>
         <sys_created_on>2026-08-03 23:15:22</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_rest_message_fn_parameters">sys_rest_message_fn_parameters</sys_db_object>
         <sys_id>013cd4f9276a4910801636d473b33781</sys_id>
         <sys_metadata>1983c5cbdb982340ee685e25ca9619b6</sys_metadata>
@@ -79,9 +78,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent display_value="">abd0894bdb982340ee685e25ca9619f7</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_rest_message_fn_parameters_1983c5cbdb982340ee685e25ca9619b6</sys_update_name>
         <sys_update_version display_value="sys_rest_message_fn_parameters_1983c5cbdb982340ee685e25ca9619b6">241ae5e447e60b10cfdde3cc236d4356</sys_update_version>
         <sys_updated_by>David.Delahoz</sys_updated_by>

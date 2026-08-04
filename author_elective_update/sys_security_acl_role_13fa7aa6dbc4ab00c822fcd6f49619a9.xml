@@ -64,11 +64,10 @@
         <update_guid_history>6d1ae9e46ee60b101048618b108b59b2:0,1b7e1d68d1660b1029b627bc6c77ef7e:-2079219650,ff3bcfa3d4da43105a92ac108140f424:0,74b6076f4c1643101baaa263594f247c:981174574,989cea27f8924310a0432e68cbb693c4:0,b53b222fce524310b692b321f8e1e844:-153103601,ecd2f98d679e07103a33ed93480030ae:0,9104b4929f7d0310e21018b01cfb7ea4:-153103601,1104b4923f7d0310441baa35e770879c:1792047619</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-08-03 16:14:55">ff3287a81ba2c7107f50cb35604bcb16</sys_audit_delete>
+        <sys_audit_delete display_value="">ff3287a81ba2c7107f50cb35604bcb16</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>David.Delahoz</sys_created_by>
         <sys_created_on>2026-08-03 23:14:55</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
         <sys_id>5baf7bc1bf8b43da82ca4194bb8d8ea9</sys_id>
         <sys_metadata>13fa7aa6dbc4ab00c822fcd6f49619a9</sys_metadata>
@@ -77,9 +76,8 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent display_value="">0da8fa66dbc4ab00c822fcd6f49619a7</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_security_acl_role_13fa7aa6dbc4ab00c822fcd6f49619a9</sys_update_name>
         <sys_update_version display_value="sys_security_acl_role_13fa7aa6dbc4ab00c822fcd6f49619a9">251ae9e447e60b10cfdde3cc236d43b3</sys_update_version>
         <sys_updated_by>David.Delahoz</sys_updated_by>

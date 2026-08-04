@@ -25,7 +25,7 @@
         <scoped_administration>false</scoped_administration>
         <short_description>Integrate OnPage with your ServiceNow instance</short_description>
         <source>x_onpr_onpage</source>
-        <store_correlation_id/>
+        <store_correlation_id>REPOAPP0002942460</store_correlation_id>
         <store_url/>
         <subscription_entitlement/>
         <sys_class_name>sys_app</sys_class_name>
@@ -33,16 +33,16 @@
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2018-08-17 15:59:19</sys_created_on>
         <sys_id>864f25ecdb8ca300ee685e25ca96192d</sys_id>
-        <sys_mod_count>70</sys_mod_count>
-        <sys_updated_by>toan.tran</sys_updated_by>
-        <sys_updated_on>2026-08-03 23:20:47</sys_updated_on>
+        <sys_mod_count>72</sys_mod_count>
+        <sys_updated_by>matias.heffel</sys_updated_by>
+        <sys_updated_on>2026-08-04 16:01:43</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor>OnPage Corporation</vendor>
         <vendor_prefix/>
-        <version>1.5.1</version>
+        <version>1.6.1</version>
     </sys_app>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#0</average_image_color>

@@ -95,7 +95,7 @@
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_gauge_counts_79f8f335db38e380ee685e25ca9619cc</sys_update_name>
         <sys_update_version display_value="sys_gauge_counts_79f8f335db38e380ee685e25ca9619cc">670aa1e447e60b10cfdde3cc236d43af</sys_update_version>
         <sys_updated_by>system</sys_updated_by>

@@ -81,7 +81,7 @@
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_scope_delete display_value="OnPage Integration">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
+        <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_embedded_tour_step_ef2116a8dba42740ee685e25ca961935</sys_update_name>
         <sys_update_version display_value="sys_embedded_tour_step_ef2116a8dba42740ee685e25ca961935">3382072c1ba2c7107f50cb35604bcb62</sys_update_version>
         <sys_updated_by>will.young</sys_updated_by>

@@ -2,8 +2,7 @@
     <sys_ui_related sys_domain="global" table="incident" version="2" view="onpage_history">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <group_by_field/>
-            <list_id display_value="Incident - OnPage History" name="incident" related_list="NULL" sys_domain="global" view="63730fa01be2c7107f50cb35604bcbd1">22852e89db466f0056c524794b96193e</list_id>
+            <list_id display_value="Incident - OnPage History" name="incident" related_list="NULL" sys_domain="global" view="107522c9db466f0056c524794b9619ab">22852e89db466f0056c524794b96193e</list_id>
             <order_by/>
             <position>0</position>
             <related_list>task_sla.task</related_list>
@@ -17,8 +16,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <group_by_field/>
-            <list_id display_value="Incident - OnPage History" name="incident" related_list="NULL" sys_domain="global" view="63730fa01be2c7107f50cb35604bcbd1">22852e89db466f0056c524794b96193e</list_id>
+            <list_id display_value="Incident - OnPage History" name="incident" related_list="NULL" sys_domain="global" view="107522c9db466f0056c524794b9619ab">22852e89db466f0056c524794b96193e</list_id>
             <order_by/>
             <position>1</position>
             <related_list>REL:0a7653addba42b40ee685e25ca96196c</related_list>
@@ -40,7 +38,6 @@
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>will.young</sys_created_by>
             <sys_created_on>2018-11-26 19:18:54</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>22852e89db466f0056c524794b96193e</sys_id>
@@ -48,13 +45,12 @@
             <sys_name>Incident - OnPage History</sys_name>
             <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
             <sys_update_name>sys_ui_related_incident_onpage_history</sys_update_name>
             <sys_updated_by>will.young</sys_updated_by>
             <sys_updated_on>2018-11-26 19:18:54</sys_updated_on>
             <sys_user/>
-            <view display_value="OnPage History" name="onpage_history">63730fa01be2c7107f50cb35604bcbd1</view>
+            <view display_value="OnPage History" name="onpage_history">107522c9db466f0056c524794b9619ab</view>
             <view_name/>
         </sys_ui_related_list>
     </sys_ui_related>

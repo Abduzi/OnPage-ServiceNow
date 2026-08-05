@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_onpr_onpage_onpage_subscription" name="x_onpr_onpage_onpage_subscription" sys_domain="global" view="Default view">fe4a0256dbd0ef00ee685e25ca96194a</sys_ui_form>
-            <sys_ui_section display_value="">4c45ce52dbd0ef00ee685e25ca961940</sys_ui_section>
+            <sys_ui_section caption="Subscription Information" display_value="Subscription Information" name="x_onpr_onpage_onpage_subscription" sys_domain="global" view="Default view">4c45ce52dbd0ef00ee685e25ca961940</sys_ui_section>
             <sys_updated_by>lorena.villanueva</sys_updated_by>
             <sys_updated_on>2018-09-04 14:42:24</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_onpr_onpage_onpage_subscription" name="x_onpr_onpage_onpage_subscription" sys_domain="global" view="Default view">fe4a0256dbd0ef00ee685e25ca96194a</sys_ui_form>
-            <sys_ui_section display_value="">3e4a0256dbd0ef00ee685e25ca961949</sys_ui_section>
+            <sys_ui_section caption="Conditions" display_value="Conditions" name="x_onpr_onpage_onpage_subscription" sys_domain="global" view="Default view">3e4a0256dbd0ef00ee685e25ca961949</sys_ui_section>
             <sys_updated_by>lorena.villanueva</sys_updated_by>
             <sys_updated_on>2018-09-04 14:42:24</sys_updated_on>
         </sys_ui_form_section>
@@ -34,7 +34,6 @@
             <sys_class_name>sys_ui_form</sys_class_name>
             <sys_created_by>lorena.villanueva</sys_created_by>
             <sys_created_on>2018-09-04 14:42:23</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>fe4a0256dbd0ef00ee685e25ca96194a</sys_id>
@@ -43,7 +42,6 @@
             <sys_overrides/>
             <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
             <sys_update_name>sys_ui_form_sections_fe4a0256dbd0ef00ee685e25ca96194a</sys_update_name>
             <sys_updated_by>lorena.villanueva</sys_updated_by>

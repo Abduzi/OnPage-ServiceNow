@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_onpr_onpage.cleanup</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>cleanup</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var cleanup = Class.create();
+cleanup.prototype = {
+    initialize: function() {
+		//LOGGING/////////
+		this.logType = "internal";
+		this.logTable = 'sysauto_script';
+		this.logID = gs.getProperty('x_onpr_onpage.scripts.cleanup');
+		this.log = new x_onpr_onpage.log();
+		this.error = function(message){
+		  this.log.error(message,this.logType,this.logTable,this.logID);
+		};
+		this.info = function(message){
+		  this.log.info(message,this.logType,this.logTable,this.logID);
+		};
+    },
+	allEvents: function(){
+		this.info('Cleanup info function starting');
+		this.info("Starting default log cleanup.");
+		//number of days
+		var days = 90;
+		var gr = new GlideRecord('x_onpr_onpage_event');
+			gr.addEncodedQuery('sys_created_onRELATIVELE@dayofweek@ago@'+days);
+			gr.query();
+		if(gr.hasNext()){
+			this.info('Deleting info messages older than '+days+' days.');
+			gr.deleteMultiple();
+		}
+
+		var gr2 = new GlideRecord('x_onpr_onpage_notification');
+			gr2.addEncodedQuery('sys_created_onRELATIVELE@dayofweek@ago@'+days);
+			gr2.query();
+		if(gr2.hasNext()){
+			this.info('Deleting info messages older than '+days+' days.');
+			gr2.deleteMultiple();
+		}
+	},
+
+	infoLog: function(){
+		this.info('Cleanup info function starting');
+		this.info("Starting info log cleanup.");
+		//number of days
+		var days = 14;
+		var gr = new GlideRecord('x_onpr_onpage_event');
+			gr.addQuery('status','info');
+			gr.addEncodedQuery('sys_created_onRELATIVELE@dayofweek@ago@'+days);
+			gr.query();
+		if(gr.hasNext()){
+			this.info('Deleting info messages older than '+days+' days.');
+			gr.deleteMultiple();
+		}
+	},
+
+	errorLog: function(){
+		this.info("Starting error log cleanup.");
+		//number of days
+		var days = 30;
+		var gr = new GlideRecord('x_onpr_onpage_event');
+			gr.addQuery('status','error');
+			gr.addEncodedQuery('sys_created_onRELATIVELE@dayofweek@ago@'+days);
+			gr.query();
+		if(gr.hasNext()){
+			this.error('Deleting error messages older than '+days+' days.');
+			gr.deleteMultiple();
+		}
+	},
+
+    type: 'cleanup'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>will.young</sys_created_by>
+        <sys_created_on>2018-09-11 15:14:09</sys_created_on>
+        <sys_id>50b3562cdba42740ee685e25ca961961</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>cleanup</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_script_include_50b3562cdba42740ee685e25ca961961</sys_update_name>
+        <sys_updated_by>will.young</sys_updated_by>
+        <sys_updated_on>2019-03-21 21:55:46</sys_updated_on>
+    </sys_script_include>
+</record_update>

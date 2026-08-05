@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>task</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Generate Events from Task Updates</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    if (current.getValue('sys_updated_by') != 'onpage' && (hasSubscriptions(current) || hasRecipients(current))) {
+		var table = current.getTableName();
+        var parents = getParentTables(table),
+            jsonCurrent = getFields(current, table),
+            jsonPrevious = getFields(previous, table);
+        var event = createEvent(table, current);
+    }
+
+    function createEvent(table, current) {
+        var gr = new GlideRecordSecure('x_onpr_onpage_event');
+        gr.initialize();
+        gr.setValue('table', table);
+        gr.setValue('document_id', current.sys_id);
+        gr.setValue('status', 'new');
+        gr.setValue('type', 'outbound');
+        gr.setValue('current', jsonCurrent);
+        gr.setValue('previous', jsonPrevious);
+		gr.setValue('record_operation', current.operation());
+        gr.insert();
+        return gr.getUniqueValue();
+    }
+
+    function getFields(gr, parents) {
+        var tables = parents.split(',');
+        var obj = {};
+        for (var j = 0; j < tables.length; j++) {
+            var fieldgr = new GlideRecord('sys_dictionary');
+            fieldgr.addQuery('name', tables[j]);
+            fieldgr.query();
+            while (fieldgr.next()) {
+                var name = fieldgr.getValue('element'),
+                    value = gr.getValue(name);
+                if (name != null && value != null) {
+                    obj[name] = value;
+                }
+            }
+        }
+        return JSON.stringify(obj);
+    }
+
+    function getParentTables(table) {
+        var tables = [];
+        tables.push(table);
+        var tableGR = new GlideRecord('sys_db_object');
+        if (tableGR.get('name', table)) {
+            var parent = tableGR.getValue('super_class');
+            if (parent != null && parent != undefined) {
+                tables.push(tableGR.getDisplayValue('super_class'));
+                var tableGR2 = new GlideRecord('sys_db_object');
+                if (tableGR2.get('name', parent)) {
+                    var parent2 = tableGR2.getValue('super_class');
+                    if (parent2 != null && parent2 != undefined) {
+                        tables.push(tableGR2.getDisplayValue('super_class'));
+                    }
+                }
+            }
+        }
+        return tables.toString();
+    }
+
+    function hasRecipients(current) {
+        return (current.getValue('x_onpr_onpage_onpage_recipients') + '' != '');
+    }
+
+    function hasSubscriptions(current) {
+        var hasSubscription = false;
+        var prop = gs.getProperty('x_onpr_onpage.subscription.tables'),
+            tables = prop.split(","),
+            table = current.getTableName();
+        if (tables.indexOf(table) != -1) {
+            hasSubscription = true;
+        }
+        return hasSubscription;
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>David.Delahoz</sys_created_by>
+        <sys_created_on>2018-08-24 03:23:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d5bf3eaadbc4ab00c822fcd6f4961992</sys_id>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_name>Generate Events from Task Updates</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_script_d5bf3eaadbc4ab00c822fcd6f4961992</sys_update_name>
+        <sys_updated_by>toan.tran</sys_updated_by>
+        <sys_updated_on>2021-05-14 20:55:27</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=d5bf3eaadbc4ab00c822fcd6f4961992"/>
+</record_update>

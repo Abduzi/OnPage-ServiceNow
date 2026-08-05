@@ -3,7 +3,7 @@
         <active>true</active>
         <can_edit_in_studio>false</can_edit_in_studio>
         <enforce_license>log</enforce_license>
-        <guided_setup_guid display_value="AI Search Guided Setup">d585222f5b4310100977ca225681c72f</guided_setup_guid>
+        <guided_setup_guid/>
         <hide_on_ui>false</hide_on_ui>
         <ide_created/>
         <installed_as_dependency>false</installed_as_dependency>
@@ -17,7 +17,6 @@
         <menu/>
         <name>OnPage Integration</name>
         <package_json/>
-        <package_resolver_version>1.0.0</package_resolver_version>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -25,7 +24,7 @@
         <scoped_administration>false</scoped_administration>
         <short_description>Integrate OnPage with your ServiceNow instance</short_description>
         <source>x_onpr_onpage</source>
-        <store_correlation_id>REPOAPP0002942460</store_correlation_id>
+        <store_correlation_id/>
         <store_url/>
         <subscription_entitlement/>
         <sys_class_name>sys_app</sys_class_name>
@@ -33,16 +32,16 @@
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2018-08-17 15:59:19</sys_created_on>
         <sys_id>864f25ecdb8ca300ee685e25ca96192d</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_updated_by>matias.heffel</sys_updated_by>
-        <sys_updated_on>2026-08-04 16:01:43</sys_updated_on>
+        <sys_updated_on>2026-08-04 21:11:11</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor>OnPage Corporation</vendor>
         <vendor_prefix/>
-        <version>1.6.1</version>
+        <version>1.6.3</version>
     </sys_app>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#0</average_image_color>

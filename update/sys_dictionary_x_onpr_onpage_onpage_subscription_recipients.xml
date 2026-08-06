@@ -39,6 +39,7 @@
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
+        <read_only_option/>
         <read_roles/>
         <reference display_value="" name="x_onpr_onpage_target">x_onpr_onpage_target</reference>
         <reference_cascade_rule/>
@@ -55,6 +56,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>lorena.villanueva</sys_created_by>
         <sys_created_on>2018-09-04 14:05:28</sys_created_on>
+        <sys_id>7077f16d2faa43100f2c2cba6fa4e364</sys_id>
         <sys_name>Recipients</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>

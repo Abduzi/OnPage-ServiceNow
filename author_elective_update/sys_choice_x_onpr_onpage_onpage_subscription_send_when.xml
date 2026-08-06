@@ -6,6 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>toan.tran</sys_created_by>
             <sys_created_on>2021-05-14 20:05:20</sys_created_on>
+            <sys_id>e977356d2faa43100f2c2cba6fa4e32d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>send_when</sys_name>
             <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
@@ -29,6 +30,7 @@
             <sys_created_on>2021-05-14 20:05:20</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>9048b5e12fea43100f2c2cba6fa4e33c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>toan.tran</sys_updated_by>
             <sys_updated_on>2021-05-14 20:05:20</sys_updated_on>
@@ -48,6 +50,7 @@
             <sys_created_on>2021-05-14 20:05:40</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>5848b5e12fea43100f2c2cba6fa4e33d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>toan.tran</sys_updated_by>
             <sys_updated_on>2021-05-14 20:05:40</sys_updated_on>
@@ -67,6 +70,7 @@
             <sys_created_on>2021-05-14 20:05:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>1048b5e12fea43100f2c2cba6fa4e33f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>toan.tran</sys_updated_by>
             <sys_updated_on>2021-05-14 20:05:49</sys_updated_on>

@@ -6,6 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>will.young</sys_created_by>
             <sys_created_on>2018-09-08 19:04:25</sys_created_on>
+            <sys_id>9377b56d2faa43100f2c2cba6fa4e3e5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>priority</sys_name>
             <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
@@ -29,6 +30,7 @@
             <sys_created_on>2018-09-08 19:04:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>e048b5e12fea43100f2c2cba6fa4e3cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>will.young</sys_updated_by>
             <sys_updated_on>2018-09-08 19:04:25</sys_updated_on>
@@ -48,6 +50,7 @@
             <sys_created_on>2018-09-08 19:04:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>a848b5e12fea43100f2c2cba6fa4e3ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>will.young</sys_updated_by>
             <sys_updated_on>2018-09-08 19:04:38</sys_updated_on>

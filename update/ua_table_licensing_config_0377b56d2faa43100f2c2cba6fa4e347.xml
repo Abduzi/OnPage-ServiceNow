@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>David.Delahoz</sys_created_by>
         <sys_created_on>2018-08-24 02:27:40</sys_created_on>
-        <sys_id>100c5ec1db466f0056c524794b96192f</sys_id>
+        <sys_id>0377b56d2faa43100f2c2cba6fa4e347</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_onpr_onpage_event</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name>ua_table_licensing_config_100c5ec1db466f0056c524794b96192f</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_0377b56d2faa43100f2c2cba6fa4e347</sys_update_name>
         <sys_updated_by>David.Delahoz</sys_updated_by>
         <sys_updated_on>2018-08-24 02:27:40</sys_updated_on>
     </ua_table_licensing_config>

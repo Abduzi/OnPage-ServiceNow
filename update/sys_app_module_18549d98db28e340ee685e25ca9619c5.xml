@@ -19,6 +19,8 @@
         <report/>
         <require_confirmation>false</require_confirmation>
         <roles>x_onpr_onpage.user</roles>
+        <route/>
+        <screen/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2018-09-10 15:54:24</sys_created_on>
@@ -37,6 +39,7 @@
         <timeline_page/>
         <title>Get Support</title>
         <uncancelable>false</uncancelable>
+        <ux_list/>
         <view_name/>
         <window_name/>
     </sys_app_module>

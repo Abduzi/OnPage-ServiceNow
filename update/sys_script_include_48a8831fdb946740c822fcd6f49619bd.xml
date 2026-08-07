@@ -74,10 +74,11 @@ workflow.prototype = {
             var table = grEvent.getValue('table'),
                 docID = grEvent.getValue('document_id'),
 				sendCondition = 'send_whenINboth,' + grEvent.getValue('record_operation');
+								
             var sub = new GlideRecord('x_onpr_onpage_onpage_subscription');
 			sub.addActiveQuery();
             sub.addQuery('table', table);
-			sub.addQuery(sendCondition);
+			sub.addEncodedQuery(sendCondition);
             sub.query();
             while (sub.next()) {
                 this.info("Checking subscription " + sub.getValue('name'), logType, logTable, event);
@@ -543,14 +544,16 @@ workflow.prototype = {
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2018-09-07 21:57:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>48a8831fdb946740c822fcd6f49619bd</sys_id>
-        <sys_mod_count>126</sys_mod_count>
+        <sys_mod_count>128</sys_mod_count>
         <sys_name>workflow</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name>sys_script_include_48a8831fdb946740c822fcd6f49619bd</sys_update_name>
-        <sys_updated_by>toan.tran</sys_updated_by>
-        <sys_updated_on>2021-05-18 22:54:06</sys_updated_on>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-08-07 19:07:02</sys_updated_on>
     </sys_script_include>
 </record_update>

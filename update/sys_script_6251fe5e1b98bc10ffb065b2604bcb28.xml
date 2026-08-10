@@ -15,8 +15,8 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="sys_user_grmember">group=17319a1a1b58bc10ffb065b2604bcb98^ORgroup=e161565a1b58bc10ffb065b2604bcb15^EQ<item display_table="sys_user_group" display_value="OnPage Users" endquery="false" field="group" goto="false" newquery="false" operator="=" or="false" value="17319a1a1b58bc10ffb065b2604bcb98"/>
-            <item display_table="sys_user_group" display_value="OnPage Admins" endquery="false" field="group" goto="false" newquery="false" operator="=" or="true" value="e161565a1b58bc10ffb065b2604bcb15"/>
+        <filter_condition table="sys_user_grmember">group=17319a1a1b58bc10ffb065b2604bcb98^ORgroup=e161565a1b58bc10ffb065b2604bcb15^EQ<item endquery="false" field="group" goto="false" newquery="false" operator="=" or="false" value="17319a1a1b58bc10ffb065b2604bcb98"/>
+            <item endquery="false" field="group" goto="false" newquery="false" operator="=" or="true" value="e161565a1b58bc10ffb065b2604bcb15"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>

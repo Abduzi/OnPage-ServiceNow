@@ -19,6 +19,8 @@
         <report/>
         <require_confirmation>false</require_confirmation>
         <roles>x_onpr_onpage.blast_it</roles>
+        <route/>
+        <screen/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2018-09-10 16:37:55</sys_created_on>
@@ -37,6 +39,7 @@
         <timeline_page/>
         <title>Open BlastIT</title>
         <uncancelable>false</uncancelable>
+        <ux_list/>
         <view_name/>
         <window_name>_self</window_name>
     </sys_app_module>

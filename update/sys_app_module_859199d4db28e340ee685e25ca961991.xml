@@ -19,6 +19,8 @@
         <report/>
         <require_confirmation>false</require_confirmation>
         <roles/>
+        <route/>
+        <screen/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2018-09-10 15:42:27</sys_created_on>
@@ -37,6 +39,7 @@
         <timeline_page/>
         <title>Admin Tables</title>
         <uncancelable>false</uncancelable>
+        <ux_list/>
         <view_name/>
         <window_name/>
     </sys_app_module>

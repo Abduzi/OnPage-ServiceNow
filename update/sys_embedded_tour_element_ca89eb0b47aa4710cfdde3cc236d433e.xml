@@ -4,7 +4,7 @@
         <cell_types/>
         <col/>
         <cxs_results/>
-        <element_type>textbox</element_type>
+        <element_type>button</element_type>
         <field/>
         <field_action/>
         <field_header/>
@@ -13,11 +13,11 @@
         <form_element>field</form_element>
         <form_section/>
         <frameset>nav_filter</frameset>
-        <js_path>macroponent-f51912f4c700201072b211d4d8c26010 &gt;&gt;&gt; sn-polaris-layout &gt;&gt;&gt; sn-polaris-header &gt;&gt;&gt; sn-polaris-menu.is-main-menu.is-pinned &gt;&gt;&gt; #filter</js_path>
+        <js_path/>
         <list_element>ui_action</list_element>
         <list_header/>
-        <manual_css>input#filter.form-control.form-control-search</manual_css>
-        <name>Filter Navigator</name>
+        <manual_css>TR:nth-of-type(11) TD .input-group-checkbox [for="ni.x_onpr_onpage.sn_scheduler.enabled"]</manual_css>
+        <name>xpath</name>
         <record_id/>
         <related_field/>
         <related_links/>
@@ -25,22 +25,23 @@
         <related_lists/>
         <related_table/>
         <row/>
-        <seismic_selector>input[id='filter']</seismic_selector>
+        <seismic_selector/>
         <sys_class_name>sys_embedded_tour_element</sys_class_name>
-        <sys_created_by>will.young</sys_created_by>
-        <sys_created_on>2018-12-31 19:31:28</sys_created_on>
+        <sys_created_by>hamid.laghari</sys_created_by>
+        <sys_created_on>2026-08-11 20:31:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>cc183a94db7e6b0056c524794b961906</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Filter Navigator</sys_name>
+        <sys_id>ca89eb0b47aa4710cfdde3cc236d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>xpath</sys_name>
         <sys_overrides/>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name>sys_embedded_tour_element_cc183a94db7e6b0056c524794b961906</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-09-09 16:44:58</sys_updated_on>
+        <sys_update_name>sys_embedded_tour_element_ca89eb0b47aa4710cfdde3cc236d433e</sys_update_name>
+        <sys_updated_by>hamid.laghari</sys_updated_by>
+        <sys_updated_on>2026-08-11 20:31:21</sys_updated_on>
         <table/>
         <type>manual_css</type>
         <ui_action/>

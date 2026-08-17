@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>true</action>
+        <action_event>click</action_event>
+        <action_target/>
+        <action_target_ref display_value="xpath">5997c933472a4b10cfdde3cc236d4388</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Submit your credentials and wait to be redirected to &#34;OnPage Configuration&#34; ]]></content>
+        <guide display_value="OnPage Guided Tour (Admin)">70662b0b47aa4710cfdde3cc236d438e</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"url":"/x_onpr_onpage_OnPageLogin.do"}</options>
+        <order>2</order>
+        <placement>bottom</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>hamid.laghari</sys_created_by>
+        <sys_created_on>2026-08-13 16:39:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>59974d73472a4b10cfdde3cc236d43c5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_59974d73472a4b10cfdde3cc236d43c5</sys_update_name>
+        <sys_updated_by>hamid.laghari</sys_updated_by>
+        <sys_updated_on>2026-08-13 18:05:14</sys_updated_on>
+        <target/>
+        <target_ref display_value="xpath">5997c933472a4b10cfdde3cc236d4388</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>x_onpr_onpage_OnPageLogin.do</window>
+    </sys_embedded_tour_step>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>true</action>
+        <action_event>click</action_event>
+        <action_target/>
+        <action_target_ref display_value="xpath">a7dd52441b7a0f107f50cb35604bcbfd</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Click here to Refresh the List and then Open any Record.]]></content>
+        <guide display_value="OnPage Guided Tour (Admin)">70662b0b47aa4710cfdde3cc236d438e</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"url":"/x_onpr_onpage_target_list.do"}</options>
+        <order>19</order>
+        <placement>bottom</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>hamid.laghari</sys_created_by>
+        <sys_created_on>2026-08-14 17:34:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>63dd92441b7a0f107f50cb35604bcb01</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_63dd92441b7a0f107f50cb35604bcb01</sys_update_name>
+        <sys_updated_by>hamid.laghari</sys_updated_by>
+        <sys_updated_on>2026-08-14 18:04:31</sys_updated_on>
+        <target/>
+        <target_ref display_value="xpath">a7dd52441b7a0f107f50cb35604bcbfd</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>x_onpr_onpage_target_list.do</window>
+    </sys_embedded_tour_step>
+</record_update>

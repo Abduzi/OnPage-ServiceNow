@@ -12,7 +12,7 @@
         <name>x_onpr_onpage_onpage_subscription.*</name>
         <operation display_value="query_range">e66cf897b7300210240b06dd1e11a9fd</operation>
         <script/>
-        <security_attribute display_value="SAC_642994983">bc91c2a5f334621048dff3de22408586</security_attribute>
+        <security_attribute display_value="">bc91c2a5f334621048dff3de22408586</security_attribute>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>@@snc_write_audit@@</sys_created_by>
         <sys_created_on>2025-05-12 21:18:51</sys_created_on>

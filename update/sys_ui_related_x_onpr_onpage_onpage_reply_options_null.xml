@@ -2,6 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_onpr_onpage_onpage_reply_options" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
+            <group_by_field/>
             <list_id display_value="OnPage Reply Options - Default view" name="x_onpr_onpage_onpage_reply_options" related_list="NULL" sys_domain="global" view="Default view">0b302edbdb506740c822fcd6f49619c7</list_id>
             <order_by/>
             <position>0</position>
@@ -16,6 +17,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
+            <group_by_field/>
             <list_id display_value="OnPage Reply Options - Default view" name="x_onpr_onpage_onpage_reply_options" related_list="NULL" sys_domain="global" view="Default view">0b302edbdb506740c822fcd6f49619c7</list_id>
             <order_by/>
             <position>1</position>

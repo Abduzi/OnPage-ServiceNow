@@ -45,7 +45,8 @@
 		value = status,
 		end ='';
 	//create a new send-ready metric for new records
-	if(status=='send-ready'&&current.isNewRecord()){
+	// if(status=='send-ready'&&current.isNewRecord()){ 
+	if(status=='send-ready'&& current.operation() == "insert"){ 
 		type = 'create';
 		definition = sendRdy;
 	}
@@ -64,7 +65,7 @@
 		type = 'update';
 		definition = error;
 	}
-	var gr = new GlideRecord('metric_instance');
+	var gr = new GlideRecordSecure('metric_instance');
 	//create a new metric
 	if(type=='create'){
 		new x_onpr_onpage.log().info("Creating metric for "+current.getValue('number'),"internal",current.getRecordClassName(),id);
@@ -102,20 +103,22 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2018-09-11 18:03:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>42977eecdb282740ee685e25ca9619a5</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Create/Update Metrics</sys_name>
         <sys_overrides/>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name>sys_script_42977eecdb282740ee685e25ca9619a5</sys_update_name>
-        <sys_updated_by>will.young</sys_updated_by>
-        <sys_updated_on>2019-03-21 21:56:30</sys_updated_on>
+        <sys_updated_by>hamid.laghari</sys_updated_by>
+        <sys_updated_on>2026-09-22 21:26:10</sys_updated_on>
         <template/>
-        <when>before</when>
+        <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=42977eecdb282740ee685e25ca9619a5"/>
 </record_update>

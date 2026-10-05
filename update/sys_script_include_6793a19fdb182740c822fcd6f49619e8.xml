@@ -18,7 +18,7 @@ sync.prototype = {
 		this.instance = gs.getProperty('instance_name');
 		this.username = 'onpage';
 		this.password = function(){
-			var gr = new GlideRecord('sys_user');
+			var gr = new GlideRecordSecureSecure('sys_user');
 			if(gr.get('user_name',"onpage")){
 				return gr.getUniqueValue();
 			}
@@ -55,7 +55,7 @@ sync.prototype = {
 				grpID = group.id.toString();
 				//grpActive = group.active.toString();
 			//check for existing records
-			var gr = new GlideRecord('x_onpr_onpage_target');
+			var gr = new GlideRecordSecure('x_onpr_onpage_target');
 				gr.addQuery('opid',opid);
 				gr.query();
 			if(gr.next()){
@@ -90,7 +90,7 @@ sync.prototype = {
 			else{
 				this.info("No existing group; creating","internal");
 				//no existing record, create one
-				var grImp = new GlideRecord('x_onpr_onpage_target_import');
+				var grImp = new GlideRecordSecure('x_onpr_onpage_target_import');
 				grImp.initialize();
 				grImp.setValue('onpage_name',name);
 				grImp.setValue('opid',opid);
@@ -118,7 +118,7 @@ sync.prototype = {
 				id = account.id.toString();
 				//usrActive = account.active.toString();
 			//check for existing records
-			var gr = new GlideRecord('x_onpr_onpage_target');
+			var gr = new GlideRecordSecure('x_onpr_onpage_target');
 				gr.addQuery('opid',opid);
 				gr.query();
 			if(gr.next()){
@@ -153,7 +153,7 @@ sync.prototype = {
 			else{
 				this.info("No existing user; creating","internal");
 				//no existing record, create one
-				var grImp = new GlideRecord('x_onpr_onpage_target_import');
+				var grImp = new GlideRecordSecure('x_onpr_onpage_target_import');
 				grImp.initialize();
 				grImp.setValue('active',true);
 				grImp.setValue('hidden',false);
@@ -180,7 +180,8 @@ sync.prototype = {
 			rest.setStringParameterNoEscape('phone', phone);
 			rest.setStringParameterNoEscape('opid', opid);
 
-			var response = r.execute();
+			var response = rest.executeAsync();
+			response.waitForResponse(60);
 			var body = response.getBody();
 			var status = response.getStatusCode();
 			if(status==200){
@@ -198,7 +199,8 @@ sync.prototype = {
 			rest.setStringParameterNoEscape('URLsub',this.URLsub);
 			rest.setStringParameterNoEscape('token',this.token);
 			rest.setStringParameterNoEscape('key',this.key);
-		var response = rest.execute();
+		var response = rest.executeAsync();
+		response.waitForResponse(60);
 		var status = response.getStatusCode();
 		var body = response.getBody();
 		if(status==200){
@@ -216,7 +218,8 @@ sync.prototype = {
 			rest.setStringParameterNoEscape('URLsub',this.URLsub);
 			rest.setStringParameterNoEscape('token',this.token);
 			rest.setStringParameterNoEscape('key',this.key);
-		var response = rest.execute();
+		var response = rest.executeAsync();
+		response.waitForResponse(60);
 		var status = response.getStatusCode();
 		var body = response.getBody();
 		if(status==200){
@@ -238,14 +241,16 @@ sync.prototype = {
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2018-09-07 15:18:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>6793a19fdb182740c822fcd6f49619e8</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>sync</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name>sys_script_include_6793a19fdb182740c822fcd6f49619e8</sys_update_name>
-        <sys_updated_by>will.young</sys_updated_by>
-        <sys_updated_on>2019-03-22 13:19:22</sys_updated_on>
+        <sys_updated_by>hamid.laghari</sys_updated_by>
+        <sys_updated_on>2026-09-30 18:49:27</sys_updated_on>
     </sys_script_include>
 </record_update>

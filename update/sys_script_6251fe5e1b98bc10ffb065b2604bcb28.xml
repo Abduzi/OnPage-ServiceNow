@@ -53,62 +53,26 @@
 			u.last_name = onPageUser.last_name;
 			u.update();
 		}*/
-	}/*
-	else{
-		// 3. If no match, creates a user in OnPage using integration
-		try {
-			// 4. If match, updates onpage record to the sys_user table and user's document_id
-			// 5. After us is create in OnPage, OP will create a new target in SN
-			// 6. Script runs to match up newly created target with user in the system.
-			var r = new sn_ws.RESTMessageV2('x_onpr_onpage.OnPage Secured', 'createAccount');
-			r.setStringParameterNoEscape('opid', '');  //is this needed for creating?
-			r.setStringParameterNoEscape('token',  gs.getProperty('x_onpr_onpage.auth.token'));
-			r.setStringParameterNoEscape('URLsub', gs.getProperty('x_onpr_onpage.URLsubdomain'));
-			r.setStringParameterNoEscape('first', current.user.first_name);
-			r.setStringParameterNoEscape('last', current.user.last_name);
-			r.setStringParameterNoEscape('email', current.user.email);
-			r.setStringParameterNoEscape('secondary', ''); //is this needed for creating
-			r.setStringParameterNoEscape('phone', current.user.phone);
-			r.setStringParameterNoEscape('key',  gs.getProperty('x_onpr_onpage.auth.key'));
-
-			var response = r.executeAsync();
-			var responseBody = response.getBody();
-			var httpStatus = response.getStatusCode();
-			var obj = new global.JSON().decode(responseBody);
-
-			var target = new GlideRecord('x_onpr_onpage_target');
-			target.initialize();
-			target.setValue('email',current.user.email);
-			target.setValue('onpage_name',current.user.user_name);
-			target.setValue('first_name', current.user.first_name);
-			target.setValue('last_name', current.user.last_name);
-			target.setValue('document_id', current.user); //sys_id of user
-			target.setValue('table', "sys_user");
-			//to do:
-			//After rest Message(is the current one correct?)...need response results and set OnPage Id on target and
-			//necessary fields. These will come from OBJ variable on line 44
-			target.insert();
-		}
-		catch(error) {
-			var message = gs.error(error);
-		}
-	}*/
+	}
+	
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>toan.tran</sys_created_by>
         <sys_created_on>2021-05-25 22:28:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6251fe5e1b98bc10ffb065b2604bcb28</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Target Matching Scripts</sys_name>
         <sys_overrides/>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name>sys_script_6251fe5e1b98bc10ffb065b2604bcb28</sys_update_name>
-        <sys_updated_by>toan.tran</sys_updated_by>
-        <sys_updated_on>2021-06-01 19:49:10</sys_updated_on>
+        <sys_updated_by>hamid.laghari</sys_updated_by>
+        <sys_updated_on>2026-09-23 21:39:23</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

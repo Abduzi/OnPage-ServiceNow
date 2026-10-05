@@ -29,7 +29,7 @@ workflow.prototype = {
 
         //build an array of tables with subscriptions
         var array = [];
-        var gr = new GlideRecord('x_onpr_onpage_onpage_subscription');
+        var gr = new GlideRecordSecure('x_onpr_onpage_onpage_subscription');
         gr.addActiveQuery();
         gr.query();
         while (gr.next()) {
@@ -55,7 +55,7 @@ workflow.prototype = {
         }
         var string = array.toString();
         this.info("New subscription tables", logType, logTable, subscription);
-        var prop = new GlideRecord('sys_properties');
+        var prop = new GlideRecordSecure('sys_properties');
         if (prop.get('name', "x_onpr_onpage.subscription.tables")) {
             prop.setValue('value', string);
             prop.update();
@@ -69,13 +69,13 @@ workflow.prototype = {
         var processed = false;
 
         //get event values
-        var grEvent = new GlideRecord('x_onpr_onpage_event');
+        var grEvent = new GlideRecordSecure('x_onpr_onpage_event');
         if (grEvent.get(event)) {
             var table = grEvent.getValue('table'),
                 docID = grEvent.getValue('document_id'),
 				sendCondition = 'send_whenINboth,' + grEvent.getValue('record_operation');
 								
-            var sub = new GlideRecord('x_onpr_onpage_onpage_subscription');
+            var sub = new GlideRecordSecure('x_onpr_onpage_onpage_subscription');
 			sub.addActiveQuery();
             sub.addQuery('table', table);
 			sub.addEncodedQuery(sendCondition);
@@ -98,7 +98,7 @@ workflow.prototype = {
 				this.info("Recipients are " + recips, logType, logTable, event);
 
                 //check each subscription to see if the criteria match
-                var rec = new GlideRecord(table);
+                var rec = new GlideRecordSecure(table);
                 rec.addQuery('sys_id', docID);
                 rec.addEncodedQuery(conditions);
                 rec.query();
@@ -107,7 +107,7 @@ workflow.prototype = {
                     this.info("Subscription found. Recipients are: " + recips.toString(), logType, logTable, event);
                     processed = true;
                     //get template
-                    var tempGR = new GlideRecord('x_onpr_onpage_onpage_template');
+                    var tempGR = new GlideRecordSecure('x_onpr_onpage_onpage_template');
                     if (tempGR.get(template)) {
                         var priority = tempGR.getDisplayValue('priority'),
                             options = tempGR.getValue('reply_options'),
@@ -139,7 +139,7 @@ workflow.prototype = {
                         var recipients = [];
                         for (var j = 0; j < recips.length; j++) {
                             var id = recips[j];
-                            var grT = new GlideRecord('x_onpr_onpage_target');
+                            var grT = new GlideRecordSecure('x_onpr_onpage_target');
                             if (grT.get(id)) {
                                 recipients.push(grT.getValue("opid"));
                             }
@@ -148,7 +148,7 @@ workflow.prototype = {
 
                         //get response options
                         var replies = [];
-                        var grRply = new GlideRecord('x_onpr_onpage_onpage_reply');
+                        var grRply = new GlideRecordSecure('x_onpr_onpage_onpage_reply');
                         grRply.addQuery('parent', options);
                         grRply.orderBy('order');
                         grRply.query();
@@ -177,7 +177,7 @@ workflow.prototype = {
                         //nshortd = encodeURI(nshortd);
 
                         //generate notification record
-                        var notification = new GlideRecord('x_onpr_onpage_notification');
+                        var notification = new GlideRecordSecure('x_onpr_onpage_notification');
                         notification.initialize();
                         notification.setValue('short_description', nshortd);
                         notification.setValue('body', nbody);
@@ -214,7 +214,7 @@ workflow.prototype = {
         }
     },
     deleteInactiveTargets: function() {
-        var gr = new GlideRecord('x_onpr_onpage_target');
+        var gr = new GlideRecordSecure('x_onpr_onpage_target');
         gr.addQuery('active', "false");
         gr.query();
         gr.deleteMultiple();
@@ -240,7 +240,7 @@ workflow.prototype = {
         var match = patt.exec(string);
         var pattern = match[0];
         var fieldName = match[1];
-        var getV = new GlideRecord(table);
+        var getV = new GlideRecordSecure(table);
         if (getV.get(doc)) {
             var value = getV.getDisplayValue(fieldName);
             if (value == null) {
@@ -258,7 +258,7 @@ workflow.prototype = {
             logType = 'internal';
 		this.info("getDirectRecipients for table: " + table + " and doc " + docId, logType, logTable, event);
 		var recipients = '';
-		var gr = new GlideRecord(table);
+		var gr = new GlideRecordSecure(table);
 		if(gr.get(docId)){
 			recipients = gr.getValue('x_onpr_onpage_onpage_recipients');
 		} else {
@@ -281,7 +281,7 @@ workflow.prototype = {
             event = doc;
         this.info("Workflow-triggered notification starting", logType, logTable, event);
 
-        var tempGR = new GlideRecord('x_onpr_onpage_onpage_template');
+        var tempGR = new GlideRecordSecure('x_onpr_onpage_onpage_template');
         if (tempGR.get(template)) {
             var priority = tempGR.getDisplayValue('priority'),
                 options = tempGR.getValue('reply_options'),
@@ -300,7 +300,7 @@ workflow.prototype = {
             var recips = recip.split(","),
                 recipients = [];
             for (var i = 0; i < recips.length; i++) {
-                var tarGR = new GlideRecord('x_onpr_onpage_target');
+                var tarGR = new GlideRecordSecure('x_onpr_onpage_target');
                 if (tarGR.get('document_id', recips[i])) {
                     recipients.push(tarGR.getValue('opid'));
                 }
@@ -309,7 +309,7 @@ workflow.prototype = {
 
             //get response options
             var replies = [];
-            var grRply = new GlideRecord('x_onpr_onpage_onpage_reply');
+            var grRply = new GlideRecordSecure('x_onpr_onpage_onpage_reply');
             grRply.addQuery('parent', options);
             grRply.orderBy('order');
             grRply.query();
@@ -337,7 +337,7 @@ workflow.prototype = {
             //nshortd = encodeURI(nshortd);
 
             //generate notification record
-            var notification = new GlideRecord('x_onpr_onpage_notification');
+            var notification = new GlideRecordSecure('x_onpr_onpage_notification');
             notification.initialize();
             notification.setValue('short_description', nshortd);
             notification.setValue('body', nbody);
@@ -370,7 +370,7 @@ workflow.prototype = {
         }
 
         // lookup outbound notification
-        var gr = new GlideRecord('x_onpr_onpage_notification');
+        var gr = new GlideRecordSecure('x_onpr_onpage_notification');
         if (gr.get(origNotif)) {
             //this.error("Notification found",logType,logTable,source);
             this.info("runReply notification found", logType, logTable, source);
@@ -382,7 +382,7 @@ workflow.prototype = {
             this.info('runreply template is: ' + template, logType, logTable, source);
 
             //get reply options from template
-            var tempGR = new GlideRecord('x_onpr_onpage_onpage_template');
+            var tempGR = new GlideRecordSecure('x_onpr_onpage_onpage_template');
             if (tempGR.get(template)) {
                 //this.error("Template found",logType,logTable,source);
                 this.info("runReply template found", logType, logTable, source);
@@ -394,7 +394,7 @@ workflow.prototype = {
                 this.info('runReply template has reply options: ' + replies, logType, logTable, source);
 
                 //check if execute script is enabled
-                var repliesGR = new GlideRecord('x_onpr_onpage_onpage_reply_options');
+                var repliesGR = new GlideRecordSecure('x_onpr_onpage_onpage_reply_options');
                 if (repliesGR.get(replies)) {
                     var enabled = repliesGR.getValue('execute_scripts');
                     this.info('runReply execute scripts value is ' + enabled, logType, logTable, source);
@@ -405,7 +405,7 @@ workflow.prototype = {
                     this.info('runReply execute scripts is enabled', logType, logTable, source);
 
                     //check if there is a matching reply and get the script
-                    var replyGR = new GlideRecord('x_onpr_onpage_onpage_reply');
+                    var replyGR = new GlideRecordSecure('x_onpr_onpage_onpage_reply');
                     replyGR.addQuery('parent', replies);
                     replyGR.addQuery('option_name', reply);
                     replyGR.query();
@@ -425,7 +425,7 @@ workflow.prototype = {
                             var evaluator = new GlideScopedEvaluator();
                             evaluator.evaluateScript(replyGR, "script", vars);
                             this.info('runreply script executed', logType, logTable, source);
-                            var updateGR = new GlideRecord('x_onpr_onpage_event');
+                            var updateGR = new GlideRecordSecure('x_onpr_onpage_event');
                             if (updateGR.get(source)) {
                                 updateGR.setValue('status', "processed");
                                 updateGR.update();
@@ -460,10 +460,22 @@ workflow.prototype = {
             r.setStringParameterNoEscape('id', notif);
             r.setStringParameterNoEscape('body', encodeURI(body));
 
-            var response = r.execute();
+            var response = r.executeAsync();
+			response.waitForResponse(60);
             var responseBody = response.getBody();
             var httpStatus = response.getStatusCode();
+			gs.info("workflow.sendRestMessage response: " + httpStatus + ": " + responseBody+ logType+ logTable+ notif);
+			gs.info('AK URLsub'+ gs.getProperty('x_onpr_onpage.URLsubdomain'));
+            gs.info('AK token'+ gs.getProperty('x_onpr_onpage.auth.token'));
+            gs.info('AK key'+ gs.getProperty('x_onpr_onpage.auth.key'));
+            gs.info('AK ansArray'+ this.reformat(reply));
+            gs.info('AK priority'+ priority);
+            gs.info('AK subject'+ encodeURI(subject));
+            gs.info('AK recipArray'+ this.reformat(recipients));
+            gs.info('AK id'+ notif);
+            gs.info('AK body'+ encodeURI(body));
             this.info("workflow.sendRestMessage response: " + httpStatus + ": " + responseBody, logType, logTable, notif);
+
             if (httpStatus != 200) {
                 var request = r.getRequestBody();
                 var errorhandler = new handleErrors().rest(request, responseBody, httpStatus);
@@ -495,7 +507,8 @@ workflow.prototype = {
             r.setStringParameterNoEscape('key', gs.getProperty('x_onpr_onpage.auth.key'));
             r.setStringParameterNoEscape('msgArray', msgArray);
 
-            var response = r.execute();
+            var response = r.executeAsync();
+			response.waitForResponse(60);
             var responseBody = response.getBody();
             var httpStatus = response.getStatusCode();
             this.info("Response: " + httpStatus + ": " + responseBody, logType, logTable, '');
@@ -521,7 +534,7 @@ workflow.prototype = {
         return string;
     },
     _convertOPID: function(opid) {
-        var target = new GlideRecord('x_onpr_onpage_target');
+        var target = new GlideRecordSecure('x_onpr_onpage_target');
         if (target.get('opid', opid)) {
             var gr = target.getValue('document_id');
             var obj = {};
@@ -546,14 +559,14 @@ workflow.prototype = {
         <sys_created_on>2018-09-07 21:57:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>48a8831fdb946740c822fcd6f49619bd</sys_id>
-        <sys_mod_count>128</sys_mod_count>
+        <sys_mod_count>138</sys_mod_count>
         <sys_name>workflow</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
-        <sys_policy>read</sys_policy>
+        <sys_policy>protected</sys_policy>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name>sys_script_include_48a8831fdb946740c822fcd6f49619bd</sys_update_name>
-        <sys_updated_by>abduk</sys_updated_by>
-        <sys_updated_on>2026-08-07 19:07:02</sys_updated_on>
+        <sys_updated_by>hamid.laghari</sys_updated_by>
+        <sys_updated_on>2026-10-01 19:20:02</sys_updated_on>
     </sys_script_include>
 </record_update>

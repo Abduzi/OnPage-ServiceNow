@@ -23,6 +23,7 @@
         <scope>x_onpr_onpage</scope>
         <scoped_administration>false</scoped_administration>
         <short_description>Integrate OnPage with your ServiceNow instance</short_description>
+        <sn_managed>false</sn_managed>
         <source>x_onpr_onpage</source>
         <store_correlation_id/>
         <store_url/>

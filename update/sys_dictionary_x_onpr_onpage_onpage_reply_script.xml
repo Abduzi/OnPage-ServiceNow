@@ -67,6 +67,7 @@ function executeScript(table,record,user){&#13;
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>will.young</sys_created_by>
         <sys_created_on>2018-09-07 18:22:24</sys_created_on>
+        <sys_id>b5e74f34cf3347104ac2f0bb2c851c5e</sys_id>
         <sys_name>Script to Execute (Advanced)</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>

@@ -28,22 +28,22 @@
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:09:20</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>785c19c51baf0b107f50cb35604bcb7b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Update System Property</sys_name>
         <sys_overrides/>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_785c19c51baf0b107f50cb35604bcb7b</sys_update_name>
-        <sys_updated_by>hamid.laghari</sys_updated_by>
-        <sys_updated_on>2026-09-23 22:18:40</sys_updated_on>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-10-05 21:37:18</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=785c19c51baf0b107f50cb35604bcb7b"/>
     <sys_variable_value action="delete_multiple" query="document_key=785c19c51baf0b107f50cb35604bcb7b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
@@ -125,18 +125,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:14:13</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>5c7d594d1baf0b107f50cb35604bcbc5</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:17:17</sys_updated_on>
     </sys_hub_step_instance>
@@ -183,18 +176,6 @@ if(gr.next()){&#13;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5c7d594d1baf0b107f50cb35604bcbc5"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>5c7d594d1baf0b107f50cb35604bcbc5</id>
-        <sys_created_by>hamid.laghari</sys_created_by>
-        <sys_created_on>2026-09-23 22:14:13</sys_created_on>
-        <sys_id>107d594d1baf0b107f50cb35604bcbef</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>hamid.laghari</sys_updated_by>
-        <sys_updated_on>2026-09-23 22:14:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>property</field>
         <id>5c7d594d1baf0b107f50cb35604bcbc5</id>
         <sys_created_by>hamid.laghari</sys_created_by>
@@ -205,18 +186,6 @@ if(gr.next()){&#13;
         <sys_updated_on>2026-09-23 22:14:13</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_5c7d594d1baf0b107f50cb35604bcbc5</table>
         <value>{{action.property_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>5c7d594d1baf0b107f50cb35604bcbc5</id>
-        <sys_created_by>hamid.laghari</sys_created_by>
-        <sys_created_on>2026-09-23 22:14:13</sys_created_on>
-        <sys_id>507d594d1baf0b107f50cb35604bcbf0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>hamid.laghari</sys_updated_by>
-        <sys_updated_on>2026-09-23 22:14:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>value</field>
@@ -281,7 +250,6 @@ if(gr.next()){&#13;
         <order>0</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -296,13 +264,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:14:13</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>147d594d1baf0b107f50cb35604bcbd0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -367,7 +333,6 @@ if(gr.next()){&#13;
         <order>100</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -382,13 +347,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:14:13</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>187d594d1baf0b107f50cb35604bcbd6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -454,7 +417,6 @@ if(gr.next()){&#13;
         <order>1</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -469,13 +431,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:14:13</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>587d594d1baf0b107f50cb35604bcbdb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -504,15 +464,13 @@ if(gr.next()){&#13;
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:14:13</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>9c7d594d1baf0b107f50cb35604bcbe1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5c7d594d1baf0b107f50cb35604bcbc5_status_en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:14:13</sys_updated_on>
         <url/>
@@ -567,7 +525,6 @@ if(gr.next()){&#13;
         <order>2</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -582,13 +539,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:14:13</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>847d594d1baf0b107f50cb35604bcb71</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -654,7 +609,6 @@ if(gr.next()){&#13;
         <order>1</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -669,13 +623,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:14:12</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c87d91c91baf0b107f50cb35604bcb4b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -744,7 +696,6 @@ if(gr.next()){&#13;
         <order>1</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -759,13 +710,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:14:13</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>547d594d1baf0b107f50cb35604bcbf8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -834,7 +783,6 @@ if(gr.next()){&#13;
         <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -849,13 +797,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:14:14</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>d47d994d1baf0b107f50cb35604bcb09</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -924,7 +870,6 @@ if(gr.next()){&#13;
         <order>2</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -939,13 +884,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:14:14</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>dc7d994d1baf0b107f50cb35604bcb01</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -987,15 +930,13 @@ if(gr.next()){&#13;
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:14:13</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>447d594d1baf0b107f50cb35604bcb6f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Property Name</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_785c19c51baf0b107f50cb35604bcb7b_property_name_en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:14:13</sys_updated_on>
         <url/>
@@ -1012,15 +953,13 @@ if(gr.next()){&#13;
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:14:13</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>887d594d1baf0b107f50cb35604bcb76</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>New Value</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_785c19c51baf0b107f50cb35604bcb7b_new_value_en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:14:13</sys_updated_on>
         <url/>
@@ -1038,15 +977,13 @@ if(gr.next()){&#13;
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:14:14</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>547d994d1baf0b107f50cb35604bcb07</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_785c19c51baf0b107f50cb35604bcb7b_status_en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:14:14</sys_updated_on>
         <url/>
@@ -1063,15 +1000,13 @@ if(gr.next()){&#13;
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:14:14</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>5c7d594d1baf0b107f50cb35604bcbff</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_785c19c51baf0b107f50cb35604bcb7b___action_status___en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:14:14</sys_updated_on>
         <url/>
@@ -1088,15 +1023,13 @@ if(gr.next()){&#13;
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:14:14</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>d87d994d1baf0b107f50cb35604bcb1f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_785c19c51baf0b107f50cb35604bcb7b___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:14:14</sys_updated_on>
         <url/>
@@ -1111,6 +1044,7 @@ if(gr.next()){&#13;
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:40</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>d17e11011bef0b107f50cb35604bcb56</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
@@ -1143,15 +1077,14 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>057eddcd1baf0b107f50cb35604bcbbd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -1159,6 +1092,7 @@ if(gr.next()){&#13;
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=057eddcd1baf0b107f50cb35604bcbbd"/>
     <sys_variable_value action="delete_multiple" query="document_key=057eddcd1baf0b107f50cb35604bcbbd"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -1240,18 +1174,11 @@ if(gr.next()){&#13;
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>057eddcd1baf0b107f50cb35604bcbd8</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:18:39</sys_updated_on>
     </sys_hub_step_instance>
@@ -1298,18 +1225,6 @@ if(gr.next()){&#13;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=057eddcd1baf0b107f50cb35604bcbd8"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>057eddcd1baf0b107f50cb35604bcbd8</id>
-        <sys_created_by>hamid.laghari</sys_created_by>
-        <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_id>d57e11011bef0b107f50cb35604bcb16</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>hamid.laghari</sys_updated_by>
-        <sys_updated_on>2026-09-23 22:18:39</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>property</field>
         <id>057eddcd1baf0b107f50cb35604bcbd8</id>
         <sys_created_by>hamid.laghari</sys_created_by>
@@ -1320,18 +1235,6 @@ if(gr.next()){&#13;
         <sys_updated_on>2026-09-23 22:18:39</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_057eddcd1baf0b107f50cb35604bcbd8</table>
         <value>{{action.property_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>057eddcd1baf0b107f50cb35604bcbd8</id>
-        <sys_created_by>hamid.laghari</sys_created_by>
-        <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_id>1d7e11011bef0b107f50cb35604bcb16</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>hamid.laghari</sys_updated_by>
-        <sys_updated_on>2026-09-23 22:18:39</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>value</field>
@@ -1396,7 +1299,6 @@ if(gr.next()){&#13;
         <order>100</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -1411,13 +1313,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>457eddcd1baf0b107f50cb35604bcbe6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -1482,7 +1382,6 @@ if(gr.next()){&#13;
         <order>0</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -1497,13 +1396,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>cd7eddcd1baf0b107f50cb35604bcbde</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -1569,7 +1466,6 @@ if(gr.next()){&#13;
         <order>1</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -1584,13 +1480,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>957eddcd1baf0b107f50cb35604bcbed</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -1619,15 +1513,13 @@ if(gr.next()){&#13;
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>dd7eddcd1baf0b107f50cb35604bcbfe</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_057eddcd1baf0b107f50cb35604bcbd8_status_en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:18:39</sys_updated_on>
         <url/>
@@ -1682,7 +1574,6 @@ if(gr.next()){&#13;
         <order>2</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -1697,13 +1588,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>057eddcd1baf0b107f50cb35604bcbcb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -1769,7 +1658,6 @@ if(gr.next()){&#13;
         <order>1</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -1784,13 +1672,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>0d7eddcd1baf0b107f50cb35604bcbc2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -1859,7 +1745,6 @@ if(gr.next()){&#13;
         <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -1874,13 +1759,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>957e11011bef0b107f50cb35604bcb2d</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -1949,7 +1832,6 @@ if(gr.next()){&#13;
         <order>2</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -1964,13 +1846,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>9d7e11011bef0b107f50cb35604bcb25</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -2039,7 +1919,6 @@ if(gr.next()){&#13;
         <order>1</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -2054,13 +1933,11 @@ if(gr.next()){&#13;
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>d57e11011bef0b107f50cb35604bcb1d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -2102,15 +1979,13 @@ if(gr.next()){&#13;
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>097eddcd1baf0b107f50cb35604bcbd0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>New Value</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_057eddcd1baf0b107f50cb35604bcbbd_new_value_en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:18:39</sys_updated_on>
         <url/>
@@ -2127,15 +2002,13 @@ if(gr.next()){&#13;
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>817eddcd1baf0b107f50cb35604bcbc9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Property Name</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_057eddcd1baf0b107f50cb35604bcbbd_property_name_en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:18:39</sys_updated_on>
         <url/>
@@ -2153,15 +2026,13 @@ if(gr.next()){&#13;
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>157e11011bef0b107f50cb35604bcb2b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_057eddcd1baf0b107f50cb35604bcbbd_status_en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:18:39</sys_updated_on>
         <url/>
@@ -2178,15 +2049,13 @@ if(gr.next()){&#13;
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>1d7e11011bef0b107f50cb35604bcb23</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_057eddcd1baf0b107f50cb35604bcbbd___action_status___en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:18:39</sys_updated_on>
         <url/>
@@ -2203,15 +2072,13 @@ if(gr.next()){&#13;
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>dd7e11011bef0b107f50cb35604bcb35</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_057eddcd1baf0b107f50cb35604bcbbd___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:18:39</sys_updated_on>
         <url/>

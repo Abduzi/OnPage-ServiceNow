@@ -3,7 +3,6 @@
         <access>public</access>
         <acls/>
         <active>true</active>
-        <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1654000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>29000</authored_on_release_version>
@@ -34,42 +33,35 @@
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 21:51:31</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>b738914d1b6f0b107f50cb35604bcbc1</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Update System Property</sys_name>
         <sys_overrides/>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name>sys_hub_flow_b738914d1b6f0b107f50cb35604bcbc1</sys_update_name>
-        <sys_updated_by>hamid.laghari</sys_updated_by>
-        <sys_updated_on>2026-09-23 22:19:07</sys_updated_on>
+        <sys_updated_by>abduk</sys_updated_by>
+        <sys_updated_on>2026-10-05 21:37:19</sys_updated_on>
         <type>subflow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>4c9e15011bef0b107f50cb35604bcb5b</version_record>
+        <version_record/>
     </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b738914d1b6f0b107f50cb35604bcbc1"/>
     <sys_variable_value action="delete_multiple" query="document_key=b738914d1b6f0b107f50cb35604bcbc1"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=b738914d1b6f0b107f50cb35604bcbc1"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=b738914d1b6f0b107f50cb35604bcbc1^sys_idNOT IN7b389dc11baf0b107f50cb35604bcbeb"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>b738914d1b6f0b107f50cb35604bcbc1</id>
         <name>Update System Property</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 21:51:31</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>7b389dc11baf0b107f50cb35604bcbeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 21:51:31</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -123,7 +115,6 @@
         <order>1</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -138,13 +129,11 @@
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 21:52:29</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>b17855051baf0b107f50cb35604bcb61</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -210,7 +199,6 @@
         <order>2</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -225,13 +213,11 @@
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 21:52:29</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>c67855051baf0b107f50cb35604bcb74</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -267,15 +253,9 @@
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:18:54</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>cd8e51011bef0b107f50cb35604bcbd9</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:24:19</sys_updated_on>
         <ui_id>766ee1c3-a6ac-40e7-a57e-7e94eeda4693</ui_id>
@@ -299,15 +279,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 21:52:29</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>827855051baf0b107f50cb35604bcb91</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>New Value</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b738914d1b6f0b107f50cb35604bcbc1_new_value_en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 21:52:29</sys_updated_on>
         <url/>
@@ -324,15 +302,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 21:52:29</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>8a7855051baf0b107f50cb35604bcb70</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>System Property</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b738914d1b6f0b107f50cb35604bcbc1_system_property_en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 21:52:29</sys_updated_on>
         <url/>
@@ -344,7 +320,6 @@
         <access>public</access>
         <acls/>
         <active>true</active>
-        <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>29000</authored_on_release_version>
@@ -369,15 +344,14 @@
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 21:54:11</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>7ed851451baf0b107f50cb35604bcbab</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -385,24 +359,18 @@
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=7ed851451baf0b107f50cb35604bcbab"/>
     <sys_variable_value action="delete_multiple" query="document_key=7ed851451baf0b107f50cb35604bcbab"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=7ed851451baf0b107f50cb35604bcbab"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=7ed851451baf0b107f50cb35604bcbab^sys_idNOT IN3ed851451baf0b107f50cb35604bcbad"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>7ed851451baf0b107f50cb35604bcbab</id>
         <name>Update System Property</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 21:54:11</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>3ed851451baf0b107f50cb35604bcbad</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 21:54:11</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -456,7 +424,6 @@
         <order>2</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -471,13 +438,11 @@
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 21:54:11</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>3ed851451baf0b107f50cb35604bcbbf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -543,7 +508,6 @@
         <order>1</order>
         <primary>false</primary>
         <read_only>false</read_only>
-        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -558,13 +522,11 @@
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 21:54:11</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>bad851451baf0b107f50cb35604bcbaf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
@@ -600,15 +562,9 @@
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 22:19:06</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>7f8ed1011bef0b107f50cb35604bcbe0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:19:06</sys_updated_on>
         <ui_id>766ee1c3-a6ac-40e7-a57e-7e94eeda4693</ui_id>
@@ -632,15 +588,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 21:54:11</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>36d851451baf0b107f50cb35604bcbbb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>System Property</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_7ed851451baf0b107f50cb35604bcbab_system_property_en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 21:54:11</sys_updated_on>
         <url/>
@@ -657,15 +611,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 21:54:11</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>76d851451baf0b107f50cb35604bcbd3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>New Value</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_7ed851451baf0b107f50cb35604bcbab_new_value_en</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 21:54:11</sys_updated_on>
         <url/>
@@ -685,20 +637,14 @@
         <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_subflow_plan","id":"c3d851451baf0b107f50cb35604bcbed","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
         <plan_id display_value="Update System Property">b738914d1b6f0b107f50cb35604bcbc1</plan_id>
         <snapshot>ea57008b1b23c71015bc5286624bcba8</snapshot>
-        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-09-23 21:54:12</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>c3d851451baf0b107f50cb35604bcbed</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>hamid.laghari</sys_updated_by>
         <sys_updated_on>2026-09-23 22:19:07</sys_updated_on>
     </sys_flow_subflow_plan>

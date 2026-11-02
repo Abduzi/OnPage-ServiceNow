@@ -17,7 +17,6 @@
         <menu/>
         <name>OnPage Integration</name>
         <package_json/>
-        <package_resolver_version/>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>

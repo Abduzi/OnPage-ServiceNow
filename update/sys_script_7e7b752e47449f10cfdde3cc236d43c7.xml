@@ -15,7 +15,14 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition/>
+        <filter_condition table="ecc_queue">queue=input^topicSTARTSWITHONPAGE_TARGET_GROUPS^ORtopicSTARTSWITHONPAGE_GROUPS^ORtopicSTARTSWITHONPAGE_ACCOUNTS^ORtopicSTARTSWITHONPAGE_CREATE_ACCOUNT^ORtopicSTARTSWITHONPAGE_REGISTER^EQ<item display_value="input" endquery="false" field="queue" goto="false" newquery="false" operator="=" or="false" value="input"/>
+            <item endquery="false" field="topic" goto="false" newquery="false" operator="STARTSWITH" or="false" value="ONPAGE_TARGET_GROUPS"/>
+            <item endquery="false" field="topic" goto="false" newquery="false" operator="STARTSWITH" or="true" value="ONPAGE_GROUPS"/>
+            <item endquery="false" field="topic" goto="false" newquery="false" operator="STARTSWITH" or="true" value="ONPAGE_ACCOUNTS"/>
+            <item endquery="false" field="topic" goto="false" newquery="false" operator="STARTSWITH" or="true" value="ONPAGE_CREATE_ACCOUNT"/>
+            <item endquery="false" field="topic" goto="false" newquery="false" operator="STARTSWITH" or="true" value="ONPAGE_REGISTER"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
         <is_rest>false</is_rest>
         <message/>
         <name>OnPage Async REST Response Handler</name>
@@ -29,9 +36,9 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous) {
 
-    if (current.getValue('queue') != 'input') {
-        return;
-    }
+    // if (current.getValue('queue') != 'input') {
+    //     return;
+    // }
 
     var topic = current.getValue('topic') || '';
 
@@ -124,7 +131,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7e7b752e47449f10cfdde3cc236d43c7</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>OnPage Async REST Response Handler</sys_name>
         <sys_overrides/>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
@@ -133,7 +140,7 @@
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name>sys_script_7e7b752e47449f10cfdde3cc236d43c7</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
-        <sys_updated_on>2026-11-01 03:24:18</sys_updated_on>
+        <sys_updated_on>2026-11-10 15:48:24</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>

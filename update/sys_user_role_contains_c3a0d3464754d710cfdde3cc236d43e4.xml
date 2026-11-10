@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_onpr_onpage.system" name="x_onpr_onpage.system">c7543524dbcca300ee685e25ca9619fd</contains>
+        <role display_value="x_onpr_onpage.integration_user" name="x_onpr_onpage.integration_user">2302c7aadbc4ab00c822fcd6f49619a4</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>hamid.laghari</sys_created_by>
+        <sys_created_on>2026-11-03 15:58:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c3a0d3464754d710cfdde3cc236d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_onpr_onpage.system.x_onpr_onpage.integration_user</sys_name>
+        <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
+        <sys_update_name>sys_user_role_contains_c3a0d3464754d710cfdde3cc236d43e4</sys_update_name>
+        <sys_updated_by>hamid.laghari</sys_updated_by>
+        <sys_updated_on>2026-11-03 15:58:41</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

@@ -25,11 +25,12 @@ sync.prototype = {
         this.password = function() {
 
             // FIXED: Correct standard ServiceNow API name.
-            var gr = new GlideRecordSecure('sys_user');
+			return gs.getProperty('x_onpr_onpage.integration_password');
+            // var gr = new GlideRecordSecure('sys_user');
 
-            if (gr.get('user_name', 'onpage')) {
-                return gr.getUniqueValue();
-            }
+            // if (gr.get('user_name', 'onpage')) {
+            //     return gr.getUniqueValue();
+            // }
         };
 
         // Existing logging configuration - unchanged.
@@ -430,7 +431,7 @@ sync.prototype = {
         <sys_created_on>2018-09-07 15:18:33</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6793a19fdb182740c822fcd6f49619e8</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>sync</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy>protected</sys_policy>
@@ -438,6 +439,6 @@ sync.prototype = {
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name>sys_script_include_6793a19fdb182740c822fcd6f49619e8</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
-        <sys_updated_on>2026-11-02 01:03:33</sys_updated_on>
+        <sys_updated_on>2026-11-17 18:52:35</sys_updated_on>
     </sys_script_include>
 </record_update>

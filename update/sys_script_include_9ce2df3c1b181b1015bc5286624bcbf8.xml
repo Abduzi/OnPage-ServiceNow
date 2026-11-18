@@ -25,6 +25,18 @@ notificationHelper.prototype = {
         grNotification.insert();
 
     },
+    updateSysProperty: function(property,value) {
+        try {
+            var inputs = {};
+            inputs['system_property'] = property; // String 
+            inputs['new_value'] = value; // String 
+            var result = sn_fd.FlowAPI.getRunner().subflow('x_onpr_onpage.update_system_property').inForeground().withInputs(inputs).run();
+            var outputs = result.getOutputs();
+        } catch (ex) {
+            var message = ex.getMessage();
+            gs.info(message);
+        }
+    },
 
     type: 'notificationHelper'
 };]]></script>
@@ -33,7 +45,7 @@ notificationHelper.prototype = {
         <sys_created_on>2026-10-30 18:59:02</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9ce2df3c1b181b1015bc5286624bcbf8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>notificationHelper</sys_name>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy>protected</sys_policy>
@@ -41,7 +53,7 @@ notificationHelper.prototype = {
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name>sys_script_include_9ce2df3c1b181b1015bc5286624bcbf8</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>
-        <sys_updated_on>2026-11-02 01:36:42</sys_updated_on>
+        <sys_updated_on>2026-11-17 18:08:18</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>9ce2df3c1b181b1015bc5286624bcbf8</id>

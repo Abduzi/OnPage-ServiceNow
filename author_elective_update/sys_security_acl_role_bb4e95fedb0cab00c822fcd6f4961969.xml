@@ -58,11 +58,10 @@
         <update_guid_history>48e6c819656e031014523f4d05c28d45:-1558766552</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2026-10-21 09:52:08">c330ac061bc0d71015bc5286624bcb64</sys_audit_delete>
+        <sys_audit_delete display_value="">c330ac061bc0d71015bc5286624bcb64</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>David.Delahoz</sys_created_by>
         <sys_created_on>2026-10-21 16:52:08</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
         <sys_id>47c271ca80ea47e096c3f31779262790</sys_id>
         <sys_metadata>bb4e95fedb0cab00c822fcd6f4961969</sys_metadata>
@@ -71,7 +70,6 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent display_value="x_onpr_onpage_target_import">334e95fedb0cab00c822fcd6f4961967</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_security_acl_role_bb4e95fedb0cab00c822fcd6f4961969</sys_update_name>

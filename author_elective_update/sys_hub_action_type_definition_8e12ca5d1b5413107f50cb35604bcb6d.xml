@@ -4419,7 +4419,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-11-01 04:03:25</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
         <sys_id>6187fa7240824a87bb65205c02ea85c1</sys_id>
         <sys_metadata>8e12ca5d1b5413107f50cb35604bcb6d</sys_metadata>
@@ -4428,7 +4427,6 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_hub_action_type_definition_8e12ca5d1b5413107f50cb35604bcb6d</sys_update_name>

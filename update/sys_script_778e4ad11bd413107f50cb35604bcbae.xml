@@ -135,7 +135,6 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-11-01 03:16:22</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>778e4ad11bd413107f50cb35604bcbae</sys_id>
@@ -144,7 +143,6 @@
         <sys_overrides/>
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_update_name>sys_script_778e4ad11bd413107f50cb35604bcbae</sys_update_name>
         <sys_updated_by>hamid.laghari</sys_updated_by>

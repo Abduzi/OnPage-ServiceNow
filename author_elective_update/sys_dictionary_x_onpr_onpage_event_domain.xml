@@ -110,7 +110,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>hamid.laghari</sys_created_by>
         <sys_created_on>2026-10-20 21:17:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
         <sys_id>a08ded15287f4102bd12ccce5d15f0e4</sys_id>
         <sys_metadata>d560a3e14744d710cfdde3cc236d4379</sys_metadata>
@@ -119,7 +118,6 @@
         <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
         <sys_parent display_value="Onpage Event">39e270e11be492101c6ca86a234bcb3a</sys_parent>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
         <sys_scope_delete display_value="">33d60e4152d64f7c9bf7959ea18f9e84</sys_scope_delete>
         <sys_update_name>sys_dictionary_x_onpr_onpage_event_domain</sys_update_name>

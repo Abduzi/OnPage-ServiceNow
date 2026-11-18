@@ -6,12 +6,11 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>David.Delahoz</sys_created_by>
             <sys_created_on>2018-08-21 20:11:24</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1ed1c9cf93ec13104c87f70f2603d6f7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>status</sys_name>
             <sys_package display_value="OnPage Integration" source="x_onpr_onpage">864f25ecdb8ca300ee685e25ca96192d</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="OnPage Integration">864f25ecdb8ca300ee685e25ca96192d</sys_scope>
             <sys_update_name>sys_choice_x_onpr_onpage_notification_status</sys_update_name>
             <sys_updated_by>David.Delahoz</sys_updated_by>
@@ -31,6 +30,7 @@
             <sys_created_on>2018-08-21 20:15:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>d522c107932053104c87f70f2603d6fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>David.Delahoz</sys_updated_by>
             <sys_updated_on>2018-08-21 20:15:12</sys_updated_on>
@@ -50,6 +50,7 @@
             <sys_created_on>2018-08-21 20:17:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d22c107932053104c87f70f2603d6ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>David.Delahoz</sys_updated_by>
             <sys_updated_on>2018-08-21 20:17:17</sys_updated_on>
@@ -69,6 +70,7 @@
             <sys_created_on>2018-08-21 20:16:09</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>55220507932053104c87f70f2603d601</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>David.Delahoz</sys_updated_by>
             <sys_updated_on>2018-08-21 20:16:09</sys_updated_on>
@@ -88,6 +90,7 @@
             <sys_created_on>2018-08-21 20:16:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d220507932053104c87f70f2603d602</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>will.young</sys_updated_by>
             <sys_updated_on>2018-09-07 23:00:18</sys_updated_on>
@@ -107,6 +110,7 @@
             <sys_created_on>2018-08-21 20:14:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1220507932053104c87f70f2603d604</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>David.Delahoz</sys_updated_by>
             <sys_updated_on>2018-08-21 20:14:24</sys_updated_on>
@@ -126,6 +130,7 @@
             <sys_created_on>2018-08-21 20:11:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>99220507932053104c87f70f2603d605</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>David.Delahoz</sys_updated_by>
             <sys_updated_on>2018-08-21 20:11:24</sys_updated_on>
@@ -145,6 +150,7 @@
             <sys_created_on>2018-08-21 20:11:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>51220507932053104c87f70f2603d607</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>David.Delahoz</sys_updated_by>
             <sys_updated_on>2018-08-21 20:11:51</sys_updated_on>
@@ -164,6 +170,7 @@
             <sys_created_on>2018-08-21 20:12:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>19220507932053104c87f70f2603d608</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>David.Delahoz</sys_updated_by>
             <sys_updated_on>2018-08-21 20:12:25</sys_updated_on>
